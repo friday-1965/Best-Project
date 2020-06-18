@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase10" time="74.777" tests="5" failures="0" errors="0">
+   <testsuite name="Usecase10" tests="5" failures="0" errors="0" time="74.777" timestamp="2563-06-17 14:54:26" hostname="ACER - DESKTOP-TSJL4HJ" id="Test Suites/Account Usecase/Usecase10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_145424\\Account Usecase\\Usecase10\\25630617_145424"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_145424\\Account Usecase\\Usecase10\\25630617_145424\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - DESKTOP-TSJL4HJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.126"/>
+         <property name="sessionId" value="b5581eb157ba224c68f5154fb6c1633d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/Test Case 1" time="14.596" classname="Test Cases/Account Test Case/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:54:27 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 1: Test Cases/Account Test Case/Test Case 1
+
+2563-06-17 14:54:27 - [TEST_STEP][PASSED] - openBrowser("http://rthv1.opencloud.digital/"): Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 14:54:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-06-17 14:54:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-06-17 14:54:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 14:54:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2563-06-17 14:54:36 - [MESSAGE][PASSED] - Current window maximized
+
+2563-06-17 14:54:36 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-06-17 14:54:37 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-06-17 14:54:37 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-06-17 14:54:38 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-06-17 14:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2563-06-17 14:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 5" time="45.367" classname="Test Cases/Account Test Case/Test Case 5" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:54:41 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 5: Test Cases/Account Test Case/Test Case 5
+
+2563-06-17 14:54:41 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2563-06-17 14:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2563-06-17 14:54:57 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2563-06-17 14:54:59 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2563-06-17 14:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2563-06-17 14:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2563-06-17 14:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2563-06-17 14:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 18" time="5.092" classname="Test Cases/Account Test Case/Test Case 18" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:55:27 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 18: Test Cases/Account Test Case/Test Case 18
+
+2563-06-17 14:55:27 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_More account")): Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2563-06-17 14:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2563-06-17 14:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/a_Transfer Ownership Account")): Object: 'Object Repository/Account repository/Page_Accounts/a_Transfer Ownership Account' is clicked on
+
+2563-06-17 14:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/a_Transfer Ownership Account' is clicked on
+
+2563-06-17 14:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Tranfer Owner")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2563-06-17 14:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2563-06-17 14:55:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-06-17 14:55:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-06-17 14:55:30 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/clear tranfer ownership")): Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2563-06-17 14:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2563-06-17 14:55:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-06-17 14:55:32 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 17.0" time="2.856" classname="Test Cases/Account Test Case/Test Case 17.0" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:55:32 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 17.0: Test Cases/Account Test Case/Test Case 17.0
+
+2563-06-17 14:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/Tranfer Assigned To")): Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2563-06-17 14:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2563-06-17 14:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input Tranfer"), findTestData("Account Test Data/D9").getValue(2, 1)): Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:33 - [MESSAGE][PASSED] - Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input Tranfer"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Tranfer Owner")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2563-06-17 14:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 16.0" time="5.67" classname="Test Cases/Account Test Case/Test Case 16.0" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:55:34 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 16.0: Test Cases/Account Test Case/Test Case 16.0
+
+2563-06-17 14:55:35 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused"), findTestData("Account Test Data/D9").getValue(1, 1)): Text 'Contacts' is set on object 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2563-06-17 14:55:36 - [MESSAGE][PASSED] - Text 'Contacts' is set on object 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2563-06-17 14:55:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2563-06-17 14:55:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2563-06-17 14:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/clear tranfer ownership")): Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2563-06-17 14:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2563-06-17 14:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/Tranfer Assigned To")): Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2563-06-17 14:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2563-06-17 14:55:38 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input Tranfer"), findTestData("Account Test Data/D9").getValue(2, 1)): Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:39 - [MESSAGE][PASSED] - Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input Tranfer"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2563-06-17 14:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Tranfer Owner")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2563-06-17 14:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-06-17 14:54:26 - [TEST_SUITE][PASSED] - Usecase10: Test Cases/Account Test Case/Test Case 16.0]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

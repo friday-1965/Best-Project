@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>20-Add the Activity information to Account with invalid information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f8b35a5-24b1-4a4d-9207-6ff411d7340f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>8-Request edit the Account information with invalid information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7879aa92-9f2d-479a-ac58-a80ff5eb848f</testCaseGuid>
+</TestCaseEntity>

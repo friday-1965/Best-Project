@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase7" time="94.357" tests="3" failures="0" errors="0">
+   <testsuite name="Usecase7" tests="3" failures="0" errors="0" time="94.357" timestamp="2563-06-17 14:46:26" hostname="ACER - DESKTOP-TSJL4HJ" id="Test Suites/Account Usecase/Usecase7">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_144624\\Account Usecase\\Usecase7\\25630617_144624"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_144624\\Account Usecase\\Usecase7\\25630617_144624\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - DESKTOP-TSJL4HJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.126"/>
+         <property name="sessionId" value="15968c613321a557be56bd87b3a3bb77"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/Test Case 1" time="13.557" classname="Test Cases/Account Test Case/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:46:27 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 1: Test Cases/Account Test Case/Test Case 1
+
+2563-06-17 14:46:27 - [TEST_STEP][PASSED] - openBrowser("http://rthv1.opencloud.digital/"): Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 14:46:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-06-17 14:46:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-06-17 14:46:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 14:46:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2563-06-17 14:46:36 - [MESSAGE][PASSED] - Current window maximized
+
+2563-06-17 14:46:36 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-06-17 14:46:37 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-06-17 14:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-06-17 14:46:38 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-06-17 14:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2563-06-17 14:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 5" time="38.775" classname="Test Cases/Account Test Case/Test Case 5" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:46:40 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 5: Test Cases/Account Test Case/Test Case 5
+
+2563-06-17 14:46:41 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2563-06-17 14:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2563-06-17 14:46:56 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2563-06-17 14:46:58 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2563-06-17 14:46:58 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2563-06-17 14:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2563-06-17 14:46:59 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2563-06-17 14:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 11" time="40.873" classname="Test Cases/Account Test Case/Test Case 11" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:47:19 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 11: Test Cases/Account Test Case/Test Case 11
+
+2563-06-17 14:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_More account")): Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2563-06-17 14:47:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2563-06-17 14:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/a_Duplicate account")): Object: 'Object Repository/Account repository/Page_Accounts/a_Duplicate account' is clicked on
+
+2563-06-17 14:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/a_Duplicate account' is clicked on
+
+2563-06-17 14:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save duplicate")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save duplicate' is clicked on
+
+2563-06-17 14:47:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save duplicate' is clicked on
+
+2563-06-17 14:47:23 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/Duplicate a_Yes")): Object: 'Object Repository/Account repository/Page_Accounts/Duplicate a_Yes' is clicked on
+
+2563-06-17 14:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/Duplicate a_Yes' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-06-17 14:46:26 - [TEST_SUITE][PASSED] - Usecase7: Test Cases/Account Test Case/Test Case 11]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

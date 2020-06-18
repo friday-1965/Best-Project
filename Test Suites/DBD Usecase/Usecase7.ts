@@ -14,12 +14,12 @@
       <guid>f54efbcf-31e2-43e8-8d73-6bd5867daaeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DBD Test Case/1</testCaseId>
+      <testCaseId>Test Cases/DBD Test Case/1-View the layout information in the List View</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f2249346-9c2c-412c-9995-0abf8df2b0dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DBD Test Case/13</testCaseId>
+      <testCaseId>Test Cases/DBD Test Case/13-Delete the DBD Company information</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

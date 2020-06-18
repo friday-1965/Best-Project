@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase1" time="49.527" tests="2" failures="0" errors="0">
+   <testsuite name="Usecase1" tests="2" failures="0" errors="0" time="49.527" timestamp="2563-06-17 16:46:01" hostname="ACER - DESKTOP-TSJL4HJ" id="Test Suites/DBD Usecase/Usecase1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_164558\\DBD Usecase\\Usecase1\\25630617_164558"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_164558\\DBD Usecase\\Usecase1\\25630617_164558\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - DESKTOP-TSJL4HJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.126"/>
+         <property name="sessionId" value="251f6ad6ed5fa3fb9cf813b70d3d2bcf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DBD Test Case/1-View the layout information in the List View" time="18.864" classname="Test Cases/DBD Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2563-06-17 16:46:02 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/1-View the layout information in the List View: Test Cases/DBD Test Case/1-View the layout information in the List View
+
+2563-06-17 16:46:02 - [TEST_STEP][PASSED] - openBrowser("http://rthv1.opencloud.digital/"): Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 16:46:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-06-17 16:46:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-06-17 16:46:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 16:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_User name_username"), findTestData("DBD Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2563-06-17 16:46:14 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2563-06-17 16:46:14 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_Password_password"), findTestData("DBD Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-06-17 16:46:14 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-06-17 16:46:14 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/login/button_Sign in")): Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2563-06-17 16:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/2-Add new DBD Company with valid information" time="29.409" classname="Test Cases/DBD Test Case/2-Add new DBD Company with valid information" status="PASSED">
+         <system-out><![CDATA[2563-06-17 16:46:21 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/2-Add new DBD Company with valid information: Test Cases/DBD Test Case/2-Add new DBD Company with valid information
+
+2563-06-17 16:46:21 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Home/a_DBD Companies")): Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2563-06-17 16:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2563-06-17 16:46:37 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Add DBDCompany")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Add DBDCompany' is clicked on
+
+2563-06-17 16:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Add DBDCompany' is clicked on
+
+2563-06-17 16:46:39 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__Regitration Number"), findTestData("DBD Test Data/D2").getValue(1, 1)): Text '2111400' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__Regitration Number'
+
+2563-06-17 16:46:41 - [MESSAGE][PASSED] - Text '2111400' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__Regitration Number'
+
+2563-06-17 16:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__company name"), findTestData("DBD Test Data/D2").getValue(2, 1)): Text 'Sunjido Co. Ltd.' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__company name'
+
+2563-06-17 16:46:42 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd.' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__company name'
+
+2563-06-17 16:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__Registion Date"), findTestData("DBD Test Data/D2").getValue(3, 1)): Text '01/01/2020' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__Registion Date'
+
+2563-06-17 16:46:43 - [MESSAGE][PASSED] - Text '01/01/2020' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__Registion Date'
+
+2563-06-17 16:46:43 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/Created By")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/Created By' is clicked on
+
+2563-06-17 16:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/Created By' is clicked on
+
+2563-06-17 16:46:43 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/Created By")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/Created By' is clicked on
+
+2563-06-17 16:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/Created By' is clicked on
+
+2563-06-17 16:46:44 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input Created By"), findTestData("DBD Test Data/D2").getValue(4, 1)): Text 'PIS System' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input Created By'
+
+2563-06-17 16:46:45 - [MESSAGE][PASSED] - Text 'PIS System' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input Created By'
+
+2563-06-17 16:46:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_DBDCompanies/input Created By"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input Created By'
+
+2563-06-17 16:46:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input Created By'
+
+2563-06-17 16:46:46 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Save Creating DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save Creating DBD' is clicked on
+
+2563-06-17 16:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save Creating DBD' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-06-17 16:46:01 - [TEST_SUITE][PASSED] - Usecase1: Test Cases/DBD Test Case/2-Add new DBD Company with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase6" time="179.537" tests="5" failures="0" errors="0">
+   <testsuite name="Usecase6" tests="5" failures="0" errors="0" time="179.537" timestamp="2563-06-17 18:18:07" hostname="ACER - DESKTOP-TSJL4HJ" id="Test Suites/DBD Usecase/Usecase6">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_181803\\DBD Usecase\\Usecase6\\25630617_181803"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_181803\\DBD Usecase\\Usecase6\\25630617_181803\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - DESKTOP-TSJL4HJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.126"/>
+         <property name="sessionId" value="26d03ff8fed5778cff7d75739c38178e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DBD Test Case/1-View the layout information in the List View" time="19.833" classname="Test Cases/DBD Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2563-06-17 18:18:07 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/1-View the layout information in the List View: Test Cases/DBD Test Case/1-View the layout information in the List View
+
+2563-06-17 18:18:08 - [TEST_STEP][PASSED] - openBrowser("http://rthv1.opencloud.digital/"): Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 18:18:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-06-17 18:18:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-06-17 18:18:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 18:18:18 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_User name_username"), findTestData("DBD Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2563-06-17 18:18:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2563-06-17 18:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_Password_password"), findTestData("DBD Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-06-17 18:18:20 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-06-17 18:18:20 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/login/button_Sign in")): Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2563-06-17 18:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/8-View the Detail View information" time="41.998" classname="Test Cases/DBD Test Case/8-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2563-06-17 18:18:27 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/8-View the Detail View information: Test Cases/DBD Test Case/8-View the Detail View information
+
+2563-06-17 18:18:27 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Home/a_DBD Companies")): Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2563-06-17 18:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2563-06-17 18:18:44 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input_object compay name"), findTestData("DBD Test Data/D6").getValue(1, 1)): Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2563-06-17 18:18:46 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2563-06-17 18:18:46 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Search company")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2563-06-17 18:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2563-06-17 18:18:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2563-06-17 18:18:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2563-06-17 18:18:49 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on
+
+2563-06-17 18:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/12-Add the Account information in DBD Company with non information" time="4.948" classname="Test Cases/DBD Test Case/12-Add the Account information in DBD Company with non information" status="PASSED">
+         <system-out><![CDATA[2563-06-17 18:19:09 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/12-Add the Account information in DBD Company with non information: Test Cases/DBD Test Case/12-Add the Account information in DBD Company with non information
+
+2563-06-17 18:19:09 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Create ACCOUNT DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Create ACCOUNT DBD' is clicked on
+
+2563-06-17 18:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Create ACCOUNT DBD' is clicked on
+
+2563-06-17 18:19:12 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Save new create account")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save new create account' is clicked on
+
+2563-06-17 18:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save new create account' is clicked on
+
+2563-06-17 18:19:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-06-17 18:19:14 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/11-Add the Account information in DBD Company with invalid information" time="20.303" classname="Test Cases/DBD Test Case/11-Add the Account information in DBD Company with invalid information" status="PASSED">
+         <system-out><![CDATA[2563-06-17 18:19:14 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/11-Add the Account information in DBD Company with invalid information: Test Cases/DBD Test Case/11-Add the Account information in DBD Company with invalid information
+
+2563-06-17 18:19:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-06-17 18:19:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-06-17 18:19:15 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/Clear new DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/Clear new DBD' is clicked on
+
+2563-06-17 18:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/Clear new DBD' is clicked on
+
+2563-06-17 18:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__new accENG"), findTestData("DBD Test Data/D4").getValue(2, 1)): Text 'pumipat' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new accENG'
+
+2563-06-17 18:19:17 - [MESSAGE][PASSED] - Text 'pumipat' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new accENG'
+
+2563-06-17 18:19:17 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new Customer segment")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new Customer segment' is clicked on
+
+2563-06-17 18:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new Customer segment' is clicked on
+
+2563-06-17 18:19:18 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input new Customer segment"), findTestData("DBD Test Data/D4").getValue(3, 1)): Text 'SME' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:19 - [MESSAGE][PASSED] - Text 'SME' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_DBDCompanies/input new Customer segment"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:19 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new company level")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new company level' is clicked on
+
+2563-06-17 18:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new company level' is clicked on
+
+2563-06-17 18:19:20 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input new company level"), findTestData("DBD Test Data/D4").getValue(4, 1)): Text 'Head Office' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:21 - [MESSAGE][PASSED] - Text 'Head Office' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_DBDCompanies/input new company level"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:22 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new JP")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new JP' is clicked on
+
+2563-06-17 18:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new JP' is clicked on
+
+2563-06-17 18:19:22 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input newJP"), findTestData("DBD Test Data/D4").getValue(5, 1)): Text 'Yes' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:23 - [MESSAGE][PASSED] - Text 'Yes' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_DBDCompanies/input newJP"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:24 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__new purchasing"), findTestData("DBD Test Data/D4").getValue(6, 1)): Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new purchasing'
+
+2563-06-17 18:19:26 - [MESSAGE][PASSED] - Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new purchasing'
+
+2563-06-17 18:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__new Branch"), findTestData("DBD Test Data/D4").getValue(7, 1)): Text '00001' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new Branch'
+
+2563-06-17 18:19:27 - [MESSAGE][PASSED] - Text '00001' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new Branch'
+
+2563-06-17 18:19:27 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input new address"), findTestData("DBD Test Data/D4").getValue(10, 1)): Text 'Chiang Mai University' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new address'
+
+2563-06-17 18:19:28 - [MESSAGE][PASSED] - Text 'Chiang Mai University' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new address'
+
+2563-06-17 18:19:28 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new search DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new search DBD' is clicked on
+
+2563-06-17 18:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new search DBD' is clicked on
+
+2563-06-17 18:19:29 - [TEST_STEP][PASSED] - switchToWindowTitle("ZONE"): Switched to window with title: 'ZONE'
+
+2563-06-17 18:19:31 - [MESSAGE][PASSED] - Switched to window with title: 'ZONE'
+
+2563-06-17 18:19:31 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_ZONE/a_270207")): Object: 'Object Repository/DBD repository/Page_ZONE/a_270207' is clicked on
+
+2563-06-17 18:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_ZONE/a_270207' is clicked on
+
+2563-06-17 18:19:32 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2563-06-17 18:19:34 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Save new create account")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save new create account' is clicked on
+
+2563-06-17 18:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save new create account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/10-Add the Account information in DBD Company with valid information" time="91.087" classname="Test Cases/DBD Test Case/10-Add the Account information in DBD Company with valid information" status="PASSED">
+         <system-out><![CDATA[2563-06-17 18:19:34 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/10-Add the Account information in DBD Company with valid information: Test Cases/DBD Test Case/10-Add the Account information in DBD Company with valid information
+
+2563-06-17 18:19:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-06-17 18:19:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-06-17 18:19:36 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/Clear new DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/Clear new DBD' is clicked on
+
+2563-06-17 18:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/Clear new DBD' is clicked on
+
+2563-06-17 18:19:36 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__new accENG"), findTestData("DBD Test Data/D4").getValue(2, 1)): Text 'pumipat' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new accENG'
+
+2563-06-17 18:19:38 - [MESSAGE][PASSED] - Text 'pumipat' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new accENG'
+
+2563-06-17 18:19:38 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new Customer segment")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new Customer segment' is clicked on
+
+2563-06-17 18:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new Customer segment' is clicked on
+
+2563-06-17 18:19:38 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input new Customer segment"), findTestData("DBD Test Data/D4").getValue(3, 1)): Text 'SME' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:39 - [MESSAGE][PASSED] - Text 'SME' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_DBDCompanies/input new Customer segment"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new Customer segment'
+
+2563-06-17 18:19:40 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new company level")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new company level' is clicked on
+
+2563-06-17 18:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new company level' is clicked on
+
+2563-06-17 18:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input new company level"), findTestData("DBD Test Data/D4").getValue(4, 1)): Text 'Head Office' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:42 - [MESSAGE][PASSED] - Text 'Head Office' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_DBDCompanies/input new company level"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input new company level'
+
+2563-06-17 18:19:42 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new JP")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new JP' is clicked on
+
+2563-06-17 18:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new JP' is clicked on
+
+2563-06-17 18:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input newJP"), findTestData("DBD Test Data/D4").getValue(5, 1)): Text 'Yes' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:44 - [MESSAGE][PASSED] - Text 'Yes' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_DBDCompanies/input newJP"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_DBDCompanies/input newJP'
+
+2563-06-17 18:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__new purchasing"), findTestData("DBD Test Data/D4").getValue(6, 1)): Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new purchasing'
+
+2563-06-17 18:19:47 - [MESSAGE][PASSED] - Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new purchasing'
+
+2563-06-17 18:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__new Branch"), findTestData("DBD Test Data/D4").getValue(7, 1)): Text '00001' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new Branch'
+
+2563-06-17 18:19:48 - [MESSAGE][PASSED] - Text '00001' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new Branch'
+
+2563-06-17 18:19:48 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input__new phone"), findTestData("DBD Test Data/D4").getValue(9, 1)): Text '0945839838' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new phone'
+
+2563-06-17 18:19:49 - [MESSAGE][PASSED] - Text '0945839838' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input__new phone'
+
+2563-06-17 18:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input new address"), findTestData("DBD Test Data/D4").getValue(10, 1)): Text 'Chiang Mai University' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new address'
+
+2563-06-17 18:19:51 - [MESSAGE][PASSED] - Text 'Chiang Mai University' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input new address'
+
+2563-06-17 18:19:51 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/new search DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/new search DBD' is clicked on
+
+2563-06-17 18:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/new search DBD' is clicked on
+
+2563-06-17 18:19:52 - [TEST_STEP][PASSED] - switchToWindowTitle("ZONE"): Switched to window with title: 'ZONE'
+
+2563-06-17 18:19:54 - [MESSAGE][PASSED] - Switched to window with title: 'ZONE'
+
+2563-06-17 18:19:54 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_ZONE/a_270207")): Object: 'Object Repository/DBD repository/Page_ZONE/a_270207' is clicked on
+
+2563-06-17 18:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_ZONE/a_270207' is clicked on
+
+2563-06-17 18:19:54 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2563-06-17 18:19:56 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Save new create account")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save new create account' is clicked on
+
+2563-06-17 18:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Save new create account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-06-17 18:18:07 - [TEST_SUITE][PASSED] - Usecase6: Test Cases/DBD Test Case/10-Add the Account information in DBD Company with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

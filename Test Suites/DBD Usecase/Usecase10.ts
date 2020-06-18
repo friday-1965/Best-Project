@@ -14,7 +14,7 @@
       <guid>0d19cad8-fe0d-4728-89a8-1cddbedb938a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DBD Test Case/1</testCaseId>
+      <testCaseId>Test Cases/DBD Test Case/1-View the layout information in the List View</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2d4a6635-8eac-4e0c-9cb8-3ae00daa7aab</guid>
@@ -26,6 +26,6 @@
       <guid>f2988974-5c04-4631-8193-109ac8cb5a5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DBD Test Case/16</testCaseId>
+      <testCaseId>Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

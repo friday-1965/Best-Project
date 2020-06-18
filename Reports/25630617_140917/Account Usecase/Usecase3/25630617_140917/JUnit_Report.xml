@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase3" time="60.592" tests="4" failures="0" errors="1">
+   <testsuite name="Usecase3" tests="4" failures="0" errors="1" time="60.592" timestamp="2563-06-17 14:09:20" hostname="ACER - DESKTOP-TSJL4HJ" id="Test Suites/Account Usecase/Usecase3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_140917\\Account Usecase\\Usecase3\\25630617_140917"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630617_140917\\Account Usecase\\Usecase3\\25630617_140917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - DESKTOP-TSJL4HJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.126"/>
+         <property name="sessionId" value="cba3cd2b973eccb89084723473f23a00"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/Test Case 1" time="13.967" classname="Test Cases/Account Test Case/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:09:20 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 1: Test Cases/Account Test Case/Test Case 1
+
+2563-06-17 14:09:21 - [TEST_STEP][PASSED] - openBrowser("http://rthv1.opencloud.digital/"): Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 14:09:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-06-17 14:09:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-06-17 14:09:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rthv1.opencloud.digital/'
+
+2563-06-17 14:09:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2563-06-17 14:09:29 - [MESSAGE][PASSED] - Current window maximized
+
+2563-06-17 14:09:29 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-06-17 14:09:30 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-06-17 14:09:30 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-06-17 14:09:31 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-06-17 14:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2563-06-17 14:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 4" time="23.546" classname="Test Cases/Account Test Case/Test Case 4" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:09:34 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 4: Test Cases/Account Test Case/Test Case 4
+
+2563-06-17 14:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2563-06-17 14:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2563-06-17 14:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/strong_Add Account")): Object: 'Object Repository/Account repository/Page_Accounts/strong_Add Account' is clicked on
+
+2563-06-17 14:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/strong_Add Account' is clicked on
+
+2563-06-17 14:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Account")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Account' is clicked on
+
+2563-06-17 14:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 3" time="20.431" classname="Test Cases/Account Test Case/Test Case 3" status="PASSED">
+         <system-out><![CDATA[2563-06-17 14:09:58 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/Test Case 3: Test Cases/Account Test Case/Test Case 3
+
+2563-06-17 14:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/clear")): Object: 'Object Repository/Account repository/Page_Accounts/clear' is clicked on
+
+2563-06-17 14:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/clear' is clicked on
+
+2563-06-17 14:09:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-06-17 14:09:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-06-17 14:09:59 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input__accountname"), findTestData("Account Test Data/D3").getValue(1, 1)): Text 'ภูมิพัจน์' is set on object 'Object Repository/Account repository/Page_Accounts/input__accountname'
+
+2563-06-17 14:10:00 - [MESSAGE][PASSED] - Text 'ภูมิพัจน์' is set on object 'Object Repository/Account repository/Page_Accounts/input__accountname'
+
+2563-06-17 14:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/custome segment")): Object: 'Object Repository/Account repository/Page_Accounts/custome segment' is clicked on
+
+2563-06-17 14:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/custome segment' is clicked on
+
+2563-06-17 14:10:01 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input customer segment"), findTestData("Account Test Data/D3").getValue(2, 1)): Text 'SME' is set on object 'Object Repository/Account repository/Page_Accounts/input customer segment'
+
+2563-06-17 14:10:02 - [MESSAGE][PASSED] - Text 'SME' is set on object 'Object Repository/Account repository/Page_Accounts/input customer segment'
+
+2563-06-17 14:10:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input customer segment"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input customer segment'
+
+2563-06-17 14:10:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input customer segment'
+
+2563-06-17 14:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/company level")): Object: 'Object Repository/Account repository/Page_Accounts/company level' is clicked on
+
+2563-06-17 14:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/company level' is clicked on
+
+2563-06-17 14:10:03 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input company level"), findTestData("Account Test Data/D3").getValue(3, 1)): Text 'Head Office' is set on object 'Object Repository/Account repository/Page_Accounts/input company level'
+
+2563-06-17 14:10:04 - [MESSAGE][PASSED] - Text 'Head Office' is set on object 'Object Repository/Account repository/Page_Accounts/input company level'
+
+2563-06-17 14:10:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input company level"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input company level'
+
+2563-06-17 14:10:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input company level'
+
+2563-06-17 14:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/JP")): Object: 'Object Repository/Account repository/Page_Accounts/JP' is clicked on
+
+2563-06-17 14:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/JP' is clicked on
+
+2563-06-17 14:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input JP"), findTestData("Account Test Data/D3").getValue(4, 1)): Text 'Yes' is set on object 'Object Repository/Account repository/Page_Accounts/input JP'
+
+2563-06-17 14:10:06 - [MESSAGE][PASSED] - Text 'Yes' is set on object 'Object Repository/Account repository/Page_Accounts/input JP'
+
+2563-06-17 14:10:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input JP"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input JP'
+
+2563-06-17 14:10:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input JP'
+
+2563-06-17 14:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input__Branch"), findTestData("Account Test Data/D3").getValue(5, 1)): Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/Account repository/Page_Accounts/input__Branch'
+
+2563-06-17 14:10:08 - [MESSAGE][PASSED] - Text 'จัดซื้อแยก Localized Purchasing' is set on object 'Object Repository/Account repository/Page_Accounts/input__Branch'
+
+2563-06-17 14:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input__Purchasing"), findTestData("Account Test Data/D3").getValue(6, 1)): Text '00001' is set on object 'Object Repository/Account repository/Page_Accounts/input__Purchasing'
+
+2563-06-17 14:10:09 - [MESSAGE][PASSED] - Text '00001' is set on object 'Object Repository/Account repository/Page_Accounts/input__Purchasing'
+
+2563-06-17 14:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/address"), findTestData("Account Test Data/D3").getValue(7, 1)): Text 'Chaing Mai University' is set on object 'Object Repository/Account repository/Page_Accounts/address'
+
+2563-06-17 14:10:10 - [MESSAGE][PASSED] - Text 'Chaing Mai University' is set on object 'Object Repository/Account repository/Page_Accounts/address'
+
+2563-06-17 14:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/searchZ")): Object: 'Object Repository/Account repository/Page_Accounts/searchZ' is clicked on
+
+2563-06-17 14:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/searchZ' is clicked on
+
+2563-06-17 14:10:10 - [TEST_STEP][PASSED] - switchToWindowTitle("ZONE"): Switched to window with title: 'ZONE'
+
+2563-06-17 14:10:13 - [MESSAGE][PASSED] - Switched to window with title: 'ZONE'
+
+2563-06-17 14:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_ZONE/a_270207")): Object: 'Object Repository/Account repository/Page_ZONE/a_270207' is clicked on
+
+2563-06-17 14:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_ZONE/a_270207' is clicked on
+
+2563-06-17 14:10:13 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2563-06-17 14:10:15 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Tax no"), findTestData("Account Test Data/D3").getValue(8, 1)): Text '270207' is set on object 'Object Repository/Account repository/Page_Accounts/Tax no'
+
+2563-06-17 14:10:16 - [MESSAGE][PASSED] - Text '270207' is set on object 'Object Repository/Account repository/Page_Accounts/Tax no'
+
+2563-06-17 14:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Account")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Account' is clicked on
+
+2563-06-17 14:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Account' is clicked on
+
+2563-06-17 14:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/clear")): Object: 'Object Repository/Account repository/Page_Accounts/clear' is clicked on
+
+2563-06-17 14:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/clear' is clicked on
+
+2563-06-17 14:10:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-06-17 14:10:18 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/Test Case 2.0" time="1.428" classname="Test Cases/Account Test Case/Test Case 2.0" status="ERROR">
+         <error type="ERROR" message="Test Cases/Account Test Case/Test Case 2.0 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/D2' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/D2' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Test Case 2.0.run(Test Case 2.0:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592377757376.run(TempTestSuite1592377757376.groovy:37)
+"/>
+         <system-out><![CDATA[2563-06-17 14:10:18 - [TEST_CASE][ERROR] - Test Cases/Account Test Case/Test Case 2.0: Test Cases/Account Test Case/Test Case 2.0 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/D2' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/D2' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Test Case 2.0.run(Test Case 2.0:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592377757376.run(TempTestSuite1592377757376.groovy:37)
+
+
+2563-06-17 14:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input__accountname"), findTestData("Account Test Data/D2").getValue(1, 1)): Text 'ภูมิพัจน์' is set on object 'Object Repository/Account repository/Page_Accounts/input__accountname'
+
+2563-06-17 14:10:19 - [MESSAGE][PASSED] - Text 'ภูมิพัจน์' is set on object 'Object Repository/Account repository/Page_Accounts/input__accountname'
+
+2563-06-17 14:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input__accENG"), findTestData("D2").getValue(2, 1)): null]]></system-out>
+         <system-err><![CDATA[2563-06-17 14:10:18 - [TEST_CASE][ERROR] - Test Cases/Account Test Case/Test Case 2.0: Test Cases/Account Test Case/Test Case 2.0 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/D2' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/D2' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Test Case 2.0.run(Test Case 2.0:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592377757376.run(TempTestSuite1592377757376.groovy:37)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-06-17 14:09:20 - [TEST_SUITE][ERROR] - Usecase3: Test Cases/Account Test Case/Test Case 2.0 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/D2' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/D2' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Test Case 2.0.run(Test Case 2.0:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592377757376.run(TempTestSuite1592377757376.groovy:37)]]></system-out>
+      <system-err><![CDATA[2563-06-17 14:09:20 - [TEST_SUITE][ERROR] - Usecase3: Test Cases/Account Test Case/Test Case 2.0 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/D2' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/D2' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Test Case 2.0.run(Test Case 2.0:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592377757376.run(TempTestSuite1592377757376.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>
