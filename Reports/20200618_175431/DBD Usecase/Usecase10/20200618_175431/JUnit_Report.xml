@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase10" time="71.164" tests="5" failures="0" errors="0">
+   <testsuite name="Usecase10" tests="5" failures="0" errors="0" time="71.164" timestamp="2020-06-18 17:54:33" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/DBD Usecase/Usecase10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_175431\\DBD Usecase\\Usecase10\\20200618_175431"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_175431\\DBD Usecase\\Usecase10\\20200618_175431\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="b35a44f61382c653daf295a63e054c9c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DBD Test Case/1-View the layout information in the List View" time="8.83" classname="Test Cases/DBD Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:54:33 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/1-View the layout information in the List View: Test Cases/DBD Test Case/1-View the layout information in the List View
+
+2020-06-18 17:54:33 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-18 17:54:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-18 17:54:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-18 17:54:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-18 17:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_User name_username"), findTestData("DBD Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2020-06-18 17:54:40 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2020-06-18 17:54:40 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_Password_password"), findTestData("DBD Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2020-06-18 17:54:40 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2020-06-18 17:54:40 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/login/button_Sign in")): Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2020-06-18 17:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/8-View the Detail View information" time="18.446" classname="Test Cases/DBD Test Case/8-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:54:42 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/8-View the Detail View information: Test Cases/DBD Test Case/8-View the Detail View information
+
+2020-06-18 17:54:42 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Home/a_DBD Companies")): Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2020-06-18 17:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2020-06-18 17:54:49 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input_object compay name"), findTestData("DBD Test Data/D6").getValue(1, 1)): Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2020-06-18 17:54:50 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2020-06-18 17:54:50 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Search company")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-18 17:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-18 17:54:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-18 17:54:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-18 17:54:53 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on
+
+2020-06-18 17:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information" time="3.304" classname="Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:55:00 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information: Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information
+
+2020-06-18 17:55:00 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/a_Activities  DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Activities  DBD' is clicked on
+
+2020-06-18 17:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Activities  DBD' is clicked on
+
+2020-06-18 17:55:01 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Add Activity DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Add Activity DBD' is clicked on
+
+2020-06-18 17:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Add Activity DBD' is clicked on
+
+2020-06-18 17:55:03 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/button_Save acti")): Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-18 17:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information" time="19.209" classname="Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:55:03 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information: Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information
+
+2020-06-18 17:55:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:55:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:55:05 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Clear acti")): Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-06-18 17:55:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-06-18 17:55:07 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/assign to")): Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:55:07 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input assign to"), findTestData("DBD Test Data/D8").getValue(3, 1)): Text 'RIS System' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:08 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input assign to"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:09 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/sale type acti")): Object: 'Object Repository/DBD repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-18 17:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-18 17:55:09 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input sale type acti"), findTestData("DBD Test Data/D8").getValue(4, 1)): Text 'Pre-Sale' is set on object 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:10 - [MESSAGE][PASSED] - Text 'Pre-Sale' is set on object 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input sale type acti"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:11 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__date_start"), findTestData("DBD Test Data/D8").getValue(7, 1)): Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__date_start'
+
+2020-06-18 17:55:12 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__date_start'
+
+2020-06-18 17:55:12 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__time_start"), findTestData("DBD Test Data/D8").getValue(13, 1)): Text '03:19 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_start'
+
+2020-06-18 17:55:13 - [MESSAGE][PASSED] - Text '03:19 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_start'
+
+2020-06-18 17:55:13 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__due_date"), findTestData("DBD Test Data/D8").getValue(8, 1)): Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__due_date'
+
+2020-06-18 17:55:14 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__due_date'
+
+2020-06-18 17:55:14 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__time_end"), findTestData("DBD Test Data/D8").getValue(14, 1)): Text '03:24 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_end'
+
+2020-06-18 17:55:15 - [MESSAGE][PASSED] - Text '03:24 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_end'
+
+2020-06-18 17:55:15 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Clear acti")): Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:55:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:55:16 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/status result")): Object: 'Object Repository/DBD repository/Page_Calendar/status result' is clicked on
+
+2020-06-18 17:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/status result' is clicked on
+
+2020-06-18 17:55:17 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input status result"), findTestData("DBD Test Data/D8").getValue(10, 1)): Text 'Done' is set on object 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:17 - [MESSAGE][PASSED] - Text 'Done' is set on object 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input status result"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:18 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Product Group")): Object: 'Object Repository/DBD repository/Page_Calendar/Product Group' is clicked on
+
+2020-06-18 17:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Product Group' is clicked on
+
+2020-06-18 17:55:18 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Product Group"), "Fax"): Text 'Fax' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:19 - [MESSAGE][PASSED] - Text 'Fax' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:19 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Product Group"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:20 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:20 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Show time as")): Object: 'Object Repository/DBD repository/Page_Calendar/Show time as' is clicked on
+
+2020-06-18 17:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Show time as' is clicked on
+
+2020-06-18 17:55:20 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Show time as"), findTestData("DBD Test Data/D8").getValue(11, 1)): Text 'Out of Office' is set on object 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:21 - [MESSAGE][PASSED] - Text 'Out of Office' is set on object 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input Show time as"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:21 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__description"), findTestData("DBD Test Data/D8").getValue(12, 1)): Text 'Anatomy of Ultraman' is set on object 'Object Repository/DBD repository/Page_Calendar/input__description'
+
+2020-06-18 17:55:22 - [MESSAGE][PASSED] - Text 'Anatomy of Ultraman' is set on object 'Object Repository/DBD repository/Page_Calendar/input__description'
+
+2020-06-18 17:55:22 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/button_Save acti")): Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-18 17:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information" time="20.492" classname="Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:55:23 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information: Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information
+
+2020-06-18 17:55:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:55:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:55:24 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Clear acti")): Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:24 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__subject acti"), findTestData("DBD Test Data/D8").getValue(1, 1)): Text 'Anatomy' is set on object 'Object Repository/DBD repository/Page_Calendar/input__subject acti'
+
+2020-06-18 17:55:25 - [MESSAGE][PASSED] - Text 'Anatomy' is set on object 'Object Repository/DBD repository/Page_Calendar/input__subject acti'
+
+2020-06-18 17:55:25 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/activity type")): Object: 'Object Repository/DBD repository/Page_Calendar/activity type' is clicked on
+
+2020-06-18 17:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/activity type' is clicked on
+
+2020-06-18 17:55:26 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input activity type"), findTestData("DBD Test Data/D8").getValue(2, 1)): Text 'Call' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:55:26 - [MESSAGE][PASSED] - Text 'Call' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:55:26 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input activity type"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:55:27 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:55:27 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/assign to")): Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:55:28 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input assign to"), findTestData("DBD Test Data/D8").getValue(3, 1)): Text 'RIS System' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:28 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input assign to"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:55:29 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/sale type acti")): Object: 'Object Repository/DBD repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-18 17:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-18 17:55:29 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input sale type acti"), findTestData("DBD Test Data/D8").getValue(4, 1)): Text 'Pre-Sale' is set on object 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:30 - [MESSAGE][PASSED] - Text 'Pre-Sale' is set on object 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input sale type acti"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:55:31 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__date_start"), findTestData("DBD Test Data/D8").getValue(7, 1)): Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__date_start'
+
+2020-06-18 17:55:32 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__date_start'
+
+2020-06-18 17:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__time_start"), findTestData("DBD Test Data/D8").getValue(13, 1)): Text '03:19 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_start'
+
+2020-06-18 17:55:33 - [MESSAGE][PASSED] - Text '03:19 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_start'
+
+2020-06-18 17:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__due_date"), findTestData("DBD Test Data/D8").getValue(8, 1)): Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__due_date'
+
+2020-06-18 17:55:34 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__due_date'
+
+2020-06-18 17:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__time_end"), findTestData("DBD Test Data/D8").getValue(14, 1)): Text '03:24 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_end'
+
+2020-06-18 17:55:35 - [MESSAGE][PASSED] - Text '03:24 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_end'
+
+2020-06-18 17:55:35 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Clear acti")): Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:55:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:55:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:55:36 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/status result")): Object: 'Object Repository/DBD repository/Page_Calendar/status result' is clicked on
+
+2020-06-18 17:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/status result' is clicked on
+
+2020-06-18 17:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input status result"), findTestData("DBD Test Data/D8").getValue(10, 1)): Text 'Done' is set on object 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:37 - [MESSAGE][PASSED] - Text 'Done' is set on object 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input status result"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:55:38 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Product Group")): Object: 'Object Repository/DBD repository/Page_Calendar/Product Group' is clicked on
+
+2020-06-18 17:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Product Group' is clicked on
+
+2020-06-18 17:55:38 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Product Group"), "Fax"): Text 'Fax' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:39 - [MESSAGE][PASSED] - Text 'Fax' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:39 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Product Group"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:40 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:55:40 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Show time as")): Object: 'Object Repository/DBD repository/Page_Calendar/Show time as' is clicked on
+
+2020-06-18 17:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Show time as' is clicked on
+
+2020-06-18 17:55:40 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Show time as"), findTestData("DBD Test Data/D8").getValue(11, 1)): Text 'Out of Office' is set on object 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:41 - [MESSAGE][PASSED] - Text 'Out of Office' is set on object 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input Show time as"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__description"), findTestData("DBD Test Data/D8").getValue(12, 1)): Text 'Anatomy of Ultraman' is set on object 'Object Repository/DBD repository/Page_Calendar/input__description'
+
+2020-06-18 17:55:43 - [MESSAGE][PASSED] - Text 'Anatomy of Ultraman' is set on object 'Object Repository/DBD repository/Page_Calendar/input__description'
+
+2020-06-18 17:55:43 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/button_Save acti")): Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-18 17:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-18 17:54:33 - [TEST_SUITE][PASSED] - Usecase10: Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

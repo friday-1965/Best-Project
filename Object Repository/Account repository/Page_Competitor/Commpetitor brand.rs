@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Commpetitor brand</name>
+   <tag></tag>
+   <elementGuidId>d4ebcf1f-77a7-44d1-9c9a-7e1f426c0175</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='EditView']/table/tbody/tr[3]/td[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>span10</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--None--AcerBrotherCanonData ProductDuploEpsonFuji XeroxGBCGestetnerHPKIPKodakKonica MinoltaKyocera MitaLexmarkMuratecOcéOKIPanasonicPlockmaticRexelRicohRisoSamsungSharpToshibaOther--None----None--AcerBrotherCanonData ProductDuploEpsonFuji XeroxGBCGestetnerHPKIPKodakKonica MinoltaKyocera MitaLexmarkMuratecOcéOKIPanasonicPlockmaticRexelRicohRisoSamsungSharpToshibaOther</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;EditView&quot;)/table[@class=&quot;table table-bordered blockContainer showInlineTable equalSplit&quot;]/tbody[1]/tr[3]/td[@class=&quot;fieldValue medium borderRedColor&quot;]/div[@class=&quot;row-fluid&quot;]/span[@class=&quot;span10&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='EditView']/table/tbody/tr[3]/td[2]/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[2]/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

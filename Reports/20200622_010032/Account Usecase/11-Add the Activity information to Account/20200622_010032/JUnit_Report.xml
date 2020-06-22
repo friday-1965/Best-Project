@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="11-Add the Activity information to Account" time="67.279" tests="5" failures="0" errors="0">
+   <testsuite name="11-Add the Activity information to Account" tests="5" failures="0" errors="0" time="67.279" timestamp="2020-06-22 01:00:34" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/11-Add the Activity information to Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200622_010032\\Account Usecase\\11-Add the Activity information to Account\\20200622_010032"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200622_010032\\Account Usecase\\11-Add the Activity information to Account\\20200622_010032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="29a324c84938422ff7e09b8a2d641d17"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.463" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-22 01:00:34 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-22 01:00:34 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-22 01:00:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-22 01:00:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-22 01:00:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-22 01:00:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-22 01:00:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-22 01:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-22 01:00:41 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-22 01:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-22 01:00:42 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-22 01:00:42 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-22 01:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="13.651" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 01:00:43 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-22 01:00:43 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-22 01:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-22 01:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-22 01:00:51 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-22 01:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-22 01:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-22 01:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-22 01:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/21-Add the Activity information to Account with non information" time="4.277" classname="Test Cases/Account Test Case/21-Add the Activity information to Account with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 01:00:57 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/21-Add the Activity information to Account with non information: Test Cases/Account Test Case/21-Add the Activity information to Account with non information
+
+2020-06-22 01:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_More account")): Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2020-06-22 01:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2020-06-22 01:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Account/a_Add Activity")): Object: 'Object Repository/Account repository/Page_Accounts Account/a_Add Activity' is clicked on
+
+2020-06-22 01:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Account/a_Add Activity' is clicked on
+
+2020-06-22 01:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/button_Save acti"), STOP_ON_FAILURE): Object: 'Object Repository/Account repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-22 01:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-22 01:01:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-22 01:01:01 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/20-Add the Activity information to Account with invalid information" time="30.91" classname="Test Cases/Account Test Case/20-Add the Activity information to Account with invalid information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 01:01:01 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/20-Add the Activity information to Account with invalid information: Test Cases/Account Test Case/20-Add the Activity information to Account with invalid information
+
+2020-06-22 01:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/clear acti")): Object: 'Object Repository/Account repository/Page_Calendar/clear acti' is clicked on
+
+2020-06-22 01:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/clear acti' is clicked on
+
+2020-06-22 01:01:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-22 01:01:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-22 01:01:05 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/ass to acti")): Object: 'Object Repository/Account repository/Page_Calendar/ass to acti' is clicked on
+
+2020-06-22 01:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/ass to acti' is clicked on
+
+2020-06-22 01:01:05 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input ass to acti New"), findTestData("Account Test Data/D12").getValue(1, 1)): Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Calendar/input ass to acti New'
+
+2020-06-22 01:01:06 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Calendar/input ass to acti New'
+
+2020-06-22 01:01:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar/input ass to acti New"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input ass to acti New'
+
+2020-06-22 01:01:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input ass to acti New'
+
+2020-06-22 01:01:06 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/sale type acti")): Object: 'Object Repository/Account repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-22 01:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-22 01:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input sale type acti"), findTestData("Account Test Data/D12").getValue(2, 1)): Text 'Pre-Sales' is set on object 'Object Repository/Account repository/Page_Calendar/input sale type acti'
+
+2020-06-22 01:01:08 - [MESSAGE][PASSED] - Text 'Pre-Sales' is set on object 'Object Repository/Account repository/Page_Calendar/input sale type acti'
+
+2020-06-22 01:01:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar/input sale type acti"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input sale type acti'
+
+2020-06-22 01:01:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input sale type acti'
+
+2020-06-22 01:01:09 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/b acti")): Object: 'Object Repository/Account repository/Page_Calendar/b acti' is clicked on
+
+2020-06-22 01:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/b acti' is clicked on
+
+2020-06-22 01:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input select"), findTestData("Account Test Data/D12").getValue(3, 1)): Text 'Opportunities' is set on object 'Object Repository/Account repository/Page_Calendar/input select'
+
+2020-06-22 01:01:10 - [MESSAGE][PASSED] - Text 'Opportunities' is set on object 'Object Repository/Account repository/Page_Calendar/input select'
+
+2020-06-22 01:01:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar/input select"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input select'
+
+2020-06-22 01:01:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input select'
+
+2020-06-22 01:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/search acti field  acti")): Object: 'Object Repository/Account repository/Page_Calendar/search acti field  acti' is clicked on
+
+2020-06-22 01:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/search acti field  acti' is clicked on
+
+2020-06-22 01:01:11 - [TEST_STEP][PASSED] - switchToWindowTitle("Opportunities"): Switched to window with title: 'Opportunities'
+
+2020-06-22 01:01:13 - [MESSAGE][PASSED] - Switched to window with title: 'Opportunities'
+
+2020-06-22 01:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Opportunities/a_ - BW Printer")): Object: 'Object Repository/Account repository/Page_Opportunities/a_ - BW Printer' is clicked on
+
+2020-06-22 01:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Opportunities/a_ - BW Printer' is clicked on
+
+2020-06-22 01:01:14 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-22 01:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input__date_start acti"), findTestData("Account Test Data/D12").getValue(5, 1)): Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar/input__date_start acti'
+
+2020-06-22 01:01:17 - [MESSAGE][PASSED] - Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar/input__date_start acti'
+
+2020-06-22 01:01:17 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input__time_start acti"), findTestData("Account Test Data/D12").getValue(6, 1)): Text '03:19 Pm' is set on object 'Object Repository/Account repository/Page_Calendar/input__time_start acti'
+
+2020-06-22 01:01:18 - [MESSAGE][PASSED] - Text '03:19 Pm' is set on object 'Object Repository/Account repository/Page_Calendar/input__time_start acti'
+
+2020-06-22 01:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input__due_date acti"), findTestData("Account Test Data/D12").getValue(7, 1)): Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar/input__due_date acti'
+
+2020-06-22 01:01:19 - [MESSAGE][PASSED] - Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar/input__due_date acti'
+
+2020-06-22 01:01:19 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input__time_end acti"), findTestData("Account Test Data/D12").getValue(8, 1)): Text '03:24 PM' is set on object 'Object Repository/Account repository/Page_Calendar/input__time_end acti'
+
+2020-06-22 01:01:20 - [MESSAGE][PASSED] - Text '03:24 PM' is set on object 'Object Repository/Account repository/Page_Calendar/input__time_end acti'
+
+2020-06-22 01:01:20 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/search contact name acti")): Object: 'Object Repository/Account repository/Page_Calendar/search contact name acti' is clicked on
+
+2020-06-22 01:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/search contact name acti' is clicked on
+
+2020-06-22 01:01:20 - [TEST_STEP][PASSED] - switchToWindowTitle("Contacts"): Switched to window with title: 'Contacts'
+
+2020-06-22 01:01:22 - [MESSAGE][PASSED] - Switched to window with title: 'Contacts'
+
+2020-06-22 01:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Contacts/a_")): Object: 'Object Repository/Account repository/Page_Contacts/a_' is clicked on
+
+2020-06-22 01:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Contacts/a_' is clicked on
+
+2020-06-22 01:01:23 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-22 01:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/clear acti")): Object: 'Object Repository/Account repository/Page_Calendar/clear acti' is clicked on
+
+2020-06-22 01:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/clear acti' is clicked on
+
+2020-06-22 01:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/status result acti")): Object: 'Object Repository/Account repository/Page_Calendar/status result acti' is clicked on
+
+2020-06-22 01:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/status result acti' is clicked on
+
+2020-06-22 01:01:25 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input status result acti"), findTestData("Account Test Data/D12").getValue(10, 1)): Text 'Done' is set on object 'Object Repository/Account repository/Page_Calendar/input status result acti'
+
+2020-06-22 01:01:26 - [MESSAGE][PASSED] - Text 'Done' is set on object 'Object Repository/Account repository/Page_Calendar/input status result acti'
+
+2020-06-22 01:01:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar/input status result acti"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input status result acti'
+
+2020-06-22 01:01:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input status result acti'
+
+2020-06-22 01:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/show time as acti")): Object: 'Object Repository/Account repository/Page_Calendar/show time as acti' is clicked on
+
+2020-06-22 01:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/show time as acti' is clicked on
+
+2020-06-22 01:01:27 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input show time as"), findTestData("Account Test Data/D12").getValue(11, 1)): Text 'Out of Office' is set on object 'Object Repository/Account repository/Page_Calendar/input show time as'
+
+2020-06-22 01:01:28 - [MESSAGE][PASSED] - Text 'Out of Office' is set on object 'Object Repository/Account repository/Page_Calendar/input show time as'
+
+2020-06-22 01:01:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar/input show time as"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input show time as'
+
+2020-06-22 01:01:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input show time as'
+
+2020-06-22 01:01:29 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input__description acti"), findTestData("Account Test Data/D12").getValue(12, 1)): Text 'Abatomy of ultraman' is set on object 'Object Repository/Account repository/Page_Calendar/input__description acti'
+
+2020-06-22 01:01:30 - [MESSAGE][PASSED] - Text 'Abatomy of ultraman' is set on object 'Object Repository/Account repository/Page_Calendar/input__description acti'
+
+2020-06-22 01:01:30 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/button_Save acti")): Object: 'Object Repository/Account repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-22 01:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-22 01:01:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-06-22 01:01:32 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/19-Add the Activity information to Account with valid information" time="8.104" classname="Test Cases/Account Test Case/19-Add the Activity information to Account with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 01:01:32 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/19-Add the Activity information to Account with valid information: Test Cases/Account Test Case/19-Add the Activity information to Account with valid information
+
+2020-06-22 01:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/clear acti")): Object: 'Object Repository/Account repository/Page_Calendar/clear acti' is clicked on
+
+2020-06-22 01:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/clear acti' is clicked on
+
+2020-06-22 01:01:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-22 01:01:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-22 01:01:34 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input__subject acti"), findTestData("Account Test Data/D11").getValue(1, 1)): Text 'Anatomy' is set on object 'Object Repository/Account repository/Page_Calendar/input__subject acti'
+
+2020-06-22 01:01:34 - [MESSAGE][PASSED] - Text 'Anatomy' is set on object 'Object Repository/Account repository/Page_Calendar/input__subject acti'
+
+2020-06-22 01:01:34 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/acti type")): Object: 'Object Repository/Account repository/Page_Calendar/acti type' is clicked on
+
+2020-06-22 01:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/acti type' is clicked on
+
+2020-06-22 01:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input acti type"), findTestData("Account Test Data/D11").getValue(2, 1)): Text 'Call' is set on object 'Object Repository/Account repository/Page_Calendar/input acti type'
+
+2020-06-22 01:01:35 - [MESSAGE][PASSED] - Text 'Call' is set on object 'Object Repository/Account repository/Page_Calendar/input acti type'
+
+2020-06-22 01:01:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar/input acti type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input acti type'
+
+2020-06-22 01:01:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input acti type'
+
+2020-06-22 01:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/product group acti")): Object: 'Object Repository/Account repository/Page_Calendar/product group acti' is clicked on
+
+2020-06-22 01:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/product group acti' is clicked on
+
+2020-06-22 01:01:36 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar/input product group acti"), "No Product"): Text 'No Product' is set on object 'Object Repository/Account repository/Page_Calendar/input product group acti'
+
+2020-06-22 01:01:37 - [MESSAGE][PASSED] - Text 'No Product' is set on object 'Object Repository/Account repository/Page_Calendar/input product group acti'
+
+2020-06-22 01:01:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar/input product group acti"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input product group acti'
+
+2020-06-22 01:01:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar/input product group acti'
+
+2020-06-22 01:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar/button_Save acti")): Object: 'Object Repository/Account repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-22 01:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar/button_Save acti' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-22 01:00:34 - [TEST_SUITE][PASSED] - 11-Add the Activity information to Account: Test Cases/Account Test Case/19-Add the Activity information to Account with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

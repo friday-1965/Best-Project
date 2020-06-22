@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase9" time="31.105" tests="3" failures="0" errors="0">
+   <testsuite name="Usecase9" tests="3" failures="0" errors="0" time="31.105" timestamp="2020-06-18 17:24:56" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/DBD Usecase/Usecase9">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_172455\\DBD Usecase\\Usecase9\\20200618_172455"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_172455\\DBD Usecase\\Usecase9\\20200618_172455\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="5792743356305b1f5503b9082276c15a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DBD Test Case/1-View the layout information in the List View" time="8.039" classname="Test Cases/DBD Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:24:56 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/1-View the layout information in the List View: Test Cases/DBD Test Case/1-View the layout information in the List View
+
+2020-06-18 17:24:57 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-18 17:24:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-18 17:24:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-18 17:25:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-18 17:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_User name_username"), findTestData("DBD Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2020-06-18 17:25:02 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2020-06-18 17:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_Password_password"), findTestData("DBD Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2020-06-18 17:25:03 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2020-06-18 17:25:03 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/login/button_Sign in")): Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2020-06-18 17:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/8-View the Detail View information" time="18.338" classname="Test Cases/DBD Test Case/8-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:25:04 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/8-View the Detail View information: Test Cases/DBD Test Case/8-View the Detail View information
+
+2020-06-18 17:25:05 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Home/a_DBD Companies")): Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2020-06-18 17:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2020-06-18 17:25:11 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input_object compay name"), findTestData("DBD Test Data/D6").getValue(1, 1)): Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2020-06-18 17:25:13 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2020-06-18 17:25:13 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Search company")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-18 17:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-18 17:25:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-18 17:25:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-18 17:25:16 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on
+
+2020-06-18 17:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/15-View the Related List" time="3.792" classname="Test Cases/DBD Test Case/15-View the Related List" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:25:23 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/15-View the Related List: Test Cases/DBD Test Case/15-View the Related List
+
+2020-06-18 17:25:23 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/a_Accounts  DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Accounts  DBD' is clicked on
+
+2020-06-18 17:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Accounts  DBD' is clicked on
+
+2020-06-18 17:25:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-18 17:25:26 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-18 17:24:56 - [TEST_SUITE][PASSED] - Usecase9: Test Cases/DBD Test Case/15-View the Related List]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

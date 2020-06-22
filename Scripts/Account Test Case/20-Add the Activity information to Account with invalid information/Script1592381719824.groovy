@@ -76,7 +76,7 @@ WebUI.click(findTestObject('Account repository/Page_Calendar/status result acti'
 WebUI.setText(findTestObject('Account repository/Page_Calendar/input status result acti'), findTestData('Account Test Data/D12').getValue(
         10, 1))
 
-WebUI.setText(findTestObject('Account repository/Page_Calendar/input status result acti'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Account repository/Page_Calendar/input status result acti'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Account repository/Page_Calendar/show time as acti'))
 

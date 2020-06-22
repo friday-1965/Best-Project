@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="12" time="42.88" tests="5" failures="0" errors="1">
+   <testsuite name="12" tests="5" failures="0" errors="1" time="42.88" timestamp="2020-06-21 22:04:06" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/12">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200621_220404\\Account Usecase\\12\\20200621_220404"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200621_220404\\Account Usecase\\12\\20200621_220404\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="22a69b81ae7c91ee7b2cd2fd661fb2ed"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.99" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-21 22:04:06 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-21 22:04:06 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-21 22:04:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-21 22:04:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-21 22:04:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-21 22:04:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-21 22:04:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-21 22:04:13 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-21 22:04:14 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-21 22:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-21 22:04:14 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-21 22:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-21 22:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="13.876" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-21 22:04:16 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-21 22:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-21 22:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-21 22:04:23 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-21 22:04:24 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-21 22:04:24 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-21 22:04:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-21 22:04:24 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-21 22:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/24" time="3.248" classname="Test Cases/Account Test Case/24" status="PASSED">
+         <system-out><![CDATA[2020-06-21 22:04:30 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/24: Test Cases/Account Test Case/24
+
+2020-06-21 22:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_More account")): Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2020-06-21 22:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2020-06-21 22:04:31 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/a_Add To Do")): Object: 'Object Repository/Account repository/Page_Accounts/a_Add To Do' is clicked on
+
+2020-06-21 22:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/a_Add To Do' is clicked on
+
+2020-06-21 22:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar todo/button_Save to")): Object: 'Object Repository/Account repository/Page_Calendar todo/button_Save to' is clicked on
+
+2020-06-21 22:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar todo/button_Save to' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/23" time="4.516" classname="Test Cases/Account Test Case/23" status="ERROR">
+         <error type="ERROR" message="Test Cases/Account Test Case/23 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1592751785144
+	at 23.run(23:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592751844301.run(TempTestSuite1592751844301.groovy:37)
+"/>
+         <system-out><![CDATA[2020-06-21 22:04:33 - [TEST_CASE][ERROR] - Test Cases/Account Test Case/23: Test Cases/Account Test Case/23 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1592751785144
+	at 23.run(23:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592751844301.run(TempTestSuite1592751844301.groovy:37)
+
+
+2020-06-21 22:04:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-21 22:04:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-21 22:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar todo/Cleat todo")): Object: 'Object Repository/Account repository/Page_Calendar todo/Cleat todo' is clicked on
+
+2020-06-21 22:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar todo/Cleat todo' is clicked on
+
+2020-06-21 22:04:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-21 22:04:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-21 22:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/input__subject todo"), findTestData("Account Test Data/D13").getValue(1, 1)): Text 'Abatomy' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__subject todo'
+
+2020-06-21 22:04:36 - [MESSAGE][PASSED] - Text 'Abatomy' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__subject todo'
+
+2020-06-21 22:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar todo/created by todo")): Object: 'Object Repository/Account repository/Page_Calendar todo/created by todo' is clicked on
+
+2020-06-21 22:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar todo/created by todo' is clicked on
+
+2020-06-21 22:04:36 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/input created by todo"), findTestData("Account Test Data/D13").getValue(2, 1)): Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Calendar todo/input created by todo'
+
+2020-06-21 22:04:37 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Calendar todo/input created by todo'
+
+2020-06-21 22:04:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar todo/input created by todo"), Keys.chord(ENTER)): null]]></system-out>
+         <system-err><![CDATA[2020-06-21 22:04:33 - [TEST_CASE][ERROR] - Test Cases/Account Test Case/23: Test Cases/Account Test Case/23 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1592751785144
+	at 23.run(23:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592751844301.run(TempTestSuite1592751844301.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/22" time="10.409" classname="Test Cases/Account Test Case/22" status="PASSED">
+         <system-out><![CDATA[2020-06-21 22:04:37 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/22: Test Cases/Account Test Case/22
+
+2020-06-21 22:04:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-21 22:04:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-21 22:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar todo/Cleat todo")): Object: 'Object Repository/Account repository/Page_Calendar todo/Cleat todo' is clicked on
+
+2020-06-21 22:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar todo/Cleat todo' is clicked on
+
+2020-06-21 22:04:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-21 22:04:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-21 22:04:40 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/input__subject todo"), findTestData("Account Test Data/D13").getValue(1, 1)): Text 'Abatomy' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__subject todo'
+
+2020-06-21 22:04:41 - [MESSAGE][PASSED] - Text 'Abatomy' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__subject todo'
+
+2020-06-21 22:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar todo/created by todo")): Object: 'Object Repository/Account repository/Page_Calendar todo/created by todo' is clicked on
+
+2020-06-21 22:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar todo/created by todo' is clicked on
+
+2020-06-21 22:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/input created by todo"), findTestData("Account Test Data/D13").getValue(2, 1)): Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Calendar todo/input created by todo'
+
+2020-06-21 22:04:42 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Calendar todo/input created by todo'
+
+2020-06-21 22:04:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Calendar todo/input created by todo"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar todo/input created by todo'
+
+2020-06-21 22:04:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Calendar todo/input created by todo'
+
+2020-06-21 22:04:43 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/input__date_start todo"), findTestData("Account Test Data/D13").getValue(3, 1)): Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__date_start todo'
+
+2020-06-21 22:04:44 - [MESSAGE][PASSED] - Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__date_start todo'
+
+2020-06-21 22:04:44 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/input_Start Time_time_start todo"), findTestData("Account Test Data/D13").getValue(4, 1)): Text '03:19 PM' is set on object 'Object Repository/Account repository/Page_Calendar todo/input_Start Time_time_start todo'
+
+2020-06-21 22:04:45 - [MESSAGE][PASSED] - Text '03:19 PM' is set on object 'Object Repository/Account repository/Page_Calendar todo/input_Start Time_time_start todo'
+
+2020-06-21 22:04:45 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/input__due_date todo"), findTestData("Account Test Data/D13").getValue(5, 1)): Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__due_date todo'
+
+2020-06-21 22:04:46 - [MESSAGE][PASSED] - Text '11/02/2020' is set on object 'Object Repository/Account repository/Page_Calendar todo/input__due_date todo'
+
+2020-06-21 22:04:46 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Calendar todo/textarea__description todo"), findTestData("Account Test Data/D13").getValue(6, 1)): Text 'Anatomy of Ultraman' is set on object 'Object Repository/Account repository/Page_Calendar todo/textarea__description todo'
+
+2020-06-21 22:04:47 - [MESSAGE][PASSED] - Text 'Anatomy of Ultraman' is set on object 'Object Repository/Account repository/Page_Calendar todo/textarea__description todo'
+
+2020-06-21 22:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Calendar todo/button_Save to")): Object: 'Object Repository/Account repository/Page_Calendar todo/button_Save to' is clicked on
+
+2020-06-21 22:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Calendar todo/button_Save to' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-21 22:04:06 - [TEST_SUITE][ERROR] - 12: Test Cases/Account Test Case/23 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1592751785144
+	at 23.run(23:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592751844301.run(TempTestSuite1592751844301.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-06-21 22:04:06 - [TEST_SUITE][ERROR] - 12: Test Cases/Account Test Case/23 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1592751785144
+	at 23.run(23:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592751844301.run(TempTestSuite1592751844301.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>

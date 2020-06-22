@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://rthv1.opencloud.digital/')
+WebUI.openBrowser('http://crmc.opencloud.digital:64216/index.php')
 
 WebUI.maximizeWindow()
 

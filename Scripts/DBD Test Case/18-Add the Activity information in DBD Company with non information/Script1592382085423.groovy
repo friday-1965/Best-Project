@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('DBD repository/Page_DBDCompanies/a_Activities  DBD'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('DBD repository/Page_DBDCompanies/button_Add Activity DBD'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('DBD repository/Page_Calendar/button_Save acti'))
 

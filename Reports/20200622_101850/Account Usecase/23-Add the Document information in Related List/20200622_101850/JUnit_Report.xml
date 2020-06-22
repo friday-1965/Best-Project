@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="23-Add the Document information in Related List" time="45.201" tests="5" failures="0" errors="0">
+   <testsuite name="23-Add the Document information in Related List" tests="5" failures="0" errors="0" time="45.201" timestamp="2020-06-22 10:18:52" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/23-Add the Document information in Related List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200622_101850\\Account Usecase\\23-Add the Document information in Related List\\20200622_101850"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200622_101850\\Account Usecase\\23-Add the Document information in Related List\\20200622_101850\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="6e2879c79fa99229c86eb90972d53573"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.499" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-22 10:18:52 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-22 10:18:52 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-22 10:18:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-22 10:18:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-22 10:18:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-22 10:18:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-22 10:18:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-22 10:18:59 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-22 10:18:59 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-22 10:18:59 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-22 10:19:00 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-22 10:19:00 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-22 10:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="10.217" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 10:19:01 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-22 10:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-22 10:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-22 10:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-22 10:19:06 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-22 10:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-22 10:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-22 10:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-22 10:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/52-Add the Document information in Related List with non information" time="3.683" classname="Test Cases/Account Test Case/52-Add the Document information in Related List with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 10:19:12 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/52-Add the Document information in Related List with non information: Test Cases/Account Test Case/52-Add the Document information in Related List with non information
+
+2020-06-22 10:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/a_Documents  related")): Object: 'Object Repository/Account repository/Page_Accounts Related/a_Documents  related' is clicked on
+
+2020-06-22 10:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/a_Documents  related' is clicked on
+
+2020-06-22 10:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/button_Add Document related")): Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add Document related' is clicked on
+
+2020-06-22 10:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add Document related' is clicked on
+
+2020-06-22 10:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents Related/button_Save doc rel")): Object: 'Object Repository/Account repository/Page_Documents Related/button_Save doc rel' is clicked on
+
+2020-06-22 10:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents Related/button_Save doc rel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/51-Add the Document information in Related List with invalid information" time="10.843" classname="Test Cases/Account Test Case/51-Add the Document information in Related List with invalid information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 10:19:15 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/51-Add the Document information in Related List with invalid information: Test Cases/Account Test Case/51-Add the Document information in Related List with invalid information
+
+2020-06-22 10:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/Created By")): Object: 'Object Repository/Account repository/Page_Documents/Created By' is clicked on
+
+2020-06-22 10:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/Created By' is clicked on
+
+2020-06-22 10:19:17 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Documents/input Created By"), findTestData("Account Test Data/D7").getValue(2, 1)): Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:18 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Documents/input Created By"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/calendar")): Object: 'Object Repository/Account repository/Page_Documents/calendar' is clicked on
+
+2020-06-22 10:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/calendar' is clicked on
+
+2020-06-22 10:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Documents/input calendat"), findTestData("Account Test Data/D7").getValue(3, 1)): Text 'Account' is set on object 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:20 - [MESSAGE][PASSED] - Text 'Account' is set on object 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Documents/input calendat"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/search add doc")): Object: 'Object Repository/Account repository/Page_Documents/search add doc' is clicked on
+
+2020-06-22 10:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/search add doc' is clicked on
+
+2020-06-22 10:19:21 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2020-06-22 10:19:23 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2020-06-22 10:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/td_1400")): Object: 'Object Repository/Account repository/Page_Accounts/td_1400' is clicked on
+
+2020-06-22 10:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/td_1400' is clicked on
+
+2020-06-22 10:19:24 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-22 10:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/button_Save doc")): Object: 'Object Repository/Account repository/Page_Documents/button_Save doc' is clicked on
+
+2020-06-22 10:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/button_Save doc' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/50-Add the Document information in Related List with valid information" time="10.116" classname="Test Cases/Account Test Case/50-Add the Document information in Related List with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-22 10:19:26 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/50-Add the Document information in Related List with valid information: Test Cases/Account Test Case/50-Add the Document information in Related List with valid information
+
+2020-06-22 10:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Documents/input__notes_title"), findTestData("Account Test Data/D7").getValue(1, 1)): Text 'Document test' is set on object 'Object Repository/Account repository/Page_Documents/input__notes_title'
+
+2020-06-22 10:19:27 - [MESSAGE][PASSED] - Text 'Document test' is set on object 'Object Repository/Account repository/Page_Documents/input__notes_title'
+
+2020-06-22 10:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/Created By")): Object: 'Object Repository/Account repository/Page_Documents/Created By' is clicked on
+
+2020-06-22 10:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/Created By' is clicked on
+
+2020-06-22 10:19:27 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Documents/input Created By"), findTestData("Account Test Data/D7").getValue(2, 1)): Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:29 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Documents/input Created By"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input Created By'
+
+2020-06-22 10:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/calendar")): Object: 'Object Repository/Account repository/Page_Documents/calendar' is clicked on
+
+2020-06-22 10:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/calendar' is clicked on
+
+2020-06-22 10:19:30 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Documents/input calendat"), findTestData("Account Test Data/D7").getValue(3, 1)): Text 'Account' is set on object 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:30 - [MESSAGE][PASSED] - Text 'Account' is set on object 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Documents/input calendat"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Documents/input calendat'
+
+2020-06-22 10:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/search add doc")): Object: 'Object Repository/Account repository/Page_Documents/search add doc' is clicked on
+
+2020-06-22 10:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/search add doc' is clicked on
+
+2020-06-22 10:19:31 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2020-06-22 10:19:34 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2020-06-22 10:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/td_1400")): Object: 'Object Repository/Account repository/Page_Accounts/td_1400' is clicked on
+
+2020-06-22 10:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/td_1400' is clicked on
+
+2020-06-22 10:19:34 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-22 10:19:36 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Documents/button_Save doc")): Object: 'Object Repository/Account repository/Page_Documents/button_Save doc' is clicked on
+
+2020-06-22 10:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Documents/button_Save doc' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-22 10:18:52 - [TEST_SUITE][PASSED] - 23-Add the Document information in Related List: Test Cases/Account Test Case/50-Add the Document information in Related List with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

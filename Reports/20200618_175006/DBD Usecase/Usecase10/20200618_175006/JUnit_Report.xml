@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase10" time="57.062" tests="5" failures="1" errors="0">
+   <testsuite name="Usecase10" tests="5" failures="1" errors="0" time="57.062" timestamp="2020-06-18 17:50:08" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/DBD Usecase/Usecase10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_175006\\DBD Usecase\\Usecase10\\20200618_175006"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_175006\\DBD Usecase\\Usecase10\\20200618_175006\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_175006\\DBD Usecase\\Usecase10\\20200618_175006\\1592477443088.png"/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="7916ff630ccb61879fc767fdb3d1f2bf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DBD Test Case/1-View the layout information in the List View" time="8.177" classname="Test Cases/DBD Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:50:08 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/1-View the layout information in the List View: Test Cases/DBD Test Case/1-View the layout information in the List View
+
+2020-06-18 17:50:08 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-18 17:50:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-18 17:50:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-18 17:50:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-18 17:50:13 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_User name_username"), findTestData("DBD Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2020-06-18 17:50:14 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/DBD repository/login/input_User name_username'
+
+2020-06-18 17:50:14 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_Password_password"), findTestData("DBD Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2020-06-18 17:50:15 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2020-06-18 17:50:15 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/login/button_Sign in")): Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2020-06-18 17:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/8-View the Detail View information" time="18.711" classname="Test Cases/DBD Test Case/8-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:50:16 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/8-View the Detail View information: Test Cases/DBD Test Case/8-View the Detail View information
+
+2020-06-18 17:50:16 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Home/a_DBD Companies")): Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2020-06-18 17:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Home/a_DBD Companies' is clicked on
+
+2020-06-18 17:50:23 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_DBDCompanies/input_object compay name"), findTestData("DBD Test Data/D6").getValue(1, 1)): Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2020-06-18 17:50:24 - [MESSAGE][PASSED] - Text 'Sunjido Co. Ltd. ' is set on object 'Object Repository/DBD repository/Page_DBDCompanies/input_object compay name'
+
+2020-06-18 17:50:24 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Search company")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-18 17:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Search company' is clicked on
+
+2020-06-18 17:50:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-18 17:50:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-18 17:50:28 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on
+
+2020-06-18 17:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Sunjido Co Ltd' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information" time="3.557" classname="Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:50:35 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information: Test Cases/DBD Test Case/18-Add the Activity information in DBD Company with non information
+
+2020-06-18 17:50:35 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/a_Activities  DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Activities  DBD' is clicked on
+
+2020-06-18 17:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/a_Activities  DBD' is clicked on
+
+2020-06-18 17:50:36 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_DBDCompanies/button_Add Activity DBD")): Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Add Activity DBD' is clicked on
+
+2020-06-18 17:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_DBDCompanies/button_Add Activity DBD' is clicked on
+
+2020-06-18 17:50:38 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/button_Save acti")): Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-18 17:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information" time="4.5" classname="Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 17-Add the Activity information in DBD Company with invalid information.run(17-Add the Activity information in DBD Company with invalid information:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592477406691.run(TempTestSuite1592477406691.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7916ff630ccb61879fc767fdb3d1f2bf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-18 17:50:38 - [TEST_CASE][FAILED] - Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information: Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 17-Add the Activity information in DBD Company with invalid information.run(17-Add the Activity information in DBD Company with invalid information:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592477406691.run(TempTestSuite1592477406691.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7916ff630ccb61879fc767fdb3d1f2bf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-18 17:50:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:50:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:50:40 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Clear acti")): Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:50:40 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/assign to")): Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:50:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:50:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:50:42 - [TEST_STEP][FAILED] - setText(findTestObject("DBD repository/Page_Calendar/input assign to"), findTestData("DBD Test Data/D8").getValue(3, 1)): Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 17-Add the Activity information in DBD Company with invalid information.run(17-Add the Activity information in DBD Company with invalid information:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592477406691.run(TempTestSuite1592477406691.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7916ff630ccb61879fc767fdb3d1f2bf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1592382073517.run(Script1592382073517.groovy:27)
+	... 13 more
+)
+
+2020-06-18 17:50:43 - [MESSAGE][FAILED] - Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 17-Add the Activity information in DBD Company with invalid information.run(17-Add the Activity information in DBD Company with invalid information:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592477406691.run(TempTestSuite1592477406691.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7916ff630ccb61879fc767fdb3d1f2bf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1592382073517.run(Script1592382073517.groovy:27)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200618_175006\\DBD Usecase\\Usecase10\\20200618_175006\\1592477443088.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-18 17:50:38 - [TEST_CASE][FAILED] - Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information: Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 17-Add the Activity information in DBD Company with invalid information.run(17-Add the Activity information in DBD Company with invalid information:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592477406691.run(TempTestSuite1592477406691.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7916ff630ccb61879fc767fdb3d1f2bf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information" time="21.275" classname="Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-18 17:50:43 - [TEST_CASE][PASSED] - Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information: Test Cases/DBD Test Case/16-Add the Activity information in DBD Company with valid information
+
+2020-06-18 17:50:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:50:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:50:44 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Clear acti")): Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__subject acti"), findTestData("DBD Test Data/D8").getValue(1, 1)): Text 'Anatomy' is set on object 'Object Repository/DBD repository/Page_Calendar/input__subject acti'
+
+2020-06-18 17:50:46 - [MESSAGE][PASSED] - Text 'Anatomy' is set on object 'Object Repository/DBD repository/Page_Calendar/input__subject acti'
+
+2020-06-18 17:50:46 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/activity type")): Object: 'Object Repository/DBD repository/Page_Calendar/activity type' is clicked on
+
+2020-06-18 17:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/activity type' is clicked on
+
+2020-06-18 17:50:46 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input activity type"), findTestData("DBD Test Data/D8").getValue(2, 1)): Text 'Call' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:50:47 - [MESSAGE][PASSED] - Text 'Call' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:50:47 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input activity type"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:50:48 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input activity type'
+
+2020-06-18 17:50:48 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/assign to")): Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/assign to' is clicked on
+
+2020-06-18 17:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input assign to"), findTestData("DBD Test Data/D8").getValue(3, 1)): Text 'RIS System' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:50:49 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input assign to"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:50:50 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+
+2020-06-18 17:50:50 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/sale type acti")): Object: 'Object Repository/DBD repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-18 17:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/sale type acti' is clicked on
+
+2020-06-18 17:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input sale type acti"), findTestData("DBD Test Data/D8").getValue(4, 1)): Text 'Pre-Sale' is set on object 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:50:51 - [MESSAGE][PASSED] - Text 'Pre-Sale' is set on object 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:50:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input sale type acti"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:50:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input sale type acti'
+
+2020-06-18 17:50:52 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__date_start"), findTestData("DBD Test Data/D8").getValue(7, 1)): Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__date_start'
+
+2020-06-18 17:50:53 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__date_start'
+
+2020-06-18 17:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__time_start"), findTestData("DBD Test Data/D8").getValue(13, 1)): Text '03:19 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_start'
+
+2020-06-18 17:50:54 - [MESSAGE][PASSED] - Text '03:19 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_start'
+
+2020-06-18 17:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__due_date"), findTestData("DBD Test Data/D8").getValue(8, 1)): Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__due_date'
+
+2020-06-18 17:50:55 - [MESSAGE][PASSED] - Text '11/02/2020 ' is set on object 'Object Repository/DBD repository/Page_Calendar/input__due_date'
+
+2020-06-18 17:50:55 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__time_end"), findTestData("DBD Test Data/D8").getValue(14, 1)): Text '03:24 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_end'
+
+2020-06-18 17:50:56 - [MESSAGE][PASSED] - Text '03:24 PM' is set on object 'Object Repository/DBD repository/Page_Calendar/input__time_end'
+
+2020-06-18 17:50:56 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Clear acti")): Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Clear acti' is clicked on
+
+2020-06-18 17:50:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-18 17:50:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-18 17:50:58 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/status result")): Object: 'Object Repository/DBD repository/Page_Calendar/status result' is clicked on
+
+2020-06-18 17:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/status result' is clicked on
+
+2020-06-18 17:50:58 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input status result"), findTestData("DBD Test Data/D8").getValue(10, 1)): Text 'Done' is set on object 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:50:59 - [MESSAGE][PASSED] - Text 'Done' is set on object 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:50:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input status result"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:50:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input status result'
+
+2020-06-18 17:50:59 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Product Group")): Object: 'Object Repository/DBD repository/Page_Calendar/Product Group' is clicked on
+
+2020-06-18 17:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Product Group' is clicked on
+
+2020-06-18 17:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Product Group"), "Fax"): Text 'Fax' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:51:01 - [MESSAGE][PASSED] - Text 'Fax' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Product Group"), Keys.chord(ENTER)): Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:51:01 - [MESSAGE][PASSED] - Text 'ENTER + ' is set on object 'Object Repository/DBD repository/Page_Calendar/input Product Group'
+
+2020-06-18 17:51:01 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/Show time as")): Object: 'Object Repository/DBD repository/Page_Calendar/Show time as' is clicked on
+
+2020-06-18 17:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/Show time as' is clicked on
+
+2020-06-18 17:51:02 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input Show time as"), findTestData("DBD Test Data/D8").getValue(11, 1)): Text 'Out of Office' is set on object 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:51:03 - [MESSAGE][PASSED] - Text 'Out of Office' is set on object 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:51:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("DBD repository/Page_Calendar/input Show time as"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:51:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/DBD repository/Page_Calendar/input Show time as'
+
+2020-06-18 17:51:03 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/Page_Calendar/input__description"), findTestData("DBD Test Data/D8").getValue(12, 1)): Text 'Anatomy of Ultraman' is set on object 'Object Repository/DBD repository/Page_Calendar/input__description'
+
+2020-06-18 17:51:04 - [MESSAGE][PASSED] - Text 'Anatomy of Ultraman' is set on object 'Object Repository/DBD repository/Page_Calendar/input__description'
+
+2020-06-18 17:51:04 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/Page_Calendar/button_Save acti")): Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on
+
+2020-06-18 17:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/Page_Calendar/button_Save acti' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-18 17:50:08 - [TEST_SUITE][FAILED] - Usecase10: Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 17-Add the Activity information in DBD Company with invalid information.run(17-Add the Activity information in DBD Company with invalid information:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592477406691.run(TempTestSuite1592477406691.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7916ff630ccb61879fc767fdb3d1f2bf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-18 17:50:08 - [TEST_SUITE][FAILED] - Usecase10: Test Cases/DBD Test Case/17-Add the Activity information in DBD Company with invalid information FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'RIS System' of object 'Object Repository/DBD repository/Page_Calendar/input assign to'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 17-Add the Activity information in DBD Company with invalid information.run(17-Add the Activity information in DBD Company with invalid information:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592477406691.run(TempTestSuite1592477406691.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7916ff630ccb61879fc767fdb3d1f2bf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

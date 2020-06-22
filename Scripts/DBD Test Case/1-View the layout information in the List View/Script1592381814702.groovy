@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://rthv1.opencloud.digital/')
+WebUI.openBrowser('http://crmc.opencloud.digital:64216/index.php')
 
 WebUI.setText(findTestObject('DBD repository/login/input_User name_username'), findTestData('DBD Test Data/D1').getValue(
         1, 1))
