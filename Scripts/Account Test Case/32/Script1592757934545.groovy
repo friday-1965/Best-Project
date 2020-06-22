@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input__c
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/stage opportunity'))
+WebUI.doubleClick(findTestObject('Account repository/Page_Opportunities (1)/stage opportunity'))
 
 WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input stage opportunity'), findTestData('Account Test Data/D19').getValue(
         5, 1))

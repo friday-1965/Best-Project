@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3" time="30.051" tests="3" failures="0" errors="0">
+   <testsuite name="3" tests="3" failures="0" errors="0" time="30.051" timestamp="2020-06-22 16:04:20" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Contact Usecase/3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200622_160418\\Contact Usecase\\3\\20200622_160418"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200622_160418\\Contact Usecase\\3\\20200622_160418\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.106"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="428a44278c4d45c81a10d6503878d921"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact Test Case/1" time="13.173" classname="Test Cases/Contact Test Case/1" status="PASSED">
+         <system-out><![CDATA[2020-06-22 16:04:20 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/1: Test Cases/Contact Test Case/1
+
+2020-06-22 16:04:21 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-22 16:04:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-22 16:04:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-22 16:04:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-22 16:04:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-22 16:04:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-22 16:04:27 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-22 16:04:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-22 16:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_Password_password"), findTestData("Contact Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-22 16:04:29 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-22 16:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Users/button_Sign in")): Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-22 16:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-22 16:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Home/strong_Contacts")): Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on
+
+2020-06-22 16:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/2" time="11.124" classname="Test Cases/Contact Test Case/2" status="PASSED">
+         <system-out><![CDATA[2020-06-22 16:04:33 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/2: Test Cases/Contact Test Case/2
+
+2020-06-22 16:04:34 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Contacts/input_First name contact search"), "Pumipat"): Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-22 16:04:34 - [MESSAGE][PASSED] - Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-22 16:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Search contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-22 16:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-22 16:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_ wiriya 2")): Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-22 16:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-22 16:04:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-22 16:04:45 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/3" time="4.837" classname="Test Cases/Contact Test Case/3" status="PASSED">
+         <system-out><![CDATA[2020-06-22 16:04:45 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/3: Test Cases/Contact Test Case/3
+
+2020-06-22 16:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Edit contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Edit contact' is clicked on
+
+2020-06-22 16:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Edit contact' is clicked on
+
+2020-06-22 16:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Save Edit contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Edit contact' is clicked on
+
+2020-06-22 16:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Edit contact' is clicked on
+
+2020-06-22 16:04:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-22 16:04:49 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-22 16:04:20 - [TEST_SUITE][PASSED] - 3: Test Cases/Contact Test Case/3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

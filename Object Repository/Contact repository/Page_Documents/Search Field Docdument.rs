@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_--None--</name>
+   <name>Search Field Docdument</name>
    <tag></tag>
-   <elementGuidId>f5bc7299-2225-4f5a-841d-b072bdf654d9</elementGuidId>
+   <elementGuidId>7e43d43f-631d-4d87-af6b-3540fc47259a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='selMDF_chzn']/a/span</value>
+         <value>//form[@id='EditView']/table/tbody/tr[2]/td[4]/div/span/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,52 +20,59 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>--None--</value>
+      <value>add-on relatedPopup cursorPointer</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;selMDF_chzn&quot;)/a[@class=&quot;chzn-single chzn-single-with-drop&quot;]/span[1]</value>
+      <value>id(&quot;EditView&quot;)/table[@class=&quot;table table-bordered blockContainer showInlineTable equalSplit&quot;]/tbody[1]/tr[2]/td[@class=&quot;fieldValue medium borderRedColor&quot;]/div[@class=&quot;row-fluid&quot;]/span[@class=&quot;span10&quot;]/div[@class=&quot;row-fluid input-prepend input-append&quot;]/span[@class=&quot;add-on relatedPopup cursorPointer&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='selMDF_chzn']/a/span</value>
+      <value>//form[@id='EditView']/table/tbody/tr[2]/td[4]/div/span/div/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GlobalContract'])[6]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='--None--'])[11]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elead'])[2]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suspect'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[2]/tbody/tr[2]/td[4]/div/a/span</value>
+      <value>//span/div/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>stage click opportunity</name>
+   <name>input_First name contact search</name>
    <tag></tag>
-   <elementGuidId>1fa5bb1a-e612-4d02-aff8-c4e0b245f6aa</elementGuidId>
+   <elementGuidId>43256d69-bcf3-4cab-a7ec-2e541585823e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='selMDF_chzn']</value>
+         <value>//input[@name='firstname']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>selMDF_chzn</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>firstname</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chzn-container chzn-container-single chzn-container-active</value>
+      <value>span9 listSearchContributor</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>value</name>
       <type>Main</type>
-      <value>--None----None--SuspectProspectApproachNegotiationClosingOrderLost</value>
+      <value>เกรียงศักดิ์</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-fieldinfo</name>
+      <type>Main</type>
+      <value>{&quot;mandatory&quot;:true,&quot;presence&quot;:true,&quot;quickcreate&quot;:true,&quot;masseditable&quot;:true,&quot;defaultvalue&quot;:false,&quot;type&quot;:&quot;string&quot;,&quot;name&quot;:&quot;firstname&quot;,&quot;label&quot;:&quot;First Name&quot;}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;selMDF_chzn&quot;)</value>
+      <value>id(&quot;listViewContents&quot;)/div[@class=&quot;listViewEntriesDiv contents-bottomscroll&quot;]/div[@class=&quot;bottomscroll-div&quot;]/table[@class=&quot;table table-bordered listViewEntriesTable&quot;]/tbody[1]/tr[1]/td[2]/div[@class=&quot;row-fluid&quot;]/input[@class=&quot;span9 listSearchContributor&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='selMDF_chzn']</value>
+      <value>//input[@name='firstname']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='EditView']/table[2]/tbody/tr[2]/td[4]/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::div[1]</value>
+      <value>//div[@id='listViewContents']/div[5]/div/table/tbody/tr/td[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[2]/tbody/tr[2]/td[4]/div</value>
+      <value>//td[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
