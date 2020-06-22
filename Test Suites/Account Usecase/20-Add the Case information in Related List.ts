@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>22-Select the Document information in Related List</name>
+   <name>20-Add the Case information in Related List</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,23 +9,29 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>1cdbacde-a44b-4625-8df0-aefe91082f99</testSuiteGuid>
+   <testSuiteGuid>9a28562b-8004-47ef-972c-e8430522b530</testSuiteGuid>
    <testCaseLink>
-      <guid>25bff5dd-e3fd-49c3-999d-fa9abe48b685</guid>
+      <guid>6d76d44a-eacb-46ec-a010-f62ea7153eef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Account Test Case/1-View the layout information in the List View</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1f63a2c-c2e3-4edb-b875-71d42d4a9d95</guid>
+      <guid>9613075f-fe93-400b-b55b-3e5fd244e60c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Account Test Case/5-View the Detail View information</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a9bc286b-064a-40af-b38a-662a525dff7b</guid>
+      <guid>389d8320-ae82-4e91-b7d8-18ce370a8e24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Account Test Case/49-Select the Document information in Related List</testCaseId>
+      <testCaseId>Test Cases/Account Test Case/45-Add the Case information in Related List with non information</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58a13132-445c-40d0-96d2-22e4fa8c32eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Account Test Case/43-Add the Case information in Related List with valid information</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

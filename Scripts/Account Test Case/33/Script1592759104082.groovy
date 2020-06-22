@@ -36,14 +36,7 @@ WebUI.switchToDefaultContent()
 WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input__closingdate opportunity'), findTestData('Account Test Data/D19').getValue(
         4, 1))
 
-WebUI.click(findTestObject('Page_Contacts/span_--None--'))
-
-WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input stage opportunity'), findTestData('Account Test Data/D19').getValue(
-        5, 1))
-
-WebUI.sendKeys(findTestObject('Account repository/Page_Opportunities (1)/input stage opportunity'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/clear opportunity'))
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/MC trade opportunity'))
 
@@ -51,6 +44,15 @@ WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input MC
         6, 1))
 
 WebUI.sendKeys(findTestObject('Account repository/Page_Opportunities (1)/input MC trade Opportunity'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/stage opportunity'))
+
+WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input stage opportunity'), findTestData('Account Test Data/D19').getValue(
+        5, 1))
+
+WebUI.sendKeys(findTestObject('Account repository/Page_Opportunities (1)/input stage opportunity'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/clear opportunity'))
 
 WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/sale type opportunity'))
 
