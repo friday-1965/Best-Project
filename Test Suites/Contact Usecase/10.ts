@@ -14,7 +14,7 @@
       <guid>47f1fcc7-9b0a-4836-ae0f-13fde1ae00d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Contact Test Case/1-View the layout information in the List View</testCaseId>
+      <testCaseId>Test Cases/Contact Test Case/1-for opportunity</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>26cb7698-8999-4244-984c-c3eb851416f3</guid>
@@ -29,13 +29,13 @@
       <testCaseId>Test Cases/Contact Test Case/13-View the Related List</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7330f1db-ac0d-4829-bfb4-d057c1367aa2</guid>
+      <guid>5c3d0a2a-1bf2-40d6-8d43-29091a33b92d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Contact Test Case/16</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>533f1310-36b9-40b0-bfed-db673237445c</guid>
+      <guid>5cf4d0de-2d10-4ad6-8b0d-c9c3aa5a2749</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Contact Test Case/14</testCaseId>

@@ -55,17 +55,6 @@ WebUI.setText(findTestObject('Account repository/Page_Accounts/input__Branch'), 
 WebUI.setText(findTestObject('Account repository/Page_Accounts/input__Purchasing'), findTestData('Account Test Data/D2').getValue(
         6, 1))
 
-WebUI.click(findTestObject('Account repository/Page_Accounts/company status'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Account repository/Page_Accounts/company status'))
-
-WebUI.setText(findTestObject('Account repository/Page_Accounts/input company status'), findTestData('Account Test Data/D2').getValue(
-        8, 1))
-
-WebUI.sendKeys(findTestObject('Account repository/Page_Accounts/input company status'), Keys.chord(Keys.ENTER))
-
 WebUI.setText(findTestObject('Account repository/Page_Accounts/input__phone'), findTestData('Account Test Data/D2').getValue(
         9, 1))
 

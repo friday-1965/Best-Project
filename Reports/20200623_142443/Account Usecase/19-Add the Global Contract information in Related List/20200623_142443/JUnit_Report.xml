@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="19-Add the Global Contract information in Related List" time="35.968" tests="4" failures="0" errors="0">
+   <testsuite name="19-Add the Global Contract information in Related List" tests="4" failures="0" errors="0" time="35.968" timestamp="2020-06-23 14:24:44" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/19-Add the Global Contract information in Related List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_142443\\Account Usecase\\19-Add the Global Contract information in Related List\\20200623_142443"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_142443\\Account Usecase\\19-Add the Global Contract information in Related List\\20200623_142443\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="b95a8c93fcc7e739729199ce994cd929"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.977" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:24:45 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-23 14:24:45 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:24:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:24:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:24:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:24:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:24:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:24:52 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:24:52 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:24:52 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:24:53 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-23 14:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="14.233" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:24:55 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-23 14:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:25:02 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:25:03 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-23 14:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/42-Add the Global Contract information in Related List with non information" time="2.468" classname="Test Cases/Account Test Case/42-Add the Global Contract information in Related List with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:25:09 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/42-Add the Global Contract information in Related List with non information: Test Cases/Account Test Case/42-Add the Global Contract information in Related List with non information
+
+2020-06-23 14:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/a_Global Contract  0")): Object: 'Object Repository/Account repository/Page_Accounts Related/a_Global Contract  0' is clicked on
+
+2020-06-23 14:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/a_Global Contract  0' is clicked on
+
+2020-06-23 14:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/button_Add Global Contract")): Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add Global Contract' is clicked on
+
+2020-06-23 14:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add Global Contract' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/41-Add the Global Contract information in Related List with valid information" time="8.338" classname="Test Cases/Account Test Case/41-Add the Global Contract information in Related List with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:25:11 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/41-Add the Global Contract information in Related List with valid information: Test Cases/Account Test Case/41-Add the Global Contract information in Related List with valid information
+
+2020-06-23 14:25:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:25:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:25:12 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_GlobalContract/search contact name Global")): Object: 'Object Repository/Account repository/Page_GlobalContract/search contact name Global' is clicked on
+
+2020-06-23 14:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_GlobalContract/search contact name Global' is clicked on
+
+2020-06-23 14:25:13 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2020-06-23 14:25:15 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2020-06-23 14:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/td_SFTPA")): Object: 'Object Repository/Account repository/Page_Accounts Related/td_SFTPA' is clicked on
+
+2020-06-23 14:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/td_SFTPA' is clicked on
+
+2020-06-23 14:25:15 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-23 14:25:17 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_GlobalContract/button_Save Global")): Object: 'Object Repository/Account repository/Page_GlobalContract/button_Save Global' is clicked on
+
+2020-06-23 14:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_GlobalContract/button_Save Global' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:24:44 - [TEST_SUITE][PASSED] - 19-Add the Global Contract information in Related List: Test Cases/Account Test Case/41-Add the Global Contract information in Related List with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

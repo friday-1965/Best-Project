@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="10-Transfer the Account information to new Ownership" time="30.858" tests="5" failures="0" errors="0">
+   <testsuite name="10-Transfer the Account information to new Ownership" tests="5" failures="0" errors="0" time="30.858" timestamp="2020-06-23 14:17:51" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/10-Transfer the Account information to new Ownership">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_141750\\Account Usecase\\10-Transfer the Account information to new Ownership\\20200623_141750"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_141750\\Account Usecase\\10-Transfer the Account information to new Ownership\\20200623_141750\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="77348f06640cb78aee3ec99e57633420"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.41" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:17:51 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-23 14:17:52 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:17:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:17:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:17:56 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:17:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:17:58 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:17:59 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:17:59 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:17:59 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-23 14:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="9.678" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:18:01 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-23 14:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:18:04 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:18:05 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-23 14:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/18-Transfer the Account information to new Ownership with non information" time="4.114" classname="Test Cases/Account Test Case/18-Transfer the Account information to new Ownership with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:18:11 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/18-Transfer the Account information to new Ownership with non information: Test Cases/Account Test Case/18-Transfer the Account information to new Ownership with non information
+
+2020-06-23 14:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_More account")): Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2020-06-23 14:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_More account' is clicked on
+
+2020-06-23 14:18:11 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/a_Transfer Ownership Account")): Object: 'Object Repository/Account repository/Page_Accounts/a_Transfer Ownership Account' is clicked on
+
+2020-06-23 14:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/a_Transfer Ownership Account' is clicked on
+
+2020-06-23 14:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Tranfer Owner")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2020-06-23 14:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2020-06-23 14:18:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:18:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:18:13 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/clear tranfer ownership")): Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2020-06-23 14:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2020-06-23 14:18:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:18:15 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/17-for test suite" time="2.343" classname="Test Cases/Account Test Case/17-for test suite" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:18:15 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/17-for test suite: Test Cases/Account Test Case/17-for test suite
+
+2020-06-23 14:18:15 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/Tranfer Assigned To")): Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2020-06-23 14:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2020-06-23 14:18:15 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input Tranfer"), findTestData("Account Test Data/D9").getValue(2, 1)): Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:16 - [MESSAGE][PASSED] - Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input Tranfer"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Tranfer Owner")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2020-06-23 14:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/16-for test suite" time="4.431" classname="Test Cases/Account Test Case/16-for test suite" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:18:17 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/16-for test suite: Test Cases/Account Test Case/16-for test suite
+
+2020-06-23 14:18:17 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused"), findTestData("Account Test Data/D9").getValue(1, 1)): Text 'Contacts' is set on object 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2020-06-23 14:18:18 - [MESSAGE][PASSED] - Text 'Contacts' is set on object 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2020-06-23 14:18:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2020-06-23 14:18:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input_Select Related Modules_select2-input select2-focused'
+
+2020-06-23 14:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/clear tranfer ownership")): Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2020-06-23 14:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/clear tranfer ownership' is clicked on
+
+2020-06-23 14:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/Tranfer Assigned To")): Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2020-06-23 14:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/Tranfer Assigned To' is clicked on
+
+2020-06-23 14:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input Tranfer"), findTestData("Account Test Data/D9").getValue(2, 1)): Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:20 - [MESSAGE][PASSED] - Text 'Charinee Senanarong' is set on object 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Account repository/Page_Accounts/input Tranfer"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Account repository/Page_Accounts/input Tranfer'
+
+2020-06-23 14:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save Tranfer Owner")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on
+
+2020-06-23 14:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save Tranfer Owner' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:17:51 - [TEST_SUITE][PASSED] - 10-Transfer the Account information to new Ownership: Test Cases/Account Test Case/16-for test suite]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

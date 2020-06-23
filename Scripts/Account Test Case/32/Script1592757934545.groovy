@@ -36,9 +36,9 @@ WebUI.switchToDefaultContent()
 WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input__closingdate opportunity'), findTestData('Account Test Data/D19').getValue(
         4, 1))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-WebUI.doubleClick(findTestObject('Account repository/Page_Opportunities (1)/stage opportunity'))
+WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/stage opportunity'))
 
 WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input stage opportunity'), findTestData('Account Test Data/D19').getValue(
         5, 1))
@@ -54,7 +54,7 @@ WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input MC
 
 WebUI.sendKeys(findTestObject('Account repository/Page_Opportunities (1)/input MC trade Opportunity'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/sale type opportunity'))
+WebUI.click(findTestObject('Contact repository/Page_Opportunities/Sale type'))
 
 WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input sale type opportunity'), findTestData('Account Test Data/D19').getValue(
         7, 1))
@@ -63,7 +63,11 @@ WebUI.sendKeys(findTestObject('Account repository/Page_Opportunities (1)/input s
 
 WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/input_Normal opportunity'))
 
-WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/input_Normal opportunity'))
+WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/input_Lot Order opportunity'))
+
+WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/lot order remove opportunity'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/lot order remove opportunity'))
 
@@ -73,7 +77,7 @@ WebUI.setText(findTestObject('Account repository/Page_Opportunities (1)/input lo
 WebUI.sendKeys(findTestObject('Account repository/Page_Opportunities (1)/input lot order remove opportunity'), Keys.chord(
         Keys.ENTER))
 
-WebUI.clickImage(findTestObject('Account repository/Page_Opportunities (1)/img_item name opportunity'))
+WebUI.click(findTestObject('Account repository/Page_Opportunities (1)/img_item name opportunity'))
 
 WebUI.switchToWindowTitle('Inventory')
 

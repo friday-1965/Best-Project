@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="10" time="61.97" tests="6" failures="1" errors="0">
+   <testsuite name="10" tests="6" failures="1" errors="0" time="61.97" timestamp="2020-06-23 12:57:26" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Contact Usecase/10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_125724\\Contact Usecase\\10\\20200623_125724"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_125724\\Contact Usecase\\10\\20200623_125724\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_125724\\Contact Usecase\\10\\20200623_125724\\1592891907077.png"/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="044e4d355b0d5b46bbd1d5dbf0e78242"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact Test Case/1-for opportunity" time="18.489" classname="Test Cases/Contact Test Case/1-for opportunity" status="PASSED">
+         <system-out><![CDATA[2020-06-23 12:57:26 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/1-for opportunity: Test Cases/Contact Test Case/1-for opportunity
+
+2020-06-23 12:57:26 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 12:57:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 12:57:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 12:57:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 12:57:30 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 12:57:31 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 12:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_Password_password"), findTestData("Contact Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 12:57:32 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 12:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Users/button_Sign in")): Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 12:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 12:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Home/strong_Contacts")): Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on
+
+2020-06-23 12:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/2-View the Detail View information" time="11.985" classname="Test Cases/Contact Test Case/2-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 12:57:44 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/2-View the Detail View information: Test Cases/Contact Test Case/2-View the Detail View information
+
+2020-06-23 12:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Contacts/input_First name contact search"), "Pumipat"): Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 12:57:45 - [MESSAGE][PASSED] - Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 12:57:45 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Search contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 12:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 12:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_ wiriya 2")): Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 12:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 12:57:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-23 12:57:56 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/13-View the Related List" time="0.475" classname="Test Cases/Contact Test Case/13-View the Related List" status="PASSED">
+         <system-out><![CDATA[2020-06-23 12:57:56 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/13-View the Related List: Test Cases/Contact Test Case/13-View the Related List
+
+2020-06-23 12:57:56 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_Opportunities  contact")): Object: 'Object Repository/Contact repository/Page_Contacts/a_Opportunities  contact' is clicked on
+
+2020-06-23 12:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_Opportunities  contact' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/16" time="3.076" classname="Test Cases/Contact Test Case/16" status="PASSED">
+         <system-out><![CDATA[2020-06-23 12:57:57 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/16: Test Cases/Contact Test Case/16
+
+2020-06-23 12:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Add Opportunity contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Add Opportunity contact' is clicked on
+
+2020-06-23 12:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Add Opportunity contact' is clicked on
+
+2020-06-23 12:57:59 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/button_Save Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on
+
+2020-06-23 12:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/15" time="12.209" classname="Test Cases/Contact Test Case/15" status="PASSED">
+         <system-out><![CDATA[2020-06-23 12:58:00 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/15: Test Cases/Contact Test Case/15
+
+2020-06-23 12:58:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 12:58:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 12:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 12:58:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 12:58:02 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__potentialname"), findTestData("Contact Test Data/D7").getValue(1, 1)): Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 12:58:03 - [MESSAGE][PASSED] - Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 12:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__closingdate"), findTestData("Contact Test Data/D7").getValue(4, 1)): Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 12:58:04 - [MESSAGE][PASSED] - Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 12:58:04 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:04 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Stage")): Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 12:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 12:58:04 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input stage"), findTestData("Contact Test Data/D7").getValue(5, 1)): Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:05 - [MESSAGE][PASSED] - Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input stage"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/MC trade")): Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 12:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 12:58:06 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), findTestData("Contact Test Data/D7").getValue(6, 1)): Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:07 - [MESSAGE][PASSED] - Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Sale type")): Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 12:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 12:58:08 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input sale type"), findTestData("Contact Test Data/D7").getValue(7, 1)): Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:09 - [MESSAGE][PASSED] - Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input sale type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Normal_cf_1392")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 12:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 12:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Lot Order Remove Reason")): Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 12:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 12:58:10 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), findTestData("Contact Test Data/D7").getValue(8, 1)): Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 12:58:11 - [MESSAGE][PASSED] - Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 12:58:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 12:58:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 12:58:11 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/button_Save Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on
+
+2020-06-23 12:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/14" time="14.874" classname="Test Cases/Contact Test Case/14" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 14.run(14:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592891844442.run(TempTestSuite1592891844442.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 044e4d355b0d5b46bbd1d5dbf0e78242
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-23 12:58:12 - [TEST_CASE][FAILED] - Test Cases/Contact Test Case/14: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 14.run(14:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592891844442.run(TempTestSuite1592891844442.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 044e4d355b0d5b46bbd1d5dbf0e78242
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-23 12:58:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 12:58:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 12:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 12:58:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 12:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__potentialname"), findTestData("Contact Test Data/D7").getValue(1, 1)): Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 12:58:15 - [MESSAGE][PASSED] - Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 12:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__closingdate"), findTestData("Contact Test Data/D7").getValue(4, 1)): Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 12:58:16 - [MESSAGE][PASSED] - Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 12:58:16 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 12:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Stage")): Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 12:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 12:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input stage"), findTestData("Contact Test Data/D7").getValue(5, 1)): Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:18 - [MESSAGE][PASSED] - Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input stage"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 12:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/MC trade")): Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 12:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 12:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), findTestData("Contact Test Data/D7").getValue(6, 1)): Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:20 - [MESSAGE][PASSED] - Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 12:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Sale type")): Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 12:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 12:58:21 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input sale type"), findTestData("Contact Test Data/D7").getValue(7, 1)): Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:22 - [MESSAGE][PASSED] - Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input sale type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 12:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Normal_cf_1392")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 12:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 12:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Lot Order Remove Reason")): Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 12:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 12:58:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-23 12:58:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-06-23 12:58:26 - [TEST_STEP][FAILED] - setText(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), findTestData("Contact Test Data/D7").getValue(8, 1)): Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 14.run(14:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592891844442.run(TempTestSuite1592891844442.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 044e4d355b0d5b46bbd1d5dbf0e78242
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1592817135044.run(Script1592817135044.groovy:60)
+	... 13 more
+)
+
+2020-06-23 12:58:27 - [MESSAGE][FAILED] - Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 14.run(14:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592891844442.run(TempTestSuite1592891844442.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 044e4d355b0d5b46bbd1d5dbf0e78242
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1592817135044.run(Script1592817135044.groovy:60)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_125724\\Contact Usecase\\10\\20200623_125724\\1592891907077.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-23 12:58:12 - [TEST_CASE][FAILED] - Test Cases/Contact Test Case/14: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 14.run(14:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592891844442.run(TempTestSuite1592891844442.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 044e4d355b0d5b46bbd1d5dbf0e78242
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 12:57:26 - [TEST_SUITE][FAILED] - 10: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 14.run(14:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592891844442.run(TempTestSuite1592891844442.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 044e4d355b0d5b46bbd1d5dbf0e78242
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-23 12:57:26 - [TEST_SUITE][FAILED] - 10: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'True' of object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 14.run(14:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592891844442.run(TempTestSuite1592891844442.groovy:37)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-0NVCT6K', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\WIN10\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 044e4d355b0d5b46bbd1d5dbf0e78242
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

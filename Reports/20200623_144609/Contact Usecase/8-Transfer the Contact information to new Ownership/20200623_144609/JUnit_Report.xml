@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="8-Transfer the Contact information to new Ownership" time="32.116" tests="5" failures="0" errors="0">
+   <testsuite name="8-Transfer the Contact information to new Ownership" tests="5" failures="0" errors="0" time="32.116" timestamp="2020-06-23 14:46:11" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Contact Usecase/8-Transfer the Contact information to new Ownership">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_144609\\Contact Usecase\\8-Transfer the Contact information to new Ownership\\20200623_144609"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_144609\\Contact Usecase\\8-Transfer the Contact information to new Ownership\\20200623_144609\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="769487dd3ae5f2225a0978a7a5b1e363"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact Test Case/1-View the layout information in the List View" time="15.305" classname="Test Cases/Contact Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:46:11 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/1-View the layout information in the List View: Test Cases/Contact Test Case/1-View the layout information in the List View
+
+2020-06-23 14:46:12 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:46:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:46:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:46:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:46:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:46:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 14:46:19 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 14:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_Password_password"), findTestData("Contact Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 14:46:19 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 14:46:19 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Users/button_Sign in")): Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 14:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 14:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Home/strong_Contacts")): Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on
+
+2020-06-23 14:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/2-View the Detail View information" time="10.122" classname="Test Cases/Contact Test Case/2-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:46:27 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/2-View the Detail View information: Test Cases/Contact Test Case/2-View the Detail View information
+
+2020-06-23 14:46:27 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Contacts/input_First name contact search"), "Pumipat"): Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 14:46:28 - [MESSAGE][PASSED] - Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 14:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Search contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 14:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 14:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_ wiriya 2")): Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 14:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 14:46:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-23 14:46:37 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/12-Transfer the Contact information to new Ownership with non information" time="1.497" classname="Test Cases/Contact Test Case/12-Transfer the Contact information to new Ownership with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:46:37 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/12-Transfer the Contact information to new Ownership with non information: Test Cases/Contact Test Case/12-Transfer the Contact information to new Ownership with non information
+
+2020-06-23 14:46:37 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_More Contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_More Contact' is clicked on
+
+2020-06-23 14:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_More Contact' is clicked on
+
+2020-06-23 14:46:37 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_Transfer Ownership Contact")): Object: 'Object Repository/Contact repository/Page_Contacts/a_Transfer Ownership Contact' is clicked on
+
+2020-06-23 14:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_Transfer Ownership Contact' is clicked on
+
+2020-06-23 14:46:37 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Save Transfer contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Transfer contact' is clicked on
+
+2020-06-23 14:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Transfer contact' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/11-Transfer the Contact information to new Ownership with invalid information" time="2.444" classname="Test Cases/Contact Test Case/11-Transfer the Contact information to new Ownership with invalid information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:46:38 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/11-Transfer the Contact information to new Ownership with invalid information: Test Cases/Contact Test Case/11-Transfer the Contact information to new Ownership with invalid information
+
+2020-06-23 14:46:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-06-23 14:46:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-06-23 14:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Save Transfer contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Transfer contact' is clicked on
+
+2020-06-23 14:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Transfer contact' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/10-Transfer the Contact information to new Ownership with valid information" time="1.838" classname="Test Cases/Contact Test Case/10-Transfer the Contact information to new Ownership with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:46:41 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/10-Transfer the Contact information to new Ownership with valid information: Test Cases/Contact Test Case/10-Transfer the Contact information to new Ownership with valid information
+
+2020-06-23 14:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Contacts/Select Related Modules Transfer"), findTestData("Contact Test Data/D5").getValue(1, 1)): Text 'Contact' is set on object 'Object Repository/Contact repository/Page_Contacts/Select Related Modules Transfer'
+
+2020-06-23 14:46:42 - [MESSAGE][PASSED] - Text 'Contact' is set on object 'Object Repository/Contact repository/Page_Contacts/Select Related Modules Transfer'
+
+2020-06-23 14:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Save Transfer contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Transfer contact' is clicked on
+
+2020-06-23 14:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Save Transfer contact' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:46:11 - [TEST_SUITE][PASSED] - 8-Transfer the Contact information to new Ownership: Test Cases/Contact Test Case/10-Transfer the Contact information to new Ownership with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

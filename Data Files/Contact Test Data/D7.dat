@@ -8,7 +8,7 @@
    <dataFileGUID>0d14749b-a726-40a3-bd84-3b83865ea457</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%AD%E0%B8%A2 %E0%B8%90%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97+%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%A1%E0%B9%84%E0%B8%AD%E0%B8%94%E0%B8%B5+%E0%B8%94%E0%B8%B5%E0%B8%AA%E0%B8%97%E0%B8%A3%E0%B8%B4%E0%B8%9A%E0%B8%B7%E0%B8%A7%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99+%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94 %E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B4%E0%B8%A1%E0%B8%B2 01%2F02%2F2020 Prospect O+to+R Leasing True Dropped</data>
+   <data>%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%AD%E0%B8%A2 %E0%B8%90%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97+%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%A1%E0%B9%84%E0%B8%AD%E0%B8%94%E0%B8%B5+%E0%B8%94%E0%B8%B5%E0%B8%AA%E0%B8%97%E0%B8%A3%E0%B8%B4%E0%B8%9A%E0%B8%B7%E0%B8%A7%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99+%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94 %E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B4%E0%B8%A1%E0%B8%B2 01%2F02%2F2020 Prospect O+to+R Leasing True Dropped Acer New A 1 15000</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>Opportunity Name</name>
@@ -52,6 +52,31 @@
    <internalDataColumns>
       <columnIndex>8</columnIndex>
       <name>Lot Order Remove Reason</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>Item Name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>StatusM/C</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>Configuration</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>12</columnIndex>
+      <name>Quantity</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>13</columnIndex>
+      <name>List Price</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

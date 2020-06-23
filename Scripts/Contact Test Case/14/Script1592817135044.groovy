@@ -32,21 +32,19 @@ WebUI.click(findTestObject('Contact repository/Page_Opportunities/Clear Opportun
 
 WebUI.click(findTestObject('Contact repository/Page_Opportunities/Stage'))
 
-WebUI.click(findTestObject('Page_Opportunities/span_--None--'))
-
 WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input stage'), findTestData('Contact Test Data/D7').getValue(
         5, 1))
 
 WebUI.sendKeys(findTestObject('Contact repository/Page_Opportunities/input stage'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Contact repository/Page_Opportunities/b MC trade'))
+WebUI.click(findTestObject('Contact repository/Page_Opportunities/MC trade'))
 
 WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input MC Trade'), findTestData('Contact Test Data/D7').getValue(
         6, 1))
 
 WebUI.sendKeys(findTestObject('Contact repository/Page_Opportunities/input MC Trade'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Contact repository/Page_Opportunities/b sale type'))
+WebUI.click(findTestObject('Contact repository/Page_Opportunities/Sale type'))
 
 WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input sale type'), findTestData('Contact Test Data/D7').getValue(
         7, 1))
@@ -57,12 +55,34 @@ WebUI.click(findTestObject('Contact repository/Page_Opportunities/input_Normal_c
 
 WebUI.click(findTestObject('Contact repository/Page_Opportunities/input_Lot Order_cf_1388'))
 
-WebUI.click(findTestObject('Contact repository/Page_Opportunities/b Lot Order Remove Reason'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Contact repository/Page_Opportunities/Lot Order Remove Reason'))
 
 WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input Lot Order Remove Reason'), findTestData('Contact Test Data/D7').getValue(
         8, 1))
 
 WebUI.sendKeys(findTestObject('Contact repository/Page_Opportunities/input Lot Order Remove Reason'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('Page_Opportunities/input_E_productName1'), findTestData('Contact Test Data/D7').getValue(9, 
+        1))
+
+WebUI.click(findTestObject('Contact repository/Page_Opportunities/status MC'))
+
+WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input status MC'), findTestData('Contact Test Data/D7').getValue(
+        10, 1))
+
+WebUI.sendKeys(findTestObject('Contact repository/Page_Opportunities/input status MC'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Contact repository/Page_Opportunities/Configuration'))
+
+WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input Configuration'), findTestData('Contact Test Data/D7').getValue(
+        11, 1))
+
+WebUI.sendKeys(findTestObject('Contact repository/Page_Opportunities/input Configuration'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input_E_listPrice1'), findTestData('Contact Test Data/D7').getValue(
+        12, 1))
 
 WebUI.click(findTestObject('Contact repository/Page_Opportunities/button_Save Opportunity'))
 

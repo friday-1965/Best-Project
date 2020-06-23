@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="14-Add the Sale Entry information in Related List" time="30.902" tests="4" failures="0" errors="0">
+   <testsuite name="14-Add the Sale Entry information in Related List" tests="4" failures="0" errors="0" time="30.902" timestamp="2020-06-23 14:21:05" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/14-Add the Sale Entry information in Related List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_142104\\Account Usecase\\14-Add the Sale Entry information in Related List\\20200623_142104"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_142104\\Account Usecase\\14-Add the Sale Entry information in Related List\\20200623_142104\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="9464d589aee306d248a747f784eafb64"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.521" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:21:06 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-23 14:21:06 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:21:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:21:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:21:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:21:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:21:12 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:21:12 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:21:13 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:21:13 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:21:14 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:21:14 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-23 14:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="11.304" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:21:15 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-23 14:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:21:19 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:21:20 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:21:20 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:21:20 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-23 14:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/28-Add the Sale Entry information in Related List with non information" time="5.274" classname="Test Cases/Account Test Case/28-Add the Sale Entry information in Related List with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:21:27 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/28-Add the Sale Entry information in Related List with non information: Test Cases/Account Test Case/28-Add the Sale Entry information in Related List with non information
+
+2020-06-23 14:21:27 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/a_Sale Entries  1")): Object: 'Object Repository/Account repository/Page_Accounts Related/a_Sale Entries  1' is clicked on
+
+2020-06-23 14:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/a_Sale Entries  1' is clicked on
+
+2020-06-23 14:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/button_Add Sale Entry")): Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add Sale Entry' is clicked on
+
+2020-06-23 14:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add Sale Entry' is clicked on
+
+2020-06-23 14:21:30 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Sale Entry/input__saleentries"), ""): Text '' is set on object 'Object Repository/Account repository/Page_Sale Entry/input__saleentries'
+
+2020-06-23 14:21:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Account repository/Page_Sale Entry/input__saleentries'
+
+2020-06-23 14:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Sale Entry/button_Save")): Object: 'Object Repository/Account repository/Page_Sale Entry/button_Save' is clicked on
+
+2020-06-23 14:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Sale Entry/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/26-Add the Sale Entry information in Related List with valid information" time="3.948" classname="Test Cases/Account Test Case/26-Add the Sale Entry information in Related List with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:21:32 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/26-Add the Sale Entry information in Related List with valid information: Test Cases/Account Test Case/26-Add the Sale Entry information in Related List with valid information
+
+2020-06-23 14:21:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:21:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Sale Entry/clear sale entry")): Object: 'Object Repository/Account repository/Page_Sale Entry/clear sale entry' is clicked on
+
+2020-06-23 14:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Sale Entry/clear sale entry' is clicked on
+
+2020-06-23 14:21:33 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Sale Entry/input__saleentries"), findTestData("Account Test Data/D15").getValue(2, 1)): Text 'SE-592115023' is set on object 'Object Repository/Account repository/Page_Sale Entry/input__saleentries'
+
+2020-06-23 14:21:34 - [MESSAGE][PASSED] - Text 'SE-592115023' is set on object 'Object Repository/Account repository/Page_Sale Entry/input__saleentries'
+
+2020-06-23 14:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Sale Entry/button_Save")): Object: 'Object Repository/Account repository/Page_Sale Entry/button_Save' is clicked on
+
+2020-06-23 14:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Sale Entry/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:21:05 - [TEST_SUITE][PASSED] - 14-Add the Sale Entry information in Related List: Test Cases/Account Test Case/26-Add the Sale Entry information in Related List with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

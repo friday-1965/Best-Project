@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="5-Request edit the Account information" time="28.263" tests="3" failures="0" errors="0">
+   <testsuite name="5-Request edit the Account information" tests="3" failures="0" errors="0" time="28.263" timestamp="2020-06-23 14:14:55" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/5-Request edit the Account information">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_141454\\Account Usecase\\5-Request edit the Account information\\20200623_141454"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_141454\\Account Usecase\\5-Request edit the Account information\\20200623_141454\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="3727554bc3cc9016e2824cd5d84b5d39"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.452" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:14:56 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-23 14:14:56 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:14:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:14:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:15:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:15:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:15:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:15:02 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:15:03 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:15:03 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:15:04 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-23 14:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="11.711" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:15:05 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-23 14:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:15:11 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:15:12 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:15:12 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:15:12 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-23 14:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/8-Request edit the Account information with invalid information" time="6.189" classname="Test Cases/Account Test Case/8-Request edit the Account information with invalid information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:15:17 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/8-Request edit the Account information with invalid information: Test Cases/Account Test Case/8-Request edit the Account information with invalid information
+
+2020-06-23 14:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Request Edit Account")): Object: 'Object Repository/Account repository/Page_Accounts/button_Request Edit Account' is clicked on
+
+2020-06-23 14:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Request Edit Account' is clicked on
+
+2020-06-23 14:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save request edit")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save request edit' is clicked on
+
+2020-06-23 14:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save request edit' is clicked on
+
+2020-06-23 14:15:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:15:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/input__Remark"), findTestData("Account Test Data/D5").getValue(2, 1)): Text 'Wrong selection' is set on object 'Object Repository/Account repository/Page_Accounts/input__Remark'
+
+2020-06-23 14:15:21 - [MESSAGE][PASSED] - Text 'Wrong selection' is set on object 'Object Repository/Account repository/Page_Accounts/input__Remark'
+
+2020-06-23 14:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Save request edit")): Object: 'Object Repository/Account repository/Page_Accounts/button_Save request edit' is clicked on
+
+2020-06-23 14:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Save request edit' is clicked on
+
+2020-06-23 14:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/request edit a_Yes")): Object: 'Object Repository/Account repository/Page_Accounts/request edit a_Yes' is clicked on
+
+2020-06-23 14:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/request edit a_Yes' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:14:55 - [TEST_SUITE][PASSED] - 5-Request edit the Account information: Test Cases/Account Test Case/8-Request edit the Account information with invalid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="10" time="44.266" tests="5" failures="0" errors="0">
+   <testsuite name="10" tests="5" failures="0" errors="0" time="44.266" timestamp="2020-06-23 14:47:57" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Contact Usecase/10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_144755\\Contact Usecase\\10\\20200623_144755"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_144755\\Contact Usecase\\10\\20200623_144755\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="baba813cc889d6b9276b1fb39fd1802c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact Test Case/1-for opportunity" time="10.986" classname="Test Cases/Contact Test Case/1-for opportunity" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:47:57 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/1-for opportunity: Test Cases/Contact Test Case/1-for opportunity
+
+2020-06-23 14:47:58 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:47:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:47:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:48:02 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:48:02 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 14:48:03 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 14:48:03 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_Password_password"), findTestData("Contact Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 14:48:04 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 14:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Users/button_Sign in")): Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 14:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 14:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Home/strong_Contacts")): Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on
+
+2020-06-23 14:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/2-View the Detail View information" time="10.65" classname="Test Cases/Contact Test Case/2-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:48:08 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/2-View the Detail View information: Test Cases/Contact Test Case/2-View the Detail View information
+
+2020-06-23 14:48:09 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Contacts/input_First name contact search"), "Pumipat"): Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 14:48:09 - [MESSAGE][PASSED] - Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 14:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Search contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 14:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 14:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_ wiriya 2")): Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 14:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 14:48:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-23 14:48:19 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/13-View the Related List" time="0.458" classname="Test Cases/Contact Test Case/13-View the Related List" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:48:19 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/13-View the Related List: Test Cases/Contact Test Case/13-View the Related List
+
+2020-06-23 14:48:19 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_Opportunities  contact")): Object: 'Object Repository/Contact repository/Page_Contacts/a_Opportunities  contact' is clicked on
+
+2020-06-23 14:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_Opportunities  contact' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/16" time="2.993" classname="Test Cases/Contact Test Case/16" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:48:19 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/16: Test Cases/Contact Test Case/16
+
+2020-06-23 14:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Add Opportunity contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Add Opportunity contact' is clicked on
+
+2020-06-23 14:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Add Opportunity contact' is clicked on
+
+2020-06-23 14:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/button_Save Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on
+
+2020-06-23 14:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/14" time="18.302" classname="Test Cases/Contact Test Case/14" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:48:22 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/14: Test Cases/Contact Test Case/14
+
+2020-06-23 14:48:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:48:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 14:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 14:48:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:48:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__potentialname"), findTestData("Contact Test Data/D7").getValue(1, 1)): Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 14:48:26 - [MESSAGE][PASSED] - Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 14:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__closingdate"), findTestData("Contact Test Data/D7").getValue(4, 1)): Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 14:48:26 - [MESSAGE][PASSED] - Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 14:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 14:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 14:48:27 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Stage")): Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 14:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 14:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input stage"), findTestData("Contact Test Data/D7").getValue(5, 1)): Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 14:48:28 - [MESSAGE][PASSED] - Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 14:48:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input stage"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 14:48:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 14:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/MC trade")): Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 14:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 14:48:29 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), findTestData("Contact Test Data/D7").getValue(6, 1)): Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 14:48:30 - [MESSAGE][PASSED] - Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 14:48:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 14:48:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 14:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Sale type")): Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 14:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 14:48:31 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input sale type"), findTestData("Contact Test Data/D7").getValue(7, 1)): Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 14:48:32 - [MESSAGE][PASSED] - Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 14:48:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input sale type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 14:48:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 14:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Normal_cf_1392")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 14:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 14:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Lot Order_cf_1388")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Lot Order_cf_1388' is clicked on
+
+2020-06-23 14:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Lot Order_cf_1388' is clicked on
+
+2020-06-23 14:48:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:48:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Lot Order Remove Reason")): Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 14:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 14:48:34 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), findTestData("Contact Test Data/D7").getValue(8, 1)): Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 14:48:35 - [MESSAGE][PASSED] - Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 14:48:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 14:48:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 14:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/status MC")): Object: 'Object Repository/Contact repository/Page_Opportunities/status MC' is clicked on
+
+2020-06-23 14:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/status MC' is clicked on
+
+2020-06-23 14:48:36 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input status MC"), findTestData("Contact Test Data/D7").getValue(10, 1)): Text 'Acer' is set on object 'Object Repository/Contact repository/Page_Opportunities/input status MC'
+
+2020-06-23 14:48:37 - [MESSAGE][PASSED] - Text 'Acer' is set on object 'Object Repository/Contact repository/Page_Opportunities/input status MC'
+
+2020-06-23 14:48:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input status MC"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input status MC'
+
+2020-06-23 14:48:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input status MC'
+
+2020-06-23 14:48:38 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Configuration")): Object: 'Object Repository/Contact repository/Page_Opportunities/Configuration' is clicked on
+
+2020-06-23 14:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Configuration' is clicked on
+
+2020-06-23 14:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input Configuration"), findTestData("Contact Test Data/D7").getValue(11, 1)): Text 'New' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Configuration'
+
+2020-06-23 14:48:39 - [MESSAGE][PASSED] - Text 'New' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Configuration'
+
+2020-06-23 14:48:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input Configuration"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Configuration'
+
+2020-06-23 14:48:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Configuration'
+
+2020-06-23 14:48:39 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input_E_listPrice1"), findTestData("Contact Test Data/D7").getValue(12, 1)): Text 'A' is set on object 'Object Repository/Contact repository/Page_Opportunities/input_E_listPrice1'
+
+2020-06-23 14:48:40 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/Contact repository/Page_Opportunities/input_E_listPrice1'
+
+2020-06-23 14:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/button_Save Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on
+
+2020-06-23 14:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:47:57 - [TEST_SUITE][PASSED] - 10: Test Cases/Contact Test Case/14]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

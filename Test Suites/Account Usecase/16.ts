@@ -14,7 +14,7 @@
       <guid>23047f2b-03d3-4705-a560-1850109b8483</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Account Test Case/1-View the layout information in the List View</testCaseId>
+      <testCaseId>Test Cases/Contact Test Case/1-for opportunity</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b342ec25-a833-4984-b7e0-40b58ba3c807</guid>

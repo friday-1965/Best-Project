@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="7-Add new Document information to Contact" time="41.398" tests="5" failures="0" errors="0">
+   <testsuite name="7-Add new Document information to Contact" tests="5" failures="0" errors="0" time="41.398" timestamp="2020-06-23 14:45:21" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Contact Usecase/7-Add new Document information to Contact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_144519\\Contact Usecase\\7-Add new Document information to Contact\\20200623_144519"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_144519\\Contact Usecase\\7-Add new Document information to Contact\\20200623_144519\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="ab65e319f98afcbb9a1c138085b0b61a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact Test Case/1-View the layout information in the List View" time="15.149" classname="Test Cases/Contact Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:45:21 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/1-View the layout information in the List View: Test Cases/Contact Test Case/1-View the layout information in the List View
+
+2020-06-23 14:45:21 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:45:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:45:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:45:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:45:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:45:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 14:45:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 14:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_Password_password"), findTestData("Contact Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 14:45:29 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 14:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Users/button_Sign in")): Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 14:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 14:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Home/strong_Contacts")): Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on
+
+2020-06-23 14:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/2-View the Detail View information" time="10.649" classname="Test Cases/Contact Test Case/2-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:45:36 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/2-View the Detail View information: Test Cases/Contact Test Case/2-View the Detail View information
+
+2020-06-23 14:45:36 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Contacts/input_First name contact search"), "Pumipat"): Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 14:45:37 - [MESSAGE][PASSED] - Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 14:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Search contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 14:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 14:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_ wiriya 2")): Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 14:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 14:45:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-23 14:45:47 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/9-Add new Document information to Contact with non information" time="2.024" classname="Test Cases/Contact Test Case/9-Add new Document information to Contact with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:45:47 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/9-Add new Document information to Contact with non information: Test Cases/Contact Test Case/9-Add new Document information to Contact with non information
+
+2020-06-23 14:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_More Contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_More Contact' is clicked on
+
+2020-06-23 14:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_More Contact' is clicked on
+
+2020-06-23 14:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_Add Document Contact")): Object: 'Object Repository/Contact repository/Page_Contacts/a_Add Document Contact' is clicked on
+
+2020-06-23 14:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_Add Document Contact' is clicked on
+
+2020-06-23 14:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Documents/button_Save Document")): Object: 'Object Repository/Contact repository/Page_Documents/button_Save Document' is clicked on
+
+2020-06-23 14:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Documents/button_Save Document' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/8-Add new Document information to Contact with invalid information" time="2.289" classname="Test Cases/Contact Test Case/8-Add new Document information to Contact with invalid information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:45:49 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/8-Add new Document information to Contact with invalid information: Test Cases/Contact Test Case/8-Add new Document information to Contact with invalid information
+
+2020-06-23 14:45:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:45:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:45:50 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Documents/input__notes_title"), findTestData("Contact Test Data/D3").getValue(1, 1)): Text 'Document Test' is set on object 'Object Repository/Contact repository/Page_Documents/input__notes_title'
+
+2020-06-23 14:45:50 - [MESSAGE][PASSED] - Text 'Document Test' is set on object 'Object Repository/Contact repository/Page_Documents/input__notes_title'
+
+2020-06-23 14:45:50 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Documents/button_Save Document")): Object: 'Object Repository/Contact repository/Page_Documents/button_Save Document' is clicked on
+
+2020-06-23 14:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Documents/button_Save Document' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/7-Add new Document information to Contact with valid information" time="10.431" classname="Test Cases/Contact Test Case/7-Add new Document information to Contact with valid information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:45:51 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/7-Add new Document information to Contact with valid information: Test Cases/Contact Test Case/7-Add new Document information to Contact with valid information
+
+2020-06-23 14:45:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 14:45:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 14:45:52 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Documents/input__notes_title"), findTestData("Contact Test Data/D3").getValue(1, 1)): Text 'Document Test' is set on object 'Object Repository/Contact repository/Page_Documents/input__notes_title'
+
+2020-06-23 14:45:53 - [MESSAGE][PASSED] - Text 'Document Test' is set on object 'Object Repository/Contact repository/Page_Documents/input__notes_title'
+
+2020-06-23 14:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Documents/b select")): Object: 'Object Repository/Contact repository/Page_Documents/b select' is clicked on
+
+2020-06-23 14:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Documents/b select' is clicked on
+
+2020-06-23 14:45:53 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Documents/input b select"), findTestData("Contact Test Data/D3").getValue(3, 1)): Text 'Account' is set on object 'Object Repository/Contact repository/Page_Documents/input b select'
+
+2020-06-23 14:45:55 - [MESSAGE][PASSED] - Text 'Account' is set on object 'Object Repository/Contact repository/Page_Documents/input b select'
+
+2020-06-23 14:45:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Documents/input b select"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Documents/input b select'
+
+2020-06-23 14:45:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Documents/input b select'
+
+2020-06-23 14:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Documents/Search Field Docdument")): Object: 'Object Repository/Contact repository/Page_Documents/Search Field Docdument' is clicked on
+
+2020-06-23 14:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Documents/Search Field Docdument' is clicked on
+
+2020-06-23 14:45:56 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2020-06-23 14:45:58 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2020-06-23 14:45:58 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Accounts/td_  sirinrut")): Object: 'Object Repository/Contact repository/Page_Accounts/td_  sirinrut' is clicked on
+
+2020-06-23 14:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Accounts/td_  sirinrut' is clicked on
+
+2020-06-23 14:45:58 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-23 14:46:00 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Documents/button_Save Document")): Object: 'Object Repository/Contact repository/Page_Documents/button_Save Document' is clicked on
+
+2020-06-23 14:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Documents/button_Save Document' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:45:21 - [TEST_SUITE][PASSED] - 7-Add new Document information to Contact: Test Cases/Contact Test Case/7-Add new Document information to Contact with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

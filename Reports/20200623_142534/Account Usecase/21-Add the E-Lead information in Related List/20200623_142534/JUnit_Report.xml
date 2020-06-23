@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="21-Add the E-Lead information in Related List" time="27.352" tests="3" failures="0" errors="0">
+   <testsuite name="21-Add the E-Lead information in Related List" tests="3" failures="0" errors="0" time="27.352" timestamp="2020-06-23 14:25:35" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Account Usecase/21-Add the E-Lead information in Related List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_142534\\Account Usecase\\21-Add the E-Lead information in Related List\\20200623_142534"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_142534\\Account Usecase\\21-Add the E-Lead information in Related List\\20200623_142534\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="30bc07174787773550d9951e6c2ec7dd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Account Test Case/1-View the layout information in the List View" time="9.615" classname="Test Cases/Account Test Case/1-View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:25:35 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/1-View the layout information in the List View: Test Cases/Account Test Case/1-View the layout information in the List View
+
+2020-06-23 14:25:36 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:25:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 14:25:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 14:25:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 14:25:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-23 14:25:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-23 14:25:42 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Account Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:25:43 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-06-23 14:25:43 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Account Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:25:44 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-06-23 14:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-06-23 14:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/5-View the Detail View information" time="11.991" classname="Test Cases/Account Test Case/5-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:25:45 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/5-View the Detail View information: Test Cases/Account Test Case/5-View the Detail View information
+
+2020-06-23 14:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Home/strong_Accounts")): Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-23 14:25:51 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Page_Accounts/Search Account Name"), findTestData("Account Test Data/D4").getValue(1, 1)): Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:25:52 - [MESSAGE][PASSED] - Text 'บริษัท วี จี ไอ โกลบอล มีเดีย จำกัด (มหาชน) ' is set on object 'Object Repository/Account repository/Page_Accounts/Search Account Name'
+
+2020-06-23 14:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/button_Search")): Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/button_Search' is clicked on
+
+2020-06-23 14:25:52 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts/click v g o")): Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on
+
+2020-06-23 14:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts/click v g o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Test Case/48-Add the E-Lead information in Related List with non information" time="5.473" classname="Test Cases/Account Test Case/48-Add the E-Lead information in Related List with non information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 14:25:57 - [TEST_CASE][PASSED] - Test Cases/Account Test Case/48-Add the E-Lead information in Related List with non information: Test Cases/Account Test Case/48-Add the E-Lead information in Related List with non information
+
+2020-06-23 14:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/a_E-Lead  0")): Object: 'Object Repository/Account repository/Page_Accounts Related/a_E-Lead  0' is clicked on
+
+2020-06-23 14:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/a_E-Lead  0' is clicked on
+
+2020-06-23 14:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Page_Accounts Related/button_Add E-Lead")): Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add E-Lead' is clicked on
+
+2020-06-23 14:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Page_Accounts Related/button_Add E-Lead' is clicked on
+
+2020-06-23 14:26:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-06-23 14:26:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-06-23 14:26:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-06-23 14:26:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 14:25:35 - [TEST_SUITE][PASSED] - 21-Add the E-Lead information in Related List: Test Cases/Account Test Case/48-Add the E-Lead information in Related List with non information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

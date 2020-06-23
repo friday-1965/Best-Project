@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="10" time="95.521" tests="6" failures="1" errors="0">
+   <testsuite name="10" tests="6" failures="1" errors="0" time="95.521" timestamp="2020-06-23 13:22:57" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Contact Usecase/10">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_132255\\Contact Usecase\\10\\20200623_132255"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_132255\\Contact Usecase\\10\\20200623_132255\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_132255\\Contact Usecase\\10\\20200623_132255\\1592893471629.png, C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_132255\\Contact Usecase\\10\\20200623_132255\\1592893471916.png"/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="4c0c44f803bc1e92dff3dc7d6e754ceb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Contact Test Case/1-for opportunity" time="14.651" classname="Test Cases/Contact Test Case/1-for opportunity" status="PASSED">
+         <system-out><![CDATA[2020-06-23 13:22:57 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/1-for opportunity: Test Cases/Contact Test Case/1-for opportunity
+
+2020-06-23 13:22:57 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 13:22:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-23 13:22:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-23 13:23:02 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-23 13:23:02 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 13:23:03 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Contact repository/Page_Users/input_User name_username'
+
+2020-06-23 13:23:03 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Users/input_Password_password"), findTestData("Contact Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 13:23:03 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Contact repository/Page_Users/input_Password_password'
+
+2020-06-23 13:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Users/button_Sign in")): Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 13:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Users/button_Sign in' is clicked on
+
+2020-06-23 13:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Home/strong_Contacts")): Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on
+
+2020-06-23 13:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Home/strong_Contacts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/2-View the Detail View information" time="10.071" classname="Test Cases/Contact Test Case/2-View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-06-23 13:23:12 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/2-View the Detail View information: Test Cases/Contact Test Case/2-View the Detail View information
+
+2020-06-23 13:23:12 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Contacts/input_First name contact search"), "Pumipat"): Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 13:23:13 - [MESSAGE][PASSED] - Text 'Pumipat' is set on object 'Object Repository/Contact repository/Page_Contacts/input_First name contact search'
+
+2020-06-23 13:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Search contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 13:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Search contact' is clicked on
+
+2020-06-23 13:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_ wiriya 2")): Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 13:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_ wiriya 2' is clicked on
+
+2020-06-23 13:23:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-06-23 13:23:22 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/13-View the Related List" time="0.434" classname="Test Cases/Contact Test Case/13-View the Related List" status="PASSED">
+         <system-out><![CDATA[2020-06-23 13:23:22 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/13-View the Related List: Test Cases/Contact Test Case/13-View the Related List
+
+2020-06-23 13:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/a_Opportunities  contact")): Object: 'Object Repository/Contact repository/Page_Contacts/a_Opportunities  contact' is clicked on
+
+2020-06-23 13:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/a_Opportunities  contact' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/16" time="3.08" classname="Test Cases/Contact Test Case/16" status="PASSED">
+         <system-out><![CDATA[2020-06-23 13:23:22 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/16: Test Cases/Contact Test Case/16
+
+2020-06-23 13:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Contacts/button_Add Opportunity contact")): Object: 'Object Repository/Contact repository/Page_Contacts/button_Add Opportunity contact' is clicked on
+
+2020-06-23 13:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Contacts/button_Add Opportunity contact' is clicked on
+
+2020-06-23 13:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/button_Save Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on
+
+2020-06-23 13:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/15" time="13.127" classname="Test Cases/Contact Test Case/15" status="PASSED">
+         <system-out><![CDATA[2020-06-23 13:23:25 - [TEST_CASE][PASSED] - Test Cases/Contact Test Case/15: Test Cases/Contact Test Case/15
+
+2020-06-23 13:23:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 13:23:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 13:23:27 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 13:23:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 13:23:28 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__potentialname"), findTestData("Contact Test Data/D7").getValue(1, 1)): Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 13:23:29 - [MESSAGE][PASSED] - Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 13:23:29 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__closingdate"), findTestData("Contact Test Data/D7").getValue(4, 1)): Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 13:23:29 - [MESSAGE][PASSED] - Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 13:23:29 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:30 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Stage")): Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 13:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 13:23:30 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input stage"), findTestData("Contact Test Data/D7").getValue(5, 1)): Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:31 - [MESSAGE][PASSED] - Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input stage"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/MC trade")): Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 13:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 13:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), findTestData("Contact Test Data/D7").getValue(6, 1)): Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:33 - [MESSAGE][PASSED] - Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Sale type")): Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 13:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 13:23:34 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input sale type"), findTestData("Contact Test Data/D7").getValue(7, 1)): Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:35 - [MESSAGE][PASSED] - Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input sale type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Normal_cf_1392")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 13:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 13:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Lot Order_cf_1388")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Lot Order_cf_1388' is clicked on
+
+2020-06-23 13:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Lot Order_cf_1388' is clicked on
+
+2020-06-23 13:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Lot Order Remove Reason")): Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 13:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 13:23:37 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), findTestData("Contact Test Data/D7").getValue(8, 1)): Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:37 - [MESSAGE][PASSED] - Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/button_Save Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on
+
+2020-06-23 13:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/button_Save Opportunity' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Contact Test Case/14" time="53.216" classname="Test Cases/Contact Test Case/14" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-06-23 13:23:38 - [TEST_CASE][FAILED] - Test Cases/Contact Test Case/14: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-06-23 13:23:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 13:23:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 13:23:40 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 13:23:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 13:23:41 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__potentialname"), findTestData("Contact Test Data/D7").getValue(1, 1)): Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 13:23:42 - [MESSAGE][PASSED] - Text 'ขึ้นดอย' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__potentialname'
+
+2020-06-23 13:23:42 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input__closingdate"), findTestData("Contact Test Data/D7").getValue(4, 1)): Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 13:23:43 - [MESSAGE][PASSED] - Text '01/02/2020' is set on object 'Object Repository/Contact repository/Page_Opportunities/input__closingdate'
+
+2020-06-23 13:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Clear Opportunity")): Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Clear Opportunity' is clicked on
+
+2020-06-23 13:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Stage")): Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 13:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Stage' is clicked on
+
+2020-06-23 13:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input stage"), findTestData("Contact Test Data/D7").getValue(5, 1)): Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:45 - [MESSAGE][PASSED] - Text 'Prospect' is set on object 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input stage"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input stage'
+
+2020-06-23 13:23:46 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/MC trade")): Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 13:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/MC trade' is clicked on
+
+2020-06-23 13:23:46 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), findTestData("Contact Test Data/D7").getValue(6, 1)): Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:47 - [MESSAGE][PASSED] - Text 'O to R' is set on object 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input MC Trade"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input MC Trade'
+
+2020-06-23 13:23:47 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Sale type")): Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 13:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Sale type' is clicked on
+
+2020-06-23 13:23:48 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input sale type"), findTestData("Contact Test Data/D7").getValue(7, 1)): Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:49 - [MESSAGE][PASSED] - Text 'Leasing' is set on object 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input sale type"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input sale type'
+
+2020-06-23 13:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Normal_cf_1392")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 13:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Normal_cf_1392' is clicked on
+
+2020-06-23 13:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/input_Lot Order_cf_1388")): Object: 'Object Repository/Contact repository/Page_Opportunities/input_Lot Order_cf_1388' is clicked on
+
+2020-06-23 13:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/input_Lot Order_cf_1388' is clicked on
+
+2020-06-23 13:23:50 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Lot Order Remove Reason")): Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 13:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 13:23:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-06-23 13:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-06-23 13:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/Lot Order Remove Reason")): Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 13:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/Lot Order Remove Reason' is clicked on
+
+2020-06-23 13:23:52 - [TEST_STEP][PASSED] - setText(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), findTestData("Contact Test Data/D7").getValue(8, 1)): Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:53 - [MESSAGE][PASSED] - Text 'True' is set on object 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Contact repository/Page_Opportunities/input Lot Order Remove Reason"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Contact repository/Page_Opportunities/input Lot Order Remove Reason'
+
+2020-06-23 13:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Contact repository/Page_Opportunities/img_E_lineItemPopup cursorPointer alignMiddle")): Object: 'Object Repository/Contact repository/Page_Opportunities/img_E_lineItemPopup cursorPointer alignMiddle' is clicked on
+
+2020-06-23 13:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact repository/Page_Opportunities/img_E_lineItemPopup cursorPointer alignMiddle' is clicked on
+
+2020-06-23 13:23:54 - [TEST_STEP][FAILED] - switchToWindowTitle("Inventory"): Unable to switch to window with title: 'Inventory' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-06-23 13:24:31 - [MESSAGE][FAILED] - Cannot find window with title: 'Inventory' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+)
+[[ATTACHMENT|C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_132255\\Contact Usecase\\10\\20200623_132255\\1592893471629.png]]
+
+2020-06-23 13:24:32 - [MESSAGE][FAILED] - Unable to switch to window with title: 'Inventory' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200623_132255\\Contact Usecase\\10\\20200623_132255\\1592893471916.png]]]]></system-out>
+         <system-err><![CDATA[2020-06-23 13:23:38 - [TEST_CASE][FAILED] - Test Cases/Contact Test Case/14: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-23 13:22:57 - [TEST_SUITE][FAILED] - 10: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-06-23 13:22:57 - [TEST_SUITE][FAILED] - 10: Test Cases/Contact Test Case/14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1779)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowTitle$3.call(Unknown Source)
+	at 14.run(14:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592893375791.run(TempTestSuite1592893375791.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'Inventory'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
