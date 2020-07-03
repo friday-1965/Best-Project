@@ -64,8 +64,15 @@ WebUI.setText(findTestObject('Contact repository/Page_Opportunities/input Lot Or
 
 WebUI.sendKeys(findTestObject('Contact repository/Page_Opportunities/input Lot Order Remove Reason'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Page_Opportunities/input_E_productName1'), findTestData('Contact Test Data/D7').getValue(9, 
-        1))
+WebUI.click(findTestObject('Contact repository/Page_Opportunities/img_E_lineItemPopup cursorPointer alignMiddle'))
+
+WebUI.switchToWindowTitle('Inventory')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Contact repository/Page_Opportunities/status MC'))
 
