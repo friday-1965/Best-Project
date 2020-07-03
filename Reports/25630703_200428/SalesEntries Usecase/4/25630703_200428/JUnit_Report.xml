@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="4" time="37.083" tests="3" failures="0" errors="0">
+   <testsuite name="4" tests="3" failures="0" errors="0" time="37.083" timestamp="2563-07-03 20:04:31" hostname="ACER - host.docker.internal" id="Test Suites/SalesEntries Usecase/4">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_200428\\SalesEntries Usecase\\4\\25630703_200428"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_200428\\SalesEntries Usecase\\4\\25630703_200428\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="5ac98f454e190885949394c82f2d70de"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SalesEntries Test Case/1" time="23.293" classname="Test Cases/SalesEntries Test Case/1" status="PASSED">
+         <system-out><![CDATA[2563-07-03 20:04:31 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/1: Test Cases/SalesEntries Test Case/1
+
+2563-07-03 20:04:32 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 20:04:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-07-03 20:04:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-07-03 20:04:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 20:04:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2563-07-03 20:04:42 - [MESSAGE][PASSED] - Current window maximized
+
+2563-07-03 20:04:42 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("SalesEntries Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-07-03 20:04:43 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-07-03 20:04:43 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("SalesEntries Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-07-03 20:04:43 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-07-03 20:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2563-07-03 20:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2563-07-03 20:04:45 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Cases/a_Sale Entry")): Object: 'Object Repository/SalesEntries repository/Page_Cases/a_Sale Entry' is clicked on
+
+2563-07-03 20:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Cases/a_Sale Entry' is clicked on
+
+2563-07-03 20:04:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 20:04:55 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SalesEntries Test Case/5" time="6.648" classname="Test Cases/SalesEntries Test Case/5" status="PASSED">
+         <system-out><![CDATA[2563-07-03 20:04:55 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/5: Test Cases/SalesEntries Test Case/5
+
+2563-07-03 20:04:55 - [TEST_STEP][PASSED] - setText(findTestObject("SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries"), findTestData("SalesEntries Test Data/D2").getValue(1, 1)): Text 'SE-17060389483405' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries'
+
+2563-07-03 20:04:56 - [MESSAGE][PASSED] - Text 'SE-17060389483405' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries'
+
+2563-07-03 20:04:56 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/button_Search sale entries")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Search sale entries' is clicked on
+
+2563-07-03 20:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Search sale entries' is clicked on
+
+2563-07-03 20:04:56 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/a_SE-17060389483405")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_SE-17060389483405' is clicked on
+
+2563-07-03 20:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_SE-17060389483405' is clicked on
+
+2563-07-03 20:04:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 20:05:01 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SalesEntries Test Case/6" time="5.887" classname="Test Cases/SalesEntries Test Case/6" status="PASSED">
+         <system-out><![CDATA[2563-07-03 20:05:01 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/6: Test Cases/SalesEntries Test Case/6
+
+2563-07-03 20:05:02 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/button_Edit Sale Entry")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Edit Sale Entry' is clicked on
+
+2563-07-03 20:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Edit Sale Entry' is clicked on
+
+2563-07-03 20:05:03 - [TEST_STEP][PASSED] - clearText(findTestObject("SalesEntries repository/Page_Sale Entry/input_Temporary Expire Sale Entry")): Text of object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Temporary Expire Sale Entry' is cleared
+
+2563-07-03 20:05:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Temporary Expire Sale Entry' is cleared
+
+2563-07-03 20:05:04 - [TEST_STEP][PASSED] - setText(findTestObject("SalesEntries repository/Page_Sale Entry/input_Temporary Expire Sale Entry"), "02/02/2020"): Text '02/02/2020' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Temporary Expire Sale Entry'
+
+2563-07-03 20:05:05 - [MESSAGE][PASSED] - Text '02/02/2020' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Temporary Expire Sale Entry'
+
+2563-07-03 20:05:05 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/button_Save Edit Save sale entry")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Save Edit Save sale entry' is clicked on
+
+2563-07-03 20:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Save Edit Save sale entry' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-07-03 20:04:31 - [TEST_SUITE][PASSED] - 4: Test Cases/SalesEntries Test Case/6]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

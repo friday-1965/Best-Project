@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3" time="31.485" tests="2" failures="0" errors="0">
+   <testsuite name="3" tests="2" failures="0" errors="0" time="31.485" timestamp="2563-07-03 19:58:22" hostname="ACER - host.docker.internal" id="Test Suites/SalesEntries Usecase/3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_195819\\SalesEntries Usecase\\3\\25630703_195819"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_195819\\SalesEntries Usecase\\3\\25630703_195819\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="8ef45a3911cc97d2b306813431cf356f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SalesEntries Test Case/1" time="22.769" classname="Test Cases/SalesEntries Test Case/1" status="PASSED">
+         <system-out><![CDATA[2563-07-03 19:58:23 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/1: Test Cases/SalesEntries Test Case/1
+
+2563-07-03 19:58:23 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 19:58:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-07-03 19:58:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-07-03 19:58:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 19:58:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2563-07-03 19:58:35 - [MESSAGE][PASSED] - Current window maximized
+
+2563-07-03 19:58:35 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("SalesEntries Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-07-03 19:58:36 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2563-07-03 19:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("SalesEntries Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-07-03 19:58:37 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2563-07-03 19:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2563-07-03 19:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2563-07-03 19:58:39 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Cases/a_Sale Entry")): Object: 'Object Repository/SalesEntries repository/Page_Cases/a_Sale Entry' is clicked on
+
+2563-07-03 19:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Cases/a_Sale Entry' is clicked on
+
+2563-07-03 19:58:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 19:58:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SalesEntries Test Case/5" time="7.362" classname="Test Cases/SalesEntries Test Case/5" status="PASSED">
+         <system-out><![CDATA[2563-07-03 19:58:46 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/5: Test Cases/SalesEntries Test Case/5
+
+2563-07-03 19:58:46 - [TEST_STEP][PASSED] - setText(findTestObject("SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries"), findTestData("SalesEntries Test Data/D2").getValue(1, 1)): Text 'SE-17060389483405' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries'
+
+2563-07-03 19:58:47 - [MESSAGE][PASSED] - Text 'SE-17060389483405' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries'
+
+2563-07-03 19:58:47 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/button_Search sale entries")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Search sale entries' is clicked on
+
+2563-07-03 19:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Search sale entries' is clicked on
+
+2563-07-03 19:58:47 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/a_SE-17060389483405")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_SE-17060389483405' is clicked on
+
+2563-07-03 19:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_SE-17060389483405' is clicked on
+
+2563-07-03 19:58:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 19:58:53 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-07-03 19:58:22 - [TEST_SUITE][PASSED] - 3: Test Cases/SalesEntries Test Case/5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
