@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="9" time="54.566" tests="5" failures="0" errors="0">
+   <testsuite name="9" tests="5" failures="0" errors="0" time="54.566" timestamp="2563-07-03 17:51:43" hostname="ACER - host.docker.internal" id="Test Suites/Case Usecase/9">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_175139\\Case Usecase\\9\\25630703_175139"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_175139\\Case Usecase\\9\\25630703_175139\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="664f052fd4b65582aa88269cecd27e4a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Case Test Case/1" time="22.618" classname="Test Cases/Case Test Case/1" status="PASSED">
+         <system-out><![CDATA[2563-07-03 17:51:44 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/1: Test Cases/Case Test Case/1
+
+2563-07-03 17:51:44 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 17:51:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-07-03 17:51:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-07-03 17:51:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 17:51:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2563-07-03 17:51:55 - [MESSAGE][PASSED] - Current window maximized
+
+2563-07-03 17:51:55 - [TEST_STEP][PASSED] - setText(findTestObject("Case repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Case repository/Page_Users/input_User name_username'
+
+2563-07-03 17:51:56 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Case repository/Page_Users/input_User name_username'
+
+2563-07-03 17:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_Password_password"), findTestData("Case Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-07-03 17:51:56 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-07-03 17:51:56 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/login/button_Sign in")): Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2563-07-03 17:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2563-07-03 17:51:59 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Home/a_Cases")): Object: 'Object Repository/Case repository/Page_Home/a_Cases' is clicked on
+
+2563-07-03 17:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Home/a_Cases' is clicked on
+
+2563-07-03 17:52:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 17:52:06 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Test Case/5" time="6.367" classname="Test Cases/Case Test Case/5" status="PASSED">
+         <system-out><![CDATA[2563-07-03 17:52:06 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/5: Test Cases/Case Test Case/5
+
+2563-07-03 17:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Case repository/Page_Cases/Search Case Number"), findTestData("Case Test Data/D4").getValue(1, 1)): Text '00065215' is set on object 'Object Repository/Case repository/Page_Cases/Search Case Number'
+
+2563-07-03 17:52:08 - [MESSAGE][PASSED] - Text '00065215' is set on object 'Object Repository/Case repository/Page_Cases/Search Case Number'
+
+2563-07-03 17:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Cases/button_Search Case")): Object: 'Object Repository/Case repository/Page_Cases/button_Search Case' is clicked on
+
+2563-07-03 17:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Cases/button_Search Case' is clicked on
+
+2563-07-03 17:52:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-07-03 17:52:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-07-03 17:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Cases/td_00065215")): Object: 'Object Repository/Case repository/Page_Cases/td_00065215' is clicked on
+
+2563-07-03 17:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Cases/td_00065215' is clicked on
+
+2563-07-03 17:52:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 17:52:13 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Test Case/12" time="5.177" classname="Test Cases/Case Test Case/12" status="PASSED">
+         <system-out><![CDATA[2563-07-03 17:52:13 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/12: Test Cases/Case Test Case/12
+
+2563-07-03 17:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Cases/a_Documents  Case")): Object: 'Object Repository/Case repository/Page_Cases/a_Documents  Case' is clicked on
+
+2563-07-03 17:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Cases/a_Documents  Case' is clicked on
+
+2563-07-03 17:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Cases/button_Add Document Case")): Object: 'Object Repository/Case repository/Page_Cases/button_Add Document Case' is clicked on
+
+2563-07-03 17:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Cases/button_Add Document Case' is clicked on
+
+2563-07-03 17:52:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-07-03 17:52:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-07-03 17:52:16 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Documents/button_Save doc case")): Object: 'Object Repository/Case repository/Page_Documents/button_Save doc case' is clicked on
+
+2563-07-03 17:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Documents/button_Save doc case' is clicked on
+
+2563-07-03 17:52:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-07-03 17:52:18 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Test Case/11" time="9.405" classname="Test Cases/Case Test Case/11" status="PASSED">
+         <system-out><![CDATA[2563-07-03 17:52:18 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/11: Test Cases/Case Test Case/11
+
+2563-07-03 17:52:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-07-03 17:52:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-07-03 17:52:19 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Documents/b doc select case")): Object: 'Object Repository/Case repository/Page_Documents/b doc select case' is clicked on
+
+2563-07-03 17:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Documents/b doc select case' is clicked on
+
+2563-07-03 17:52:20 - [TEST_STEP][PASSED] - setText(findTestObject("Case repository/Page_Documents/input b doc select case"), findTestData("Case Test Data/D6").getValue(3, 1)): Text 'Accounts' is set on object 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:21 - [MESSAGE][PASSED] - Text 'Accounts' is set on object 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Case repository/Page_Documents/input b doc select case"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Documents/search case field")): Object: 'Object Repository/Case repository/Page_Documents/search case field' is clicked on
+
+2563-07-03 17:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Documents/search case field' is clicked on
+
+2563-07-03 17:52:22 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2563-07-03 17:52:24 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2563-07-03 17:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Accounts/td_BKK ECS Sales")): Object: 'Object Repository/Case repository/Page_Accounts/td_BKK ECS Sales' is clicked on
+
+2563-07-03 17:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Accounts/td_BKK ECS Sales' is clicked on
+
+2563-07-03 17:52:25 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2563-07-03 17:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Documents/button_Save doc case")): Object: 'Object Repository/Case repository/Page_Documents/button_Save doc case' is clicked on
+
+2563-07-03 17:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Documents/button_Save doc case' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Test Case/10" time="8.718" classname="Test Cases/Case Test Case/10" status="PASSED">
+         <system-out><![CDATA[2563-07-03 17:52:27 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/10: Test Cases/Case Test Case/10
+
+2563-07-03 17:52:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-07-03 17:52:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-07-03 17:52:29 - [TEST_STEP][PASSED] - setText(findTestObject("Case repository/Page_Documents/input__notes_title doc Case"), findTestData("Case Test Data/D6").getValue(1, 1)): Text 'Document test' is set on object 'Object Repository/Case repository/Page_Documents/input__notes_title doc Case'
+
+2563-07-03 17:52:30 - [MESSAGE][PASSED] - Text 'Document test' is set on object 'Object Repository/Case repository/Page_Documents/input__notes_title doc Case'
+
+2563-07-03 17:52:30 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Documents/b doc select case")): Object: 'Object Repository/Case repository/Page_Documents/b doc select case' is clicked on
+
+2563-07-03 17:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Documents/b doc select case' is clicked on
+
+2563-07-03 17:52:30 - [TEST_STEP][PASSED] - setText(findTestObject("Case repository/Page_Documents/input b doc select case"), findTestData("Case Test Data/D6").getValue(3, 1)): Text 'Accounts' is set on object 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:31 - [MESSAGE][PASSED] - Text 'Accounts' is set on object 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Case repository/Page_Documents/input b doc select case"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Case repository/Page_Documents/input b doc select case'
+
+2563-07-03 17:52:32 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Documents/search case field")): Object: 'Object Repository/Case repository/Page_Documents/search case field' is clicked on
+
+2563-07-03 17:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Documents/search case field' is clicked on
+
+2563-07-03 17:52:33 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2563-07-03 17:52:35 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2563-07-03 17:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Accounts/td_BKK ECS Sales")): Object: 'Object Repository/Case repository/Page_Accounts/td_BKK ECS Sales' is clicked on
+
+2563-07-03 17:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Accounts/td_BKK ECS Sales' is clicked on
+
+2563-07-03 17:52:35 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2563-07-03 17:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Documents/button_Save doc case")): Object: 'Object Repository/Case repository/Page_Documents/button_Save doc case' is clicked on
+
+2563-07-03 17:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Documents/button_Save doc case' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-07-03 17:51:43 - [TEST_SUITE][PASSED] - 9: Test Cases/Case Test Case/10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

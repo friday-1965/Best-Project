@@ -8,6 +8,17 @@
    <dataFileGUID>ae7249f5-4ec1-461f-bd11-37f0d461469f</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>RIS+System RIS+System</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Case owner</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Craated By</name>
+      <size>1</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>

@@ -8,6 +8,17 @@
    <dataFileGUID>37ed2f5a-34bb-473c-880d-2c624c74850e</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>SE-17060389483405 RIS+System</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Sale Entry</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Created By</name>
+      <size>1</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>

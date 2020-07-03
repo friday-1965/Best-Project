@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="9" time="35.967" tests="3" failures="0" errors="0">
+   <testsuite name="9" tests="3" failures="0" errors="0" time="35.967" timestamp="2563-07-03 18:01:05" hostname="ACER - host.docker.internal" id="Test Suites/Case Usecase/9">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_180100\\Case Usecase\\9\\25630703_180100"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Best-Project\\Reports\\25630703_180100\\Case Usecase\\9\\25630703_180100\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="5926a0b24bc38b29b28dda4286eed152"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Case Test Case/1" time="24.668" classname="Test Cases/Case Test Case/1" status="PASSED">
+         <system-out><![CDATA[2563-07-03 18:01:05 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/1: Test Cases/Case Test Case/1
+
+2563-07-03 18:01:06 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 18:01:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2563-07-03 18:01:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2563-07-03 18:01:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2563-07-03 18:01:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2563-07-03 18:01:17 - [MESSAGE][PASSED] - Current window maximized
+
+2563-07-03 18:01:17 - [TEST_STEP][PASSED] - setText(findTestObject("Case repository/Page_Users/input_User name_username"), findTestData("Contact Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Case repository/Page_Users/input_User name_username'
+
+2563-07-03 18:01:18 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Case repository/Page_Users/input_User name_username'
+
+2563-07-03 18:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("DBD repository/login/input_Password_password"), findTestData("Case Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-07-03 18:01:19 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/DBD repository/login/input_Password_password'
+
+2563-07-03 18:01:19 - [TEST_STEP][PASSED] - click(findTestObject("DBD repository/login/button_Sign in")): Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2563-07-03 18:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/DBD repository/login/button_Sign in' is clicked on
+
+2563-07-03 18:01:23 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Home/a_Cases")): Object: 'Object Repository/Case repository/Page_Home/a_Cases' is clicked on
+
+2563-07-03 18:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Home/a_Cases' is clicked on
+
+2563-07-03 18:01:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 18:01:30 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Test Case/5" time="6.921" classname="Test Cases/Case Test Case/5" status="PASSED">
+         <system-out><![CDATA[2563-07-03 18:01:30 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/5: Test Cases/Case Test Case/5
+
+2563-07-03 18:01:31 - [TEST_STEP][PASSED] - setText(findTestObject("Case repository/Page_Cases/Search Case Number"), findTestData("Case Test Data/D4").getValue(1, 1)): Text '00065215' is set on object 'Object Repository/Case repository/Page_Cases/Search Case Number'
+
+2563-07-03 18:01:32 - [MESSAGE][PASSED] - Text '00065215' is set on object 'Object Repository/Case repository/Page_Cases/Search Case Number'
+
+2563-07-03 18:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Cases/button_Search Case")): Object: 'Object Repository/Case repository/Page_Cases/button_Search Case' is clicked on
+
+2563-07-03 18:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Cases/button_Search Case' is clicked on
+
+2563-07-03 18:01:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2563-07-03 18:01:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2563-07-03 18:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Cases/td_00065215")): Object: 'Object Repository/Case repository/Page_Cases/td_00065215' is clicked on
+
+2563-07-03 18:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Cases/td_00065215' is clicked on
+
+2563-07-03 18:01:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 18:01:37 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Test Case/13" time="2.812" classname="Test Cases/Case Test Case/13" status="PASSED">
+         <system-out><![CDATA[2563-07-03 18:01:37 - [TEST_CASE][PASSED] - Test Cases/Case Test Case/13: Test Cases/Case Test Case/13
+
+2563-07-03 18:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Case repository/Page_Cases/a_Documents  Case")): Object: 'Object Repository/Case repository/Page_Cases/a_Documents  Case' is clicked on
+
+2563-07-03 18:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Case repository/Page_Cases/a_Documents  Case' is clicked on
+
+2563-07-03 18:01:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2563-07-03 18:01:40 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2563-07-03 18:01:05 - [TEST_SUITE][PASSED] - 9: Test Cases/Case Test Case/13]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

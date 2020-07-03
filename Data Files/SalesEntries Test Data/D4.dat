@@ -8,6 +8,12 @@
    <dataFileGUID>b5954a49-f042-450b-b5d2-e8364fc422a3</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>RIS+System</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Created By</name>
+      <size>1</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>

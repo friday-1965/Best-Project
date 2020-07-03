@@ -8,6 +8,12 @@
    <dataFileGUID>7f876498-2cb1-44b9-83b1-3930302cd748</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%99%E0%B8%9A</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>เอกสารแนบ</name>
+      <size>1</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>

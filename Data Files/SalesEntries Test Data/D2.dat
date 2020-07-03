@@ -8,6 +8,12 @@
    <dataFileGUID>3963a790-7175-40a4-ba44-534839dd81b1</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>SE-17060389483405</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Sale Entry</name>
+      <size>1</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
