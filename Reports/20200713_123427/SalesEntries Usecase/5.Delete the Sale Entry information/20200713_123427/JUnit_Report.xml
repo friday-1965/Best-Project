@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="5.Delete the Sale Entry information" time="27.247" tests="3" failures="0" errors="0">
+   <testsuite name="5.Delete the Sale Entry information" tests="3" failures="0" errors="0" time="27.247" timestamp="2020-07-13 12:34:29" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/SalesEntries Usecase/5.Delete the Sale Entry information">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200713_123427\\SalesEntries Usecase\\5.Delete the Sale Entry information\\20200713_123427"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200713_123427\\SalesEntries Usecase\\5.Delete the Sale Entry information\\20200713_123427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="132e1e79069d178086a842de75d131c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SalesEntries Test Case/1.View the layout information in the List View" time="17.687" classname="Test Cases/SalesEntries Test Case/1.View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-07-13 12:34:29 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/1.View the layout information in the List View: Test Cases/SalesEntries Test Case/1.View the layout information in the List View
+
+2020-07-13 12:34:29 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-13 12:34:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-13 12:34:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-13 12:34:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-13 12:34:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-13 12:34:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-13 12:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("SalesEntries Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-13 12:34:38 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-13 12:34:38 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("SalesEntries Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-13 12:34:39 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-13 12:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-13 12:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-13 12:34:40 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Cases/a_Sale Entry")): Object: 'Object Repository/SalesEntries repository/Page_Cases/a_Sale Entry' is clicked on
+
+2020-07-13 12:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Cases/a_Sale Entry' is clicked on
+
+2020-07-13 12:34:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 12:34:47 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SalesEntries Test Case/5.View the Detail View information" time="6.143" classname="Test Cases/SalesEntries Test Case/5.View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 12:34:47 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/5.View the Detail View information: Test Cases/SalesEntries Test Case/5.View the Detail View information
+
+2020-07-13 12:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries"), findTestData("SalesEntries Test Data/D2").getValue(1, 1)): Text 'SE-17060389483405' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries'
+
+2020-07-13 12:34:48 - [MESSAGE][PASSED] - Text 'SE-17060389483405' is set on object 'Object Repository/SalesEntries repository/Page_Sale Entry/input_Created DateTime_saleentries'
+
+2020-07-13 12:34:48 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/button_Search sale entries")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Search sale entries' is clicked on
+
+2020-07-13 12:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_Search sale entries' is clicked on
+
+2020-07-13 12:34:48 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/a_SE-17060389483405")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_SE-17060389483405' is clicked on
+
+2020-07-13 12:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_SE-17060389483405' is clicked on
+
+2020-07-13 12:34:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 12:34:53 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SalesEntries Test Case/7.Delete the Sale Entry information" time="2.478" classname="Test Cases/SalesEntries Test Case/7.Delete the Sale Entry information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 12:34:53 - [TEST_CASE][PASSED] - Test Cases/SalesEntries Test Case/7.Delete the Sale Entry information: Test Cases/SalesEntries Test Case/7.Delete the Sale Entry information
+
+2020-07-13 12:34:53 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/button_More Sale Entry")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_More Sale Entry' is clicked on
+
+2020-07-13 12:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/button_More Sale Entry' is clicked on
+
+2020-07-13 12:34:54 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/a_Delete Sale Entry")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_Delete Sale Entry' is clicked on
+
+2020-07-13 12:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_Delete Sale Entry' is clicked on
+
+2020-07-13 12:34:54 - [TEST_STEP][PASSED] - click(findTestObject("SalesEntries repository/Page_Sale Entry/a_Yes Delete Saale Entry")): Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_Yes Delete Saale Entry' is clicked on
+
+2020-07-13 12:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SalesEntries repository/Page_Sale Entry/a_Yes Delete Saale Entry' is clicked on
+
+2020-07-13 12:34:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-07-13 12:34:55 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-13 12:34:29 - [TEST_SUITE][PASSED] - 5.Delete the Sale Entry information: Test Cases/SalesEntries Test Case/7.Delete the Sale Entry information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

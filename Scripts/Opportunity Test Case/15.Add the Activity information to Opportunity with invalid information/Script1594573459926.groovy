@@ -41,6 +41,10 @@ WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input sale ty
 
 WebUI.sendKeys(findTestObject('Opportunity repository/Page_Calendar/input sale type act opp'), Keys.chord(Keys.ENTER))
 
+WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__date_start act opp'), 'test')
+
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__date_start act opp'), findTestData('Opportunity Test Data/D7').getValue(
         7, 1))
 

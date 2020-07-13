@@ -20,6 +20,10 @@ WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__subjec
 
 WebUI.clearText(findTestObject('Opportunity repository/Page_Calendar/input__due_date to do opp'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/textarea__description to do opp'), 'test')
+
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/textarea__description to do opp'), findTestData('Opportunity Test Data/D9').getValue(
         6, 1))
 

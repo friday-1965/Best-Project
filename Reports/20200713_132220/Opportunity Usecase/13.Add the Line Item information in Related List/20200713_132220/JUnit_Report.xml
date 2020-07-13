@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="13.Add the Line Item information in Related List" time="45.106" tests="5" failures="0" errors="0">
+   <testsuite name="13.Add the Line Item information in Related List" tests="5" failures="0" errors="0" time="45.106" timestamp="2020-07-13 13:22:22" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Opportunity Usecase/13.Add the Line Item information in Related List">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200713_132220\\Opportunity Usecase\\13.Add the Line Item information in Related List\\20200713_132220"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200713_132220\\Opportunity Usecase\\13.Add the Line Item information in Related List\\20200713_132220\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="9fd03e5fb4f604ef9cab17f6a35c7c92"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Opportunity Test Case/1.View the layout information in the List View" time="14.346" classname="Test Cases/Opportunity Test Case/1.View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:22:22 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/1.View the layout information in the List View: Test Cases/Opportunity Test Case/1.View the layout information in the List View
+
+2020-07-13 13:22:23 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-13 13:22:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-13 13:22:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-13 13:22:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-13 13:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Opportunity Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-13 13:22:29 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-13 13:22:29 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Opportunity Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-13 13:22:29 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-13 13:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-13 13:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-13 13:22:31 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Home/a_Opportunities")): Object: 'Object Repository/Opportunity repository/Page_Home/a_Opportunities' is clicked on
+
+2020-07-13 13:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Home/a_Opportunities' is clicked on
+
+2020-07-13 13:22:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:22:37 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opportunity Test Case/5.View the Detail View information" time="7.615" classname="Test Cases/Opportunity Test Case/5.View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:22:37 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/5.View the Detail View information: Test Cases/Opportunity Test Case/5.View the Detail View information
+
+2020-07-13 13:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Opportunities/input_Contact Name_potentialname Search"), findTestData("Opportunity Test Data/D2").getValue(1, 1)): Text 'โครงการนำเสนอPro C751-บจก. ฐานการพิมพ์' is set on object 'Object Repository/Opportunity repository/Page_Opportunities/input_Contact Name_potentialname Search'
+
+2020-07-13 13:22:38 - [MESSAGE][PASSED] - Text 'โครงการนำเสนอPro C751-บจก. ฐานการพิมพ์' is set on object 'Object Repository/Opportunity repository/Page_Opportunities/input_Contact Name_potentialname Search'
+
+2020-07-13 13:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/button_Search Oppotunity name")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Search Oppotunity name' is clicked on
+
+2020-07-13 13:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Search Oppotunity name' is clicked on
+
+2020-07-13 13:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/a_Pro C751-")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Pro C751-' is clicked on
+
+2020-07-13 13:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Pro C751-' is clicked on
+
+2020-07-13 13:22:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:22:44 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opportunity Test Case/23.Add the Line Item information in Related List with non information" time="4.968" classname="Test Cases/Opportunity Test Case/23.Add the Line Item information in Related List with non information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:22:44 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/23.Add the Line Item information in Related List with non information: Test Cases/Opportunity Test Case/23.Add the Line Item information in Related List with non information
+
+2020-07-13 13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/a_Products  opp")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Products  opp' is clicked on
+
+2020-07-13 13:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Products  opp' is clicked on
+
+2020-07-13 13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/button_Add Line Item opp")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Add Line Item opp' is clicked on
+
+2020-07-13 13:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Add Line Item opp' is clicked on
+
+2020-07-13 13:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_OppLineItem/button_Save line item")): Object: 'Object Repository/Opportunity repository/Page_OppLineItem/button_Save line item' is clicked on
+
+2020-07-13 13:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_OppLineItem/button_Save line item' is clicked on
+
+2020-07-13 13:22:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:22:49 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opportunity Test Case/22.Add the Line Item information in Related List with invalid information" time="7.289" classname="Test Cases/Opportunity Test Case/22.Add the Line Item information in Related List with invalid information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:22:49 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/22.Add the Line Item information in Related List with invalid information: Test Cases/Opportunity Test Case/22.Add the Line Item information in Related List with invalid information
+
+2020-07-13 13:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_OppLineItem/product search")): Object: 'Object Repository/Opportunity repository/Page_OppLineItem/product search' is clicked on
+
+2020-07-13 13:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_OppLineItem/product search' is clicked on
+
+2020-07-13 13:22:50 - [TEST_STEP][PASSED] - switchToWindowTitle("Products"): Switched to window with title: 'Products'
+
+2020-07-13 13:22:52 - [MESSAGE][PASSED] - Switched to window with title: 'Products'
+
+2020-07-13 13:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Products/td_Acer")): Object: 'Object Repository/Opportunity repository/Page_Products/td_Acer' is clicked on
+
+2020-07-13 13:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Products/td_Acer' is clicked on
+
+2020-07-13 13:22:52 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-13 13:22:54 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_OppLineItem/button_Save line item")): Object: 'Object Repository/Opportunity repository/Page_OppLineItem/button_Save line item' is clicked on
+
+2020-07-13 13:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_OppLineItem/button_Save line item' is clicked on
+
+2020-07-13 13:22:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:22:57 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opportunity Test Case/21.Add the Line Item information in Related List with valid information" time="9.956" classname="Test Cases/Opportunity Test Case/21.Add the Line Item information in Related List with valid information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:22:57 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/21.Add the Line Item information in Related List with valid information: Test Cases/Opportunity Test Case/21.Add the Line Item information in Related List with valid information
+
+2020-07-13 13:22:57 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_OppLineItem/product search")): Object: 'Object Repository/Opportunity repository/Page_OppLineItem/product search' is clicked on
+
+2020-07-13 13:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_OppLineItem/product search' is clicked on
+
+2020-07-13 13:22:57 - [TEST_STEP][PASSED] - switchToWindowTitle("Products"): Switched to window with title: 'Products'
+
+2020-07-13 13:22:59 - [MESSAGE][PASSED] - Switched to window with title: 'Products'
+
+2020-07-13 13:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Products/td_Acer")): Object: 'Object Repository/Opportunity repository/Page_Products/td_Acer' is clicked on
+
+2020-07-13 13:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Products/td_Acer' is clicked on
+
+2020-07-13 13:23:00 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-13 13:23:02 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_OppLineItem/input__unit price"), "test"): Text 'test' is set on object 'Object Repository/Opportunity repository/Page_OppLineItem/input__unit price'
+
+2020-07-13 13:23:02 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Opportunity repository/Page_OppLineItem/input__unit price'
+
+2020-07-13 13:23:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-07-13 13:23:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-13 13:23:03 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_OppLineItem/input__unit price"), findTestData("Opportunity Test Data/D11").getValue(4, 1)): Text '200' is set on object 'Object Repository/Opportunity repository/Page_OppLineItem/input__unit price'
+
+2020-07-13 13:23:04 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Opportunity repository/Page_OppLineItem/input__unit price'
+
+2020-07-13 13:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_OppLineItem/button_Save line item")): Object: 'Object Repository/Opportunity repository/Page_OppLineItem/button_Save line item' is clicked on
+
+2020-07-13 13:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_OppLineItem/button_Save line item' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-13 13:22:22 - [TEST_SUITE][PASSED] - 13.Add the Line Item information in Related List: Test Cases/Opportunity Test Case/21.Add the Line Item information in Related List with valid information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

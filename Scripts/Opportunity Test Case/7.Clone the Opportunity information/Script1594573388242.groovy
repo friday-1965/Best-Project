@@ -18,9 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Opportunity repository/Page_Opportunities/button_CLONE opp'))
 
-WebUI.setText(findTestObject('Opportunity repository/Page_Opportunities/input__closingdate clone opp'), '02/02/2020')
+WebUI.setText(findTestObject('Opportunity repository/Page_Opportunities/input__closingdate clone opp'), 'test')
 
 WebUI.click(findTestObject('Opportunity repository/Page_Opportunities/stage clone opp'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Opportunity repository/Page_Opportunities/input__closingdate clone opp'), '02/02/2020')
 
 WebUI.setText(findTestObject('Opportunity repository/Page_Opportunities/input stage clone opp'), 'Prospect')
 

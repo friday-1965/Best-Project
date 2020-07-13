@@ -23,6 +23,12 @@ WebUI.click(findTestObject('Opportunity repository/Page_Products/td_Acer'))
 
 WebUI.switchToDefaultContent()
 
+WebUI.setText(findTestObject('Opportunity repository/Page_OppLineItem/input__unit price'), 'test')
+
+WebUI.click(findTestObject('Opportunity repository/Page_OppLineItem/button_Save line item'))
+
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('Opportunity repository/Page_OppLineItem/input__unit price'), findTestData('Opportunity Test Data/D11').getValue(
         4, 1))
 

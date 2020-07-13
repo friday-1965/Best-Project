@@ -14,12 +14,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Opportunity repository/Page_Opportunities/button_More opp'))
 
 WebUI.click(findTestObject('Opportunity repository/Page_Opportunities/a_Duplicate opp'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Opportunity repository/Page_Opportunities/button_Save Duplicate opp'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Opportunity repository/Page_Opportunities NEW ADD/stage opp'))
+
+WebUI.setText(findTestObject('Opportunity repository/Page_Opportunities NEW ADD/input stage opp'), 'Win')
+
+WebUI.sendKeys(findTestObject('Opportunity repository/Page_Opportunities NEW ADD/input stage opp'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Opportunity repository/Page_Opportunities/button_Save Duplicate opp'))
 

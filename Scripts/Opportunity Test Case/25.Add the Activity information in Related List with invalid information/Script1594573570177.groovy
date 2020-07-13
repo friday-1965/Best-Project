@@ -42,11 +42,13 @@ WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input sale ty
 
 WebUI.sendKeys(findTestObject('Opportunity repository/Page_Calendar/input sale type act opp'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__date_start act opp'), findTestData('Opportunity Test Data/D7').getValue(
-        7, 1))
+WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__date_start act opp'), 'test')
 
 WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__time_start act opp'), findTestData('Opportunity Test Data/D7').getValue(
         8, 1))
+
+WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__date_start act opp'), findTestData('Opportunity Test Data/D7').getValue(
+        7, 1))
 
 WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__due_date act opp'), findTestData('Opportunity Test Data/D7').getValue(
         9, 1))

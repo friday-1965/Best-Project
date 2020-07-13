@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="9.Duplicate the Opportunity information" time="37.664" tests="3" failures="0" errors="0">
+   <testsuite name="9.Duplicate the Opportunity information" tests="3" failures="0" errors="0" time="37.664" timestamp="2020-07-13 13:01:30" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Opportunity Usecase/9.Duplicate the Opportunity information">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200713_130128\\Opportunity Usecase\\9.Duplicate the Opportunity information\\20200713_130128"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200713_130128\\Opportunity Usecase\\9.Duplicate the Opportunity information\\20200713_130128\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="bc6053ad3724c493d269c4dabb1c165b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Opportunity Test Case/1.View the layout information in the List View" time="18.658" classname="Test Cases/Opportunity Test Case/1.View the layout information in the List View" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:01:30 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/1.View the layout information in the List View: Test Cases/Opportunity Test Case/1.View the layout information in the List View
+
+2020-07-13 13:01:31 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-13 13:01:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-13 13:01:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-13 13:01:37 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-13 13:01:37 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Opportunity Test Data/D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-13 13:01:38 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-13 13:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Opportunity Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-13 13:01:39 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-13 13:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-13 13:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-13 13:01:40 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Home/a_Opportunities")): Object: 'Object Repository/Opportunity repository/Page_Home/a_Opportunities' is clicked on
+
+2020-07-13 13:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Home/a_Opportunities' is clicked on
+
+2020-07-13 13:01:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:01:49 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opportunity Test Case/5.View the Detail View information" time="7.708" classname="Test Cases/Opportunity Test Case/5.View the Detail View information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:01:49 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/5.View the Detail View information: Test Cases/Opportunity Test Case/5.View the Detail View information
+
+2020-07-13 13:01:49 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Opportunities/input_Contact Name_potentialname Search"), findTestData("Opportunity Test Data/D2").getValue(1, 1)): Text 'โครงการนำเสนอPro C751-บจก. ฐานการพิมพ์' is set on object 'Object Repository/Opportunity repository/Page_Opportunities/input_Contact Name_potentialname Search'
+
+2020-07-13 13:01:50 - [MESSAGE][PASSED] - Text 'โครงการนำเสนอPro C751-บจก. ฐานการพิมพ์' is set on object 'Object Repository/Opportunity repository/Page_Opportunities/input_Contact Name_potentialname Search'
+
+2020-07-13 13:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/button_Search Oppotunity name")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Search Oppotunity name' is clicked on
+
+2020-07-13 13:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Search Oppotunity name' is clicked on
+
+2020-07-13 13:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/a_Pro C751-")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Pro C751-' is clicked on
+
+2020-07-13 13:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Pro C751-' is clicked on
+
+2020-07-13 13:01:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:01:57 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Opportunity Test Case/13.Duplicate the Account information" time="10.374" classname="Test Cases/Opportunity Test Case/13.Duplicate the Account information" status="PASSED">
+         <system-out><![CDATA[2020-07-13 13:01:57 - [TEST_CASE][PASSED] - Test Cases/Opportunity Test Case/13.Duplicate the Account information: Test Cases/Opportunity Test Case/13.Duplicate the Account information
+
+2020-07-13 13:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/button_More opp")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_More opp' is clicked on
+
+2020-07-13 13:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_More opp' is clicked on
+
+2020-07-13 13:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/a_Duplicate opp")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Duplicate opp' is clicked on
+
+2020-07-13 13:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/a_Duplicate opp' is clicked on
+
+2020-07-13 13:01:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:02:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 13:02:00 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/button_Save Duplicate opp")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Save Duplicate opp' is clicked on
+
+2020-07-13 13:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Save Duplicate opp' is clicked on
+
+2020-07-13 13:02:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:02:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-13 13:02:03 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities NEW ADD/stage opp")): Object: 'Object Repository/Opportunity repository/Page_Opportunities NEW ADD/stage opp' is clicked on
+
+2020-07-13 13:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities NEW ADD/stage opp' is clicked on
+
+2020-07-13 13:02:03 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Opportunities NEW ADD/input stage opp"), "Prospect"): Text 'Prospect' is set on object 'Object Repository/Opportunity repository/Page_Opportunities NEW ADD/input stage opp'
+
+2020-07-13 13:02:04 - [MESSAGE][PASSED] - Text 'Prospect' is set on object 'Object Repository/Opportunity repository/Page_Opportunities NEW ADD/input stage opp'
+
+2020-07-13 13:02:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Opportunities NEW ADD/input stage opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Opportunities NEW ADD/input stage opp'
+
+2020-07-13 13:02:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Opportunities NEW ADD/input stage opp'
+
+2020-07-13 13:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Opportunities/button_Save Duplicate opp")): Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Save Duplicate opp' is clicked on
+
+2020-07-13 13:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Opportunities/button_Save Duplicate opp' is clicked on
+
+2020-07-13 13:02:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-13 13:02:07 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-13 13:01:30 - [TEST_SUITE][PASSED] - 9.Duplicate the Opportunity information: Test Cases/Opportunity Test Case/13.Duplicate the Account information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

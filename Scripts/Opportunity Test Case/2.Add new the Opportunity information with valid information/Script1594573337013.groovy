@@ -39,6 +39,12 @@ WebUI.click(findTestObject('Opportunity repository/Page_Contacts/a_ act contact 
 
 WebUI.switchToDefaultContent(FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Opportunity repository/Page_Opportunities NEW ADD/input__closingdate opp'), 'character')
+
+WebUI.click(findTestObject('Opportunity repository/Page_Opportunities NEW ADD/stage opp'))
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Opportunity repository/Page_Opportunities NEW ADD/input__closingdate opp'), findTestData('Opportunity Test Data/D3').getValue(
         4, 1))
 

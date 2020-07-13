@@ -21,9 +21,6 @@ WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__subjec
 WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__date_start to do opp'), findTestData('Opportunity Test Data/D9').getValue(
         3, 1))
 
-WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/input__due_date to do opp'), findTestData('Opportunity Test Data/D9').getValue(
-        5, 1))
-
 WebUI.setText(findTestObject('Opportunity repository/Page_Calendar/textarea__description to do opp'), findTestData('Opportunity Test Data/D9').getValue(
         6, 1))
 
