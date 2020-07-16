@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>D4</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>1cc1ceb8-c1f7-44ce-8efb-49b10b4380f5</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C CRMApp %E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97+%E0%B9%82%E0%B8%97%E0%B8%8A%E0%B8%B4%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%B8+%28%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2%29+%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94 Out-Bound Direct+Mail Very+Hot %E0%B9%80%E0%B8%A5%E0%B8%82%E0%B8%97%E0%B8%B5%E0%B9%88+242%2F1+%E0%B8%96%E0%B8%99%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD %E0%B9%80%E0%B8%81%E0%B8%A8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C+%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3 Project+Completed Test+Create+E-Lead 30 70</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>E-Lead Name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Lead Type</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Account Name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Lead Flow</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>Lead Source</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>Rating</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>Address</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>Contact</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>E-Lead Status</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>Decription</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>Sender Commission</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>Reciever Commission</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

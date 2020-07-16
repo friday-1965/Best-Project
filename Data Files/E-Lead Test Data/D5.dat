@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>D5</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e9d1b8ec-532f-43e6-99e4-2d02d7a3ebb7</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%AD%E0%B8%A2 %E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97+%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%A1%E0%B9%84%E0%B8%AD%E0%B8%94%E0%B8%B5+%E0%B8%94%E0%B8%B5%E0%B8%AA%E0%B8%97%E0%B8%A3%E0%B8%B5%E0%B8%9A%E0%B8%B4%E0%B8%A7%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99+%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94 %E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B4%E0%B8%A1%E0%B8%B2 01%2F02%2F2020 Prospect O+to+R Leasing True Dropped Acer New A 1 15000</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Opportunity Name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Account Name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Contact Name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Close Date</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>Stage</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>M/C Trade-in infomation</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>Sales Type</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>Normal</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>Lot Oeder Remove Reason</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>Item Name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>Status Name </name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>11</columnIndex>
+      <name>Configuration</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>12</columnIndex>
+      <name>Quantity</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>13</columnIndex>
+      <name>List Price</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

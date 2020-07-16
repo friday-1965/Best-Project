@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-07-16T21:25:20</date>
+  <millis>1594909520195</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Calendar Usecase/6</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">6</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Calendar Usecase/6</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:20</date>
+  <millis>1594909520210</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = WIN10 - DESKTOP-0NVCT6K</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">WIN10 - DESKTOP-0NVCT6K</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:20</date>
+  <millis>1594909520211</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:20</date>
+  <millis>1594909520212</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.2</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:20</date>
+  <millis>1594909520213</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.5.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.5.2.1</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:20</date>
+  <millis>1594909520484</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Calendar Test Case/1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Calendar Test Case/1</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Calendar Test Case/1</property>
+  <property name="source">C:\\Users\\WIN10\\git\\Best-Project\\Test Cases\\Calendar Test Case\\1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:20</date>
+  <millis>1594909520794</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;http://crmc.opencloud.digital:64216/index.php\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:21</date>
+  <millis>1594909521078</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:21</date>
+  <millis>1594909521115</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:24</date>
+  <millis>1594909524908</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = e560e20734b4d5b80c790684de6c86fa</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">e560e20734b4d5b80c790684de6c86fa</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:24</date>
+  <millis>1594909524924</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 83.0.4103.116</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 83.0.4103.116</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:24</date>
+  <millis>1594909524924</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:24</date>
+  <millis>1594909524925</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:24</date>
+  <millis>1594909524926</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&amp;quot;\&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:26</date>
+  <millis>1594909526590</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://crmc.opencloud.digital:64216/index.php&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:26</date>
+  <millis>1594909526591</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;http://crmc.opencloud.digital:64216/index.php\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:26</date>
+  <millis>1594909526592</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Account repository/Login/input_User name_username\&amp;quot;), findTestData(\&amp;quot;Calendar Test Data/D1\&amp;quot;).getValue(1, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:27</date>
+  <millis>1594909527599</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;admin&amp;apos; is set on object &amp;apos;Object Repository/Account repository/Login/input_User name_username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:27</date>
+  <millis>1594909527599</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Account repository/Login/input_User name_username\&amp;quot;), findTestData(\&amp;quot;Calendar Test Data/D1\&amp;quot;).getValue(1, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:27</date>
+  <millis>1594909527599</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Account repository/Login/input_Password_password\&amp;quot;), findTestData(\&amp;quot;Calendar Test Data/D1\&amp;quot;).getValue(2, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:28</date>
+  <millis>1594909528190</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;1qaz2WSX3edc &amp;apos; is set on object &amp;apos;Object Repository/Account repository/Login/input_Password_password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:28</date>
+  <millis>1594909528191</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Account repository/Login/input_Password_password\&amp;quot;), findTestData(\&amp;quot;Calendar Test Data/D1\&amp;quot;).getValue(2, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:28</date>
+  <millis>1594909528191</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Account repository/Login/button_Sign in\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:29</date>
+  <millis>1594909529570</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Account repository/Login/button_Sign in&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:29</date>
+  <millis>1594909529571</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Account repository/Login/button_Sign in\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:29</date>
+  <millis>1594909529571</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Calendar repository/Page_Home/a_Calendar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:35</date>
+  <millis>1594909535795</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Calendar repository/Page_Home/a_Calendar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:35</date>
+  <millis>1594909535796</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Calendar repository/Page_Home/a_Calendar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:35</date>
+  <millis>1594909535797</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:37</date>
+  <millis>1594909537818</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:37</date>
+  <millis>1594909537818</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:37</date>
+  <millis>1594909537818</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Calendar Test Case/1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:37</date>
+  <millis>1594909537819</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Calendar Test Case/1</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:37</date>
+  <millis>1594909537823</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Calendar Test Case/10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Calendar Test Case/10</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Calendar Test Case/10</property>
+  <property name="source">C:\\Users\\WIN10\\git\\Best-Project\\Test Cases\\Calendar Test Case\\10.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:37</date>
+  <millis>1594909537968</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Calendar repository/Page_Calendar/button_Add Activity\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:38</date>
+  <millis>1594909538323</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Calendar repository/Page_Calendar/button_Add Activity&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:38</date>
+  <millis>1594909538323</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Calendar repository/Page_Calendar/button_Add Activity\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:38</date>
+  <millis>1594909538323</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Calendar repository/Page_Calendar/a_Add New Calendar Calendar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:39</date>
+  <millis>1594909539214</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Calendar repository/Page_Calendar/a_Add New Calendar Calendar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:39</date>
+  <millis>1594909539215</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Calendar repository/Page_Calendar/a_Add New Calendar Calendar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:39</date>
+  <millis>1594909539215</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Calendar repository/Page_Calendar/button_Save NA\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:40</date>
+  <millis>1594909540069</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Calendar repository/Page_Calendar/button_Save NA&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:40</date>
+  <millis>1594909540070</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Calendar repository/Page_Calendar/button_Save NA\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:40</date>
+  <millis>1594909540070</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542072</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542072</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542073</millis>
+  <sequence>130</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Calendar Test Case/10</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542073</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Calendar Test Case/10</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542078</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Calendar Test Case/9</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Calendar Test Case/9</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Calendar Test Case/9</property>
+  <property name="source">C:\\Users\\WIN10\\git\\Best-Project\\Test Cases\\Calendar Test Case\\9.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542245</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/status result act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542588</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/status result act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542589</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/status result act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:42</date>
+  <millis>1594909542589</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/assign to act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:43</date>
+  <millis>1594909543456</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/assign to act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:43</date>
+  <millis>1594909543456</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/assign to act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:43</date>
+  <millis>1594909543456</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/status result act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:43</date>
+  <millis>1594909543986</millis>
+  <sequence>165</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/status result act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:43</date>
+  <millis>1594909543987</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/status result act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:43</date>
+  <millis>1594909543987</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(12, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:45</date>
+  <millis>1594909545133</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Done&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input status result act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:45</date>
+  <millis>1594909545134</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(12, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:45</date>
+  <millis>1594909545134</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:45</date>
+  <millis>1594909545662</millis>
+  <sequence>196</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input status result act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:45</date>
+  <millis>1594909545663</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:45</date>
+  <millis>1594909545664</millis>
+  <sequence>198</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/assign to act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:46</date>
+  <millis>1594909546235</millis>
+  <sequence>207</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/assign to act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:46</date>
+  <millis>1594909546235</millis>
+  <sequence>208</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/assign to act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:46</date>
+  <millis>1594909546235</millis>
+  <sequence>209</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:47</date>
+  <millis>1594909547438</millis>
+  <sequence>228</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;RIS System&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input assign to act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:47</date>
+  <millis>1594909547439</millis>
+  <sequence>229</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:47</date>
+  <millis>1594909547439</millis>
+  <sequence>230</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:47</date>
+  <millis>1594909547941</millis>
+  <sequence>238</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input assign to act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:47</date>
+  <millis>1594909547942</millis>
+  <sequence>239</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:47</date>
+  <millis>1594909547942</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/sale type act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:48</date>
+  <millis>1594909548486</millis>
+  <sequence>249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/sale type act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:48</date>
+  <millis>1594909548487</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/sale type act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:48</date>
+  <millis>1594909548487</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(4, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:49</date>
+  <millis>1594909549327</millis>
+  <sequence>270</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Pre-Sales&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input sale type act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:49</date>
+  <millis>1594909549328</millis>
+  <sequence>271</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(4, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:49</date>
+  <millis>1594909549328</millis>
+  <sequence>272</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:49</date>
+  <millis>1594909549818</millis>
+  <sequence>280</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input sale type act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:49</date>
+  <millis>1594909549819</millis>
+  <sequence>281</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:49</date>
+  <millis>1594909549819</millis>
+  <sequence>282</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__date_start act opp\&amp;quot;), \&amp;quot;test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:50</date>
+  <millis>1594909550869</millis>
+  <sequence>298</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;test&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:50</date>
+  <millis>1594909550869</millis>
+  <sequence>299</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__date_start act opp\&amp;quot;), \&amp;quot;test\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:50</date>
+  <millis>1594909550870</millis>
+  <sequence>300</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:51</date>
+  <millis>1594909551872</millis>
+  <sequence>302</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:51</date>
+  <millis>1594909551873</millis>
+  <sequence>303</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:51</date>
+  <millis>1594909551873</millis>
+  <sequence>304</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__date_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(7, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:52</date>
+  <millis>1594909552727</millis>
+  <sequence>323</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;11/02/20&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:52</date>
+  <millis>1594909552727</millis>
+  <sequence>324</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__date_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(7, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:52</date>
+  <millis>1594909552727</millis>
+  <sequence>325</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(8, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:53</date>
+  <millis>1594909553859</millis>
+  <sequence>344</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;03:19 PM&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__time_start act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:53</date>
+  <millis>1594909553859</millis>
+  <sequence>345</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(8, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:53</date>
+  <millis>1594909553859</millis>
+  <sequence>346</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__due_date act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:54</date>
+  <millis>1594909554743</millis>
+  <sequence>365</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;11/02/2020&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__due_date act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:54</date>
+  <millis>1594909554743</millis>
+  <sequence>366</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__due_date act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:54</date>
+  <millis>1594909554744</millis>
+  <sequence>367</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_end act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(10, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:55</date>
+  <millis>1594909555841</millis>
+  <sequence>386</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;03:24 PM&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__time_end act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:55</date>
+  <millis>1594909555842</millis>
+  <sequence>387</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_end act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(10, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:55</date>
+  <millis>1594909555842</millis>
+  <sequence>388</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:56</date>
+  <millis>1594909556843</millis>
+  <sequence>390</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:56</date>
+  <millis>1594909556844</millis>
+  <sequence>391</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:56</date>
+  <millis>1594909556844</millis>
+  <sequence>392</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/product group act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:57</date>
+  <millis>1594909557220</millis>
+  <sequence>401</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/product group act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:57</date>
+  <millis>1594909557221</millis>
+  <sequence>402</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/product group act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:57</date>
+  <millis>1594909557221</millis>
+  <sequence>403</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), \&amp;quot;No Product\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:58</date>
+  <millis>1594909558266</millis>
+  <sequence>419</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;No Product&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input product group act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:58</date>
+  <millis>1594909558267</millis>
+  <sequence>420</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), \&amp;quot;No Product\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:58</date>
+  <millis>1594909558267</millis>
+  <sequence>421</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:58</date>
+  <millis>1594909558770</millis>
+  <sequence>429</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input product group act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:58</date>
+  <millis>1594909558771</millis>
+  <sequence>430</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:58</date>
+  <millis>1594909558771</millis>
+  <sequence>431</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/show time as act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2020-07-16T21:25:59</date>
+  <millis>1594909559299</millis>
+  <sequence>440</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/show time as act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:59</date>
+  <millis>1594909559300</millis>
+  <sequence>441</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/show time as act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:25:59</date>
+  <millis>1594909559300</millis>
+  <sequence>442</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(13, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:00</date>
+  <millis>1594909560177</millis>
+  <sequence>461</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Out of Office&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input show time as act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:00</date>
+  <millis>1594909560177</millis>
+  <sequence>462</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(13, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:00</date>
+  <millis>1594909560178</millis>
+  <sequence>463</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">73</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:00</date>
+  <millis>1594909560664</millis>
+  <sequence>471</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input show time as act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:00</date>
+  <millis>1594909560665</millis>
+  <sequence>472</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:00</date>
+  <millis>1594909560665</millis>
+  <sequence>473</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/textarea__description act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(14, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:01</date>
+  <millis>1594909561476</millis>
+  <sequence>492</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Anatomy of Ultraman&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/textarea__description act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:01</date>
+  <millis>1594909561476</millis>
+  <sequence>493</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/textarea__description act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(14, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:01</date>
+  <millis>1594909561476</millis>
+  <sequence>494</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/button_Save Activity opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:01</date>
+  <millis>1594909561851</millis>
+  <sequence>503</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/button_Save Activity opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:01</date>
+  <millis>1594909561851</millis>
+  <sequence>504</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/button_Save Activity opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:01</date>
+  <millis>1594909561852</millis>
+  <sequence>505</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">80</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:03</date>
+  <millis>1594909563855</millis>
+  <sequence>507</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:03</date>
+  <millis>1594909563855</millis>
+  <sequence>508</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:03</date>
+  <millis>1594909563855</millis>
+  <sequence>509</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Calendar Test Case/9</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:03</date>
+  <millis>1594909563855</millis>
+  <sequence>510</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Calendar Test Case/9</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:03</date>
+  <millis>1594909563857</millis>
+  <sequence>511</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Calendar Test Case/8</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Calendar Test Case/8</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Calendar Test Case/8</property>
+  <property name="source">C:\\Users\\WIN10\\git\\Best-Project\\Test Cases\\Calendar Test Case\\8.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:04</date>
+  <millis>1594909564017</millis>
+  <sequence>513</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/act type opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:04</date>
+  <millis>1594909564335</millis>
+  <sequence>522</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/act type opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:04</date>
+  <millis>1594909564335</millis>
+  <sequence>523</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/act type opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:04</date>
+  <millis>1594909564335</millis>
+  <sequence>524</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input act type opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(2, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:05</date>
+  <millis>1594909565858</millis>
+  <sequence>543</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Call&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input act type opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:05</date>
+  <millis>1594909565858</millis>
+  <sequence>544</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input act type opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(2, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:05</date>
+  <millis>1594909565858</millis>
+  <sequence>545</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input act type opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:06</date>
+  <millis>1594909566363</millis>
+  <sequence>553</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input act type opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:06</date>
+  <millis>1594909566364</millis>
+  <sequence>554</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input act type opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:06</date>
+  <millis>1594909566364</millis>
+  <sequence>555</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/assign to act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:06</date>
+  <millis>1594909566897</millis>
+  <sequence>564</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/assign to act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:06</date>
+  <millis>1594909566897</millis>
+  <sequence>565</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/assign to act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:06</date>
+  <millis>1594909566898</millis>
+  <sequence>566</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:07</date>
+  <millis>1594909567755</millis>
+  <sequence>585</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;RIS System&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input assign to act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:07</date>
+  <millis>1594909567755</millis>
+  <sequence>586</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(3, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:07</date>
+  <millis>1594909567755</millis>
+  <sequence>587</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:08</date>
+  <millis>1594909568261</millis>
+  <sequence>595</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input assign to act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:08</date>
+  <millis>1594909568262</millis>
+  <sequence>596</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input assign to act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:08</date>
+  <millis>1594909568262</millis>
+  <sequence>597</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/sale type act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:08</date>
+  <millis>1594909568786</millis>
+  <sequence>606</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/sale type act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:08</date>
+  <millis>1594909568787</millis>
+  <sequence>607</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/sale type act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:08</date>
+  <millis>1594909568787</millis>
+  <sequence>608</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(4, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:09</date>
+  <millis>1594909569605</millis>
+  <sequence>627</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Pre-Sales&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input sale type act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:09</date>
+  <millis>1594909569605</millis>
+  <sequence>628</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(4, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:09</date>
+  <millis>1594909569605</millis>
+  <sequence>629</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:10</date>
+  <millis>1594909570094</millis>
+  <sequence>637</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input sale type act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:10</date>
+  <millis>1594909570094</millis>
+  <sequence>638</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input sale type act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:10</date>
+  <millis>1594909570094</millis>
+  <sequence>639</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__date_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(7, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:11</date>
+  <millis>1594909571156</millis>
+  <sequence>658</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;11/02/20&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:11</date>
+  <millis>1594909571156</millis>
+  <sequence>659</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__date_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(7, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:11</date>
+  <millis>1594909571156</millis>
+  <sequence>660</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(8, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:12</date>
+  <millis>1594909572240</millis>
+  <sequence>679</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;03:19 PM&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__time_start act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:12</date>
+  <millis>1594909572240</millis>
+  <sequence>680</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_start act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(8, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:12</date>
+  <millis>1594909572240</millis>
+  <sequence>681</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__due_date act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:13</date>
+  <millis>1594909573320</millis>
+  <sequence>700</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;11/02/2020&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__due_date act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:13</date>
+  <millis>1594909573321</millis>
+  <sequence>701</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__due_date act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(9, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:13</date>
+  <millis>1594909573321</millis>
+  <sequence>702</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_end act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(10, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:14</date>
+  <millis>1594909574388</millis>
+  <sequence>721</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;03:24 PM&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__time_end act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:14</date>
+  <millis>1594909574388</millis>
+  <sequence>722</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__time_end act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(10, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:14</date>
+  <millis>1594909574388</millis>
+  <sequence>723</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__subject act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:14</date>
+  <millis>1594909574743</millis>
+  <sequence>732</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__subject act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:14</date>
+  <millis>1594909574744</millis>
+  <sequence>733</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__subject act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:14</date>
+  <millis>1594909574744</millis>
+  <sequence>734</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__subject act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(1, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:15</date>
+  <millis>1594909575888</millis>
+  <sequence>753</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Anatomy&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input__subject act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:15</date>
+  <millis>1594909575889</millis>
+  <sequence>754</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input__subject act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(1, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:15</date>
+  <millis>1594909575889</millis>
+  <sequence>755</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:16</date>
+  <millis>1594909576890</millis>
+  <sequence>757</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:16</date>
+  <millis>1594909576890</millis>
+  <sequence>758</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:16</date>
+  <millis>1594909576891</millis>
+  <sequence>759</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/status result act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:17</date>
+  <millis>1594909577249</millis>
+  <sequence>768</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/status result act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:17</date>
+  <millis>1594909577249</millis>
+  <sequence>769</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/status result act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:17</date>
+  <millis>1594909577250</millis>
+  <sequence>770</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(12, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:18</date>
+  <millis>1594909578061</millis>
+  <sequence>789</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Done&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input status result act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:18</date>
+  <millis>1594909578062</millis>
+  <sequence>790</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(12, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:18</date>
+  <millis>1594909578062</millis>
+  <sequence>791</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:18</date>
+  <millis>1594909578550</millis>
+  <sequence>799</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input status result act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:18</date>
+  <millis>1594909578551</millis>
+  <sequence>800</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input status result act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:18</date>
+  <millis>1594909578551</millis>
+  <sequence>801</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/searct contact name act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:19</date>
+  <millis>1594909579124</millis>
+  <sequence>810</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/searct contact name act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:19</date>
+  <millis>1594909579125</millis>
+  <sequence>811</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/searct contact name act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:19</date>
+  <millis>1594909579125</millis>
+  <sequence>812</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowTitle(\&amp;quot;Contacts\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:21</date>
+  <millis>1594909581186</millis>
+  <sequence>815</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with title: &amp;apos;Contacts&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:21</date>
+  <millis>1594909581186</millis>
+  <sequence>816</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowTitle(\&amp;quot;Contacts\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:21</date>
+  <millis>1594909581186</millis>
+  <sequence>817</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Contacts/a_ act contact name\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:21</date>
+  <millis>1594909581515</millis>
+  <sequence>826</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Contacts/a_ act contact name&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:21</date>
+  <millis>1594909581515</millis>
+  <sequence>827</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Contacts/a_ act contact name\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:21</date>
+  <millis>1594909581515</millis>
+  <sequence>828</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToDefaultContent()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:23</date>
+  <millis>1594909583581</millis>
+  <sequence>830</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToDefaultContent()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:23</date>
+  <millis>1594909583581</millis>
+  <sequence>831</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/product group act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:23</date>
+  <millis>1594909583922</millis>
+  <sequence>840</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/product group act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:23</date>
+  <millis>1594909583922</millis>
+  <sequence>841</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/product group act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:23</date>
+  <millis>1594909583922</millis>
+  <sequence>842</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), \&amp;quot;No Product\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:24</date>
+  <millis>1594909584800</millis>
+  <sequence>858</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;No Product&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input product group act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:24</date>
+  <millis>1594909584800</millis>
+  <sequence>859</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), \&amp;quot;No Product\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:24</date>
+  <millis>1594909584800</millis>
+  <sequence>860</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:25</date>
+  <millis>1594909585303</millis>
+  <sequence>868</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + &amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input product group act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:25</date>
+  <millis>1594909585303</millis>
+  <sequence>869</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input product group act opp\&amp;quot;), Keys.chord(ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:25</date>
+  <millis>1594909585303</millis>
+  <sequence>870</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/show time as act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">80</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:25</date>
+  <millis>1594909585829</millis>
+  <sequence>879</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/show time as act opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:25</date>
+  <millis>1594909585829</millis>
+  <sequence>880</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/show time as act opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:25</date>
+  <millis>1594909585830</millis>
+  <sequence>881</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(13, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">82</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:26</date>
+  <millis>1594909586692</millis>
+  <sequence>900</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Out of Office&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input show time as act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:26</date>
+  <millis>1594909586692</millis>
+  <sequence>901</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(13, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:26</date>
+  <millis>1594909586692</millis>
+  <sequence>902</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), Keys.chord())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">85</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:27</date>
+  <millis>1594909587173</millis>
+  <sequence>910</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;&amp;apos; sent to object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/input show time as act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:27</date>
+  <millis>1594909587173</millis>
+  <sequence>911</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/input show time as act opp\&amp;quot;), Keys.chord())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:27</date>
+  <millis>1594909587173</millis>
+  <sequence>912</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/textarea__description act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(14, 1))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:27</date>
+  <millis>1594909587986</millis>
+  <sequence>931</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Anatomy of Ultraman&amp;apos; is set on object &amp;apos;Object Repository/Opportunity repository/Page_Calendar/textarea__description act opp&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:27</date>
+  <millis>1594909587987</millis>
+  <sequence>932</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/textarea__description act opp\&amp;quot;), findTestData(\&amp;quot;Opportunity Test Data/D7\&amp;quot;).getValue(14, 1))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:27</date>
+  <millis>1594909587987</millis>
+  <sequence>933</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/button_Save Activity opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">90</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2020-07-16T21:26:29</date>
+  <millis>1594909589958</millis>
+  <sequence>942</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Opportunity repository/Page_Calendar/button_Save Activity opp&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:29</date>
+  <millis>1594909589959</millis>
+  <sequence>943</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Opportunity repository/Page_Calendar/button_Save Activity opp\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:29</date>
+  <millis>1594909589959</millis>
+  <sequence>944</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Calendar Test Case/8</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:29</date>
+  <millis>1594909589959</millis>
+  <sequence>945</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Calendar Test Case/8</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-07-16T21:26:30</date>
+  <millis>1594909590622</millis>
+  <sequence>946</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Calendar Usecase/6</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

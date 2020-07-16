@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="2" time="68.434" tests="4" failures="0" errors="0">
+   <testsuite name="2" tests="4" failures="0" errors="0" time="68.434" timestamp="2020-07-16 23:14:34" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/E-Lead Usecase/2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200716_231432\\E-Lead Usecase\\2\\20200716_231432"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200716_231432\\E-Lead Usecase\\2\\20200716_231432\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="0578b9f2306152e80e3863dd19ffc2a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/E-Lead Test Case/1" time="17.48" classname="Test Cases/E-Lead Test Case/1" status="PASSED">
+         <system-out><![CDATA[2020-07-16 23:14:34 - [TEST_CASE][PASSED] - Test Cases/E-Lead Test Case/1: Test Cases/E-Lead Test Case/1
+
+2020-07-16 23:14:34 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-16 23:14:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-16 23:14:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-16 23:14:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-16 23:14:39 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Calendar Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-16 23:14:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-16 23:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Calendar Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-16 23:14:41 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-16 23:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-16 23:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-16 23:14:43 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_Home/a_E-Lead")): Object: 'Object Repository/E-Lead repository/Page_Home/a_E-Lead' is clicked on
+
+2020-07-16 23:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_Home/a_E-Lead' is clicked on
+
+2020-07-16 23:14:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 23:14:52 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/E-Lead Test Case/4" time="4.225" classname="Test Cases/E-Lead Test Case/4" status="PASSED">
+         <system-out><![CDATA[2020-07-16 23:14:52 - [TEST_CASE][PASSED] - Test Cases/E-Lead Test Case/4: Test Cases/E-Lead Test Case/4
+
+2020-07-16 23:14:52 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/button_Add E-Lead")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Add E-Lead' is clicked on
+
+2020-07-16 23:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Add E-Lead' is clicked on
+
+2020-07-16 23:14:53 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/button_Save E-Lead")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Save E-Lead' is clicked on
+
+2020-07-16 23:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Save E-Lead' is clicked on
+
+2020-07-16 23:14:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 23:14:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/E-Lead Test Case/3" time="20.152" classname="Test Cases/E-Lead Test Case/3" status="PASSED">
+         <system-out><![CDATA[2020-07-16 23:14:56 - [TEST_CASE][PASSED] - Test Cases/E-Lead Test Case/3: Test Cases/E-Lead Test Case/3
+
+2020-07-16 23:14:56 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__eleadname"), findTestData("E-Lead Test Data/D4").getValue(1, 1)): Text 'เครื่องคอมพิวเตอร์' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__eleadname'
+
+2020-07-16 23:14:57 - [MESSAGE][PASSED] - Text 'เครื่องคอมพิวเตอร์' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__eleadname'
+
+2020-07-16 23:14:57 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/Lead Source")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/Lead Source' is clicked on
+
+2020-07-16 23:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/Lead Source' is clicked on
+
+2020-07-16 23:14:57 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input Lead Source"), findTestData("E-Lead Test Data/D3").getValue(5, 1)): Text 'Direct Mail' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:14:58 - [MESSAGE][PASSED] - Text 'Direct Mail' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:14:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("E-Lead repository/Page_E-Lead/input Lead Source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:14:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:14:59 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/serch accouts name")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/serch accouts name' is clicked on
+
+2020-07-16 23:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/serch accouts name' is clicked on
+
+2020-07-16 23:14:59 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2020-07-16 23:15:01 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2020-07-16 23:15:01 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_Accounts/a_   sirinrut")): Object: 'Object Repository/E-Lead repository/Page_Accounts/a_   sirinrut' is clicked on
+
+2020-07-16 23:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_Accounts/a_   sirinrut' is clicked on
+
+2020-07-16 23:15:02 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-16 23:15:04 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/Rating")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/Rating' is clicked on
+
+2020-07-16 23:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/Rating' is clicked on
+
+2020-07-16 23:15:04 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input Rating"), findTestData("E-Lead Test Data/D3").getValue(6, 1)): Text 'Very Hot' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:05 - [MESSAGE][PASSED] - Text 'Very Hot' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("E-Lead repository/Page_E-Lead/input Rating"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/textarea__Adress"), findTestData("E-Lead Test Data/D3").getValue(7, 1)): Text 'เลขที่ 242/1 ถนนเทศบาลนิมิตรเหนือ' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__Adress'
+
+2020-07-16 23:15:07 - [MESSAGE][PASSED] - Text 'เลขที่ 242/1 ถนนเทศบาลนิมิตรเหนือ' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__Adress'
+
+2020-07-16 23:15:07 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/Search first Name")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/Search first Name' is clicked on
+
+2020-07-16 23:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/Search first Name' is clicked on
+
+2020-07-16 23:15:07 - [TEST_STEP][PASSED] - switchToWindowTitle("Contacts"): Switched to window with title: 'Contacts'
+
+2020-07-16 23:15:09 - [MESSAGE][PASSED] - Switched to window with title: 'Contacts'
+
+2020-07-16 23:15:09 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_Contacts/a_Suwanna")): Object: 'Object Repository/E-Lead repository/Page_Contacts/a_Suwanna' is clicked on
+
+2020-07-16 23:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_Contacts/a_Suwanna' is clicked on
+
+2020-07-16 23:15:10 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-16 23:15:12 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/textarea__description"), findTestData("E-Lead Test Data/D3").getValue(10, 1)): Text 'Test Create E-Lead' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__description'
+
+2020-07-16 23:15:12 - [MESSAGE][PASSED] - Text 'Test Create E-Lead' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__description'
+
+2020-07-16 23:15:12 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__sender com"), findTestData("E-Lead Test Data/D3").getValue(11, 1)): Text '30' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender com'
+
+2020-07-16 23:15:13 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender com'
+
+2020-07-16 23:15:13 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__reciever com"), findTestData("E-Lead Test Data/D3").getValue(12, 1)): Text '70' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__reciever com'
+
+2020-07-16 23:15:14 - [MESSAGE][PASSED] - Text '70' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__reciever com'
+
+2020-07-16 23:15:14 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/button_Save E-Lead")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Save E-Lead' is clicked on
+
+2020-07-16 23:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Save E-Lead' is clicked on
+
+2020-07-16 23:15:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 23:15:16 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/E-Lead Test Case/2" time="25.559" classname="Test Cases/E-Lead Test Case/2" status="PASSED">
+         <system-out><![CDATA[2020-07-16 23:15:16 - [TEST_CASE][PASSED] - Test Cases/E-Lead Test Case/2: Test Cases/E-Lead Test Case/2
+
+2020-07-16 23:15:16 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__eleadname"), findTestData("E-Lead Test Data/D4").getValue(1, 1)): Text 'เครื่องคอมพิวเตอร์' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__eleadname'
+
+2020-07-16 23:15:17 - [MESSAGE][PASSED] - Text 'เครื่องคอมพิวเตอร์' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__eleadname'
+
+2020-07-16 23:15:17 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/Lead Source")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/Lead Source' is clicked on
+
+2020-07-16 23:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/Lead Source' is clicked on
+
+2020-07-16 23:15:18 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input Lead Source"), findTestData("E-Lead Test Data/D3").getValue(5, 1)): Text 'Direct Mail' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:15:19 - [MESSAGE][PASSED] - Text 'Direct Mail' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:15:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("E-Lead repository/Page_E-Lead/input Lead Source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:15:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Lead Source'
+
+2020-07-16 23:15:19 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/serch accouts name")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/serch accouts name' is clicked on
+
+2020-07-16 23:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/serch accouts name' is clicked on
+
+2020-07-16 23:15:20 - [TEST_STEP][PASSED] - switchToWindowTitle("Accounts"): Switched to window with title: 'Accounts'
+
+2020-07-16 23:15:22 - [MESSAGE][PASSED] - Switched to window with title: 'Accounts'
+
+2020-07-16 23:15:22 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_Accounts/a_   sirinrut")): Object: 'Object Repository/E-Lead repository/Page_Accounts/a_   sirinrut' is clicked on
+
+2020-07-16 23:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_Accounts/a_   sirinrut' is clicked on
+
+2020-07-16 23:15:22 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-16 23:15:24 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/Rating")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/Rating' is clicked on
+
+2020-07-16 23:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/Rating' is clicked on
+
+2020-07-16 23:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input Rating"), findTestData("E-Lead Test Data/D3").getValue(6, 1)): Text 'Very Hot' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:25 - [MESSAGE][PASSED] - Text 'Very Hot' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("E-Lead repository/Page_E-Lead/input Rating"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/E-Lead repository/Page_E-Lead/input Rating'
+
+2020-07-16 23:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/textarea__Adress"), findTestData("E-Lead Test Data/D3").getValue(7, 1)): Text 'เลขที่ 242/1 ถนนเทศบาลนิมิตรเหนือ' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__Adress'
+
+2020-07-16 23:15:27 - [MESSAGE][PASSED] - Text 'เลขที่ 242/1 ถนนเทศบาลนิมิตรเหนือ' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__Adress'
+
+2020-07-16 23:15:27 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/Search first Name")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/Search first Name' is clicked on
+
+2020-07-16 23:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/Search first Name' is clicked on
+
+2020-07-16 23:15:27 - [TEST_STEP][PASSED] - switchToWindowTitle("Contacts"): Switched to window with title: 'Contacts'
+
+2020-07-16 23:15:30 - [MESSAGE][PASSED] - Switched to window with title: 'Contacts'
+
+2020-07-16 23:15:30 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_Contacts/a_Suwanna")): Object: 'Object Repository/E-Lead repository/Page_Contacts/a_Suwanna' is clicked on
+
+2020-07-16 23:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_Contacts/a_Suwanna' is clicked on
+
+2020-07-16 23:15:30 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-16 23:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/textarea__description"), findTestData("E-Lead Test Data/D3").getValue(10, 1)): Text 'Test Create E-Lead' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__description'
+
+2020-07-16 23:15:33 - [MESSAGE][PASSED] - Text 'Test Create E-Lead' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/textarea__description'
+
+2020-07-16 23:15:33 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__sender com"), findTestData("E-Lead Test Data/D3").getValue(11, 1)): Text '30' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender com'
+
+2020-07-16 23:15:34 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender com'
+
+2020-07-16 23:15:34 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__reciever com"), findTestData("E-Lead Test Data/D3").getValue(12, 1)): Text '70' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__reciever com'
+
+2020-07-16 23:15:35 - [MESSAGE][PASSED] - Text '70' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__reciever com'
+
+2020-07-16 23:15:35 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__sender name"), findTestData("E-Lead Test Data/D3").getValue(13, 1)): Text 'Lukkhana Thaipermpol' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender name'
+
+2020-07-16 23:15:36 - [MESSAGE][PASSED] - Text 'Lukkhana Thaipermpol' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender name'
+
+2020-07-16 23:15:36 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__employee number"), findTestData("E-Lead Test Data/D3").getValue(14, 1)): Text '570245' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__employee number'
+
+2020-07-16 23:15:37 - [MESSAGE][PASSED] - Text '570245' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__employee number'
+
+2020-07-16 23:15:37 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__department"), findTestData("E-Lead Test Data/D3").getValue(15, 1)): Text 'CEM' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__department'
+
+2020-07-16 23:15:38 - [MESSAGE][PASSED] - Text 'CEM' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__department'
+
+2020-07-16 23:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__entity code"), findTestData("E-Lead Test Data/D3").getValue(16, 1)): Text '010210' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__entity code'
+
+2020-07-16 23:15:39 - [MESSAGE][PASSED] - Text '010210' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__entity code'
+
+2020-07-16 23:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__sender email"), findTestData("E-Lead Test Data/D3").getValue(17, 1)): Text 'lukkhana.tha@ricoh.co.th' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender email'
+
+2020-07-16 23:15:40 - [MESSAGE][PASSED] - Text 'lukkhana.tha@ricoh.co.th' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender email'
+
+2020-07-16 23:15:40 - [TEST_STEP][PASSED] - setText(findTestObject("E-Lead repository/Page_E-Lead/input__sender phone"), findTestData("E-Lead Test Data/D3").getValue(18, 1)): Text '02-088-4697' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender phone'
+
+2020-07-16 23:15:41 - [MESSAGE][PASSED] - Text '02-088-4697' is set on object 'Object Repository/E-Lead repository/Page_E-Lead/input__sender phone'
+
+2020-07-16 23:15:41 - [TEST_STEP][PASSED] - click(findTestObject("E-Lead repository/Page_E-Lead/button_Save E-Lead")): Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Save E-Lead' is clicked on
+
+2020-07-16 23:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/E-Lead repository/Page_E-Lead/button_Save E-Lead' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-16 23:14:34 - [TEST_SUITE][PASSED] - 2: Test Cases/E-Lead Test Case/2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

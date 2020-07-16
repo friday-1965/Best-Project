@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_SEND OTHER LEAD</name>
+   <tag></tag>
+   <elementGuidId>86affd89-d176-43d4-b3b6-52d4171f7f23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='Elead_detailView_basicAction_SEND_OTHER_LEAD']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Elead_detailView_basicAction_SEND_OTHER_LEAD</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>window.location.href='index.php?module=Elead&amp;view=Edit&amp;cf_3749=4117723&amp;mode=SEND_OTHER_LEAD&amp;eleadname=เครื่องคอมพิวเตอร์ เทส&amp;cf_2415=CRMApp&amp;cf_2371=1671&amp;cf_3563=P.T. RAYONG CO.,LTD.&amp;cf_2373=163492&amp;cf_2476=Out-Bound&amp;cf_2472=Other&amp;cf_2478=BKK E-lead&amp;cf_2389=การซื้อและการขายอสังหาริมทรัพย์ที่เป็นของตนเองที่ไม่ใช่ เพื่อเป็นที่พักอาศัย&amp;cf_2480=Very Hot&amp;cf_2474=ประกอบกิจการค้าอสังหาริมทรัพย์&amp;cf_2482=&amp;cf_2486=กิจกรรมเกี่ยวกับอสังหาริมทรัพย์&amp;cf_2484=ข้อมูลข่าวสารและการสื่อสาร&amp;cf_2375=เลขที่ 242/1 ถนนเทศบาลนิมิตรเหนือ&amp;cf_2377=ลาดยาว&amp;cf_2381=จตุจักร&amp;cf_2379=กรุงเทพมหานคร&amp;cf_2488=10900&amp;cf_2391=กรุงเทพฯ (เขตปริมณฑล นนทบุรี ปทุมธานี สมุทรปราการ)&amp;cf_2502=Active&amp;cf_2387=xxx@xxx.com&amp;cf_2504=คุณ&amp;cf_2506=0812360043&amp;cf_2508=4117726&amp;cf_2510=&amp;cf_2512=จุฑามณี&amp;cf_2514=&amp;cf_2516=เทส&amp;cf_2518=Male&amp;cf_2520=Billing&amp;cf_2522='</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEND OTHER LEAD</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Elead_detailView_basicAction_SEND_OTHER_LEAD&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='Elead_detailView_basicAction_SEND_OTHER_LEAD']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/div/div/div/div/div[2]/div/div/span[2]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Convert To Opportunity'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='เครื่องคอมพิวเตอร์ เทส'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Printable View'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/button</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10.Send E-Lead to other Lead with invalid information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ebc8af5-caa9-4184-9319-96647d569e16</testCaseGuid>
+</TestCaseEntity>

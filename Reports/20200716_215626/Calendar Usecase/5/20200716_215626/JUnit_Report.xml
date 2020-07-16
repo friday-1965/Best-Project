@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="5" time="78.26" tests="4" failures="0" errors="0">
+   <testsuite name="5" tests="4" failures="0" errors="0" time="78.26" timestamp="2020-07-16 21:56:28" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Calendar Usecase/5">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200716_215626\\Calendar Usecase\\5\\20200716_215626"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200716_215626\\Calendar Usecase\\5\\20200716_215626\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="4033130730cca6753806558fdd43bbfe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Test Case/1" time="17.046" classname="Test Cases/Calendar Test Case/1" status="PASSED">
+         <system-out><![CDATA[2020-07-16 21:56:29 - [TEST_CASE][PASSED] - Test Cases/Calendar Test Case/1: Test Cases/Calendar Test Case/1
+
+2020-07-16 21:56:29 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-16 21:56:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-16 21:56:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-16 21:56:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-16 21:56:34 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Calendar Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-16 21:56:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-16 21:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Calendar Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-16 21:56:36 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-16 21:56:36 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-16 21:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-16 21:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Home/a_Calendar")): Object: 'Object Repository/Calendar repository/Page_Home/a_Calendar' is clicked on
+
+2020-07-16 21:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Home/a_Calendar' is clicked on
+
+2020-07-16 21:56:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 21:56:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calendar Test Case/7" time="4.35" classname="Test Cases/Calendar Test Case/7" status="PASSED">
+         <system-out><![CDATA[2020-07-16 21:56:46 - [TEST_CASE][PASSED] - Test Cases/Calendar Test Case/7: Test Cases/Calendar Test Case/7
+
+2020-07-16 21:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/button_Add Activity")): Object: 'Object Repository/Calendar repository/Page_Calendar/button_Add Activity' is clicked on
+
+2020-07-16 21:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/button_Add Activity' is clicked on
+
+2020-07-16 21:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/a_Add New Activity Calendar")): Object: 'Object Repository/Calendar repository/Page_Calendar/a_Add New Activity Calendar' is clicked on
+
+2020-07-16 21:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/a_Add New Activity Calendar' is clicked on
+
+2020-07-16 21:56:47 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/button_Save NA")): Object: 'Object Repository/Calendar repository/Page_Calendar/button_Save NA' is clicked on
+
+2020-07-16 21:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/button_Save NA' is clicked on
+
+2020-07-16 21:56:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 21:56:50 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calendar Test Case/6" time="22.796" classname="Test Cases/Calendar Test Case/6" status="PASSED">
+         <system-out><![CDATA[2020-07-16 21:56:50 - [TEST_CASE][PASSED] - Test Cases/Calendar Test Case/6: Test Cases/Calendar Test Case/6
+
+2020-07-16 21:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/status result act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/status result act opp' is clicked on
+
+2020-07-16 21:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/status result act opp' is clicked on
+
+2020-07-16 21:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/assign to act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/assign to act opp' is clicked on
+
+2020-07-16 21:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/assign to act opp' is clicked on
+
+2020-07-16 21:56:52 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/status result act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/status result act opp' is clicked on
+
+2020-07-16 21:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/status result act opp' is clicked on
+
+2020-07-16 21:56:52 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input status result act opp"), findTestData("Opportunity Test Data/D7").getValue(12, 1)): Text 'Done' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:56:53 - [MESSAGE][PASSED] - Text 'Done' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:56:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input status result act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:56:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:56:54 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/assign to act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/assign to act opp' is clicked on
+
+2020-07-16 21:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/assign to act opp' is clicked on
+
+2020-07-16 21:56:55 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input assign to act opp"), findTestData("Opportunity Test Data/D7").getValue(3, 1)): Text 'RIS System' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:56:56 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:56:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input assign to act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:56:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/sale type act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/sale type act opp' is clicked on
+
+2020-07-16 21:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/sale type act opp' is clicked on
+
+2020-07-16 21:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input sale type act opp"), findTestData("Opportunity Test Data/D7").getValue(4, 1)): Text 'Pre-Sales' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:56:58 - [MESSAGE][PASSED] - Text 'Pre-Sales' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:56:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input sale type act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:56:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:56:58 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__date_start act opp"), "test"): Text 'test' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp'
+
+2020-07-16 21:57:00 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp'
+
+2020-07-16 21:57:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-07-16 21:57:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-16 21:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__date_start act opp"), findTestData("Opportunity Test Data/D7").getValue(7, 1)): Text '11/02/20' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp'
+
+2020-07-16 21:57:01 - [MESSAGE][PASSED] - Text '11/02/20' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp'
+
+2020-07-16 21:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__time_start act opp"), findTestData("Opportunity Test Data/D7").getValue(8, 1)): Text '03:19 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_start act opp'
+
+2020-07-16 21:57:03 - [MESSAGE][PASSED] - Text '03:19 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_start act opp'
+
+2020-07-16 21:57:03 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__due_date act opp"), findTestData("Opportunity Test Data/D7").getValue(9, 1)): Text '11/02/2020' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__due_date act opp'
+
+2020-07-16 21:57:04 - [MESSAGE][PASSED] - Text '11/02/2020' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__due_date act opp'
+
+2020-07-16 21:57:04 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__time_end act opp"), findTestData("Opportunity Test Data/D7").getValue(10, 1)): Text '03:24 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_end act opp'
+
+2020-07-16 21:57:05 - [MESSAGE][PASSED] - Text '03:24 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_end act opp'
+
+2020-07-16 21:57:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-07-16 21:57:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-16 21:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/product group act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/product group act opp' is clicked on
+
+2020-07-16 21:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/product group act opp' is clicked on
+
+2020-07-16 21:57:06 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input product group act opp"), "No Product"): Text 'No Product' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:07 - [MESSAGE][PASSED] - Text 'No Product' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input product group act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/show time as act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/show time as act opp' is clicked on
+
+2020-07-16 21:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/show time as act opp' is clicked on
+
+2020-07-16 21:57:08 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input show time as act opp"), findTestData("Opportunity Test Data/D7").getValue(13, 1)): Text 'Out of Office' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:09 - [MESSAGE][PASSED] - Text 'Out of Office' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input show time as act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:10 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/textarea__description act opp"), findTestData("Opportunity Test Data/D7").getValue(14, 1)): Text 'Anatomy of Ultraman' is set on object 'Object Repository/Opportunity repository/Page_Calendar/textarea__description act opp'
+
+2020-07-16 21:57:10 - [MESSAGE][PASSED] - Text 'Anatomy of Ultraman' is set on object 'Object Repository/Opportunity repository/Page_Calendar/textarea__description act opp'
+
+2020-07-16 21:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/button_Save Activity opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/button_Save Activity opp' is clicked on
+
+2020-07-16 21:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/button_Save Activity opp' is clicked on
+
+2020-07-16 21:57:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 21:57:13 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calendar Test Case/5" time="33.042" classname="Test Cases/Calendar Test Case/5" status="PASSED">
+         <system-out><![CDATA[2020-07-16 21:57:13 - [TEST_CASE][PASSED] - Test Cases/Calendar Test Case/5: Test Cases/Calendar Test Case/5
+
+2020-07-16 21:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/act type opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/act type opp' is clicked on
+
+2020-07-16 21:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/act type opp' is clicked on
+
+2020-07-16 21:57:13 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input act type opp"), findTestData("Opportunity Test Data/D7").getValue(2, 1)): Text 'Call' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input act type opp'
+
+2020-07-16 21:57:15 - [MESSAGE][PASSED] - Text 'Call' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input act type opp'
+
+2020-07-16 21:57:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input act type opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input act type opp'
+
+2020-07-16 21:57:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input act type opp'
+
+2020-07-16 21:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/assign to act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/assign to act opp' is clicked on
+
+2020-07-16 21:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/assign to act opp' is clicked on
+
+2020-07-16 21:57:16 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input assign to act opp"), findTestData("Opportunity Test Data/D7").getValue(3, 1)): Text 'RIS System' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:57:17 - [MESSAGE][PASSED] - Text 'RIS System' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:57:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input assign to act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:57:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input assign to act opp'
+
+2020-07-16 21:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/sale type act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/sale type act opp' is clicked on
+
+2020-07-16 21:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/sale type act opp' is clicked on
+
+2020-07-16 21:57:18 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input sale type act opp"), findTestData("Opportunity Test Data/D7").getValue(4, 1)): Text 'Pre-Sales' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:57:18 - [MESSAGE][PASSED] - Text 'Pre-Sales' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:57:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input sale type act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:57:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input sale type act opp'
+
+2020-07-16 21:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__date_start act opp"), findTestData("Opportunity Test Data/D7").getValue(7, 1)): Text '11/02/20' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp'
+
+2020-07-16 21:57:20 - [MESSAGE][PASSED] - Text '11/02/20' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__date_start act opp'
+
+2020-07-16 21:57:20 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__time_start act opp"), findTestData("Opportunity Test Data/D7").getValue(8, 1)): Text '03:19 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_start act opp'
+
+2020-07-16 21:57:21 - [MESSAGE][PASSED] - Text '03:19 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_start act opp'
+
+2020-07-16 21:57:21 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__due_date act opp"), findTestData("Opportunity Test Data/D7").getValue(9, 1)): Text '11/02/2020' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__due_date act opp'
+
+2020-07-16 21:57:22 - [MESSAGE][PASSED] - Text '11/02/2020' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__due_date act opp'
+
+2020-07-16 21:57:22 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__time_end act opp"), findTestData("Opportunity Test Data/D7").getValue(10, 1)): Text '03:24 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_end act opp'
+
+2020-07-16 21:57:23 - [MESSAGE][PASSED] - Text '03:24 PM' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__time_end act opp'
+
+2020-07-16 21:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/input__subject act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/input__subject act opp' is clicked on
+
+2020-07-16 21:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/input__subject act opp' is clicked on
+
+2020-07-16 21:57:24 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input__subject act opp"), findTestData("Opportunity Test Data/D7").getValue(1, 1)): Text 'Anatomy' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__subject act opp'
+
+2020-07-16 21:57:25 - [MESSAGE][PASSED] - Text 'Anatomy' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input__subject act opp'
+
+2020-07-16 21:57:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2020-07-16 21:57:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-16 21:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/status result act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/status result act opp' is clicked on
+
+2020-07-16 21:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/status result act opp' is clicked on
+
+2020-07-16 21:57:26 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input status result act opp"), findTestData("Opportunity Test Data/D7").getValue(12, 1)): Text 'Done' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:57:27 - [MESSAGE][PASSED] - Text 'Done' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:57:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input status result act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:57:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input status result act opp'
+
+2020-07-16 21:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/select NA")): Object: 'Object Repository/Calendar repository/Page_Calendar/select NA' is clicked on
+
+2020-07-16 21:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/select NA' is clicked on
+
+2020-07-16 21:57:28 - [TEST_STEP][PASSED] - setText(findTestObject("Calendar repository/Page_Calendar/input b select NA"), findTestData("Calendar Test Data/D2").getValue(5, 1)): Text 'Opportunities' is set on object 'Object Repository/Calendar repository/Page_Calendar/input b select NA'
+
+2020-07-16 21:57:29 - [MESSAGE][PASSED] - Text 'Opportunities' is set on object 'Object Repository/Calendar repository/Page_Calendar/input b select NA'
+
+2020-07-16 21:57:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Calendar repository/Page_Calendar/input b select NA"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Calendar repository/Page_Calendar/input b select NA'
+
+2020-07-16 21:57:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Calendar repository/Page_Calendar/input b select NA'
+
+2020-07-16 21:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/Searh b select NA")): Object: 'Object Repository/Calendar repository/Page_Calendar/Searh b select NA' is clicked on
+
+2020-07-16 21:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/Searh b select NA' is clicked on
+
+2020-07-16 21:57:30 - [TEST_STEP][PASSED] - switchToWindowTitle("Opportunities"): Switched to window with title: 'Opportunities'
+
+2020-07-16 21:57:32 - [MESSAGE][PASSED] - Switched to window with title: 'Opportunities'
+
+2020-07-16 21:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Opportunities/a_ - BW Printer NA")): Object: 'Object Repository/Calendar repository/Page_Opportunities/a_ - BW Printer NA' is clicked on
+
+2020-07-16 21:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Opportunities/a_ - BW Printer NA' is clicked on
+
+2020-07-16 21:57:32 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-16 21:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/searct contact name act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/searct contact name act opp' is clicked on
+
+2020-07-16 21:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/searct contact name act opp' is clicked on
+
+2020-07-16 21:57:35 - [TEST_STEP][PASSED] - switchToWindowTitle("Contacts"): Switched to window with title: 'Contacts'
+
+2020-07-16 21:57:37 - [MESSAGE][PASSED] - Switched to window with title: 'Contacts'
+
+2020-07-16 21:57:37 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Contacts/a_Suwanna NA")): Object: 'Object Repository/Calendar repository/Page_Contacts/a_Suwanna NA' is clicked on
+
+2020-07-16 21:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Contacts/a_Suwanna NA' is clicked on
+
+2020-07-16 21:57:37 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-07-16 21:57:39 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/product group act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/product group act opp' is clicked on
+
+2020-07-16 21:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/product group act opp' is clicked on
+
+2020-07-16 21:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input product group act opp"), "No Product"): Text 'No Product' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:41 - [MESSAGE][PASSED] - Text 'No Product' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input product group act opp"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input product group act opp'
+
+2020-07-16 21:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/show time as act opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/show time as act opp' is clicked on
+
+2020-07-16 21:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/show time as act opp' is clicked on
+
+2020-07-16 21:57:42 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/input show time as act opp"), findTestData("Opportunity Test Data/D7").getValue(13, 1)): Text 'Out of Office' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:43 - [MESSAGE][PASSED] - Text 'Out of Office' is set on object 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Opportunity repository/Page_Calendar/input show time as act opp"), Keys.chord()): Keys '' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:43 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Opportunity repository/Page_Calendar/input show time as act opp'
+
+2020-07-16 21:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Opportunity repository/Page_Calendar/textarea__description act opp"), findTestData("Opportunity Test Data/D7").getValue(14, 1)): Text 'Anatomy of Ultraman' is set on object 'Object Repository/Opportunity repository/Page_Calendar/textarea__description act opp'
+
+2020-07-16 21:57:44 - [MESSAGE][PASSED] - Text 'Anatomy of Ultraman' is set on object 'Object Repository/Opportunity repository/Page_Calendar/textarea__description act opp'
+
+2020-07-16 21:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Opportunity repository/Page_Calendar/button_Save Activity opp")): Object: 'Object Repository/Opportunity repository/Page_Calendar/button_Save Activity opp' is clicked on
+
+2020-07-16 21:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Opportunity repository/Page_Calendar/button_Save Activity opp' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-16 21:56:28 - [TEST_SUITE][PASSED] - 5: Test Cases/Calendar Test Case/5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

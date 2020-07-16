@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="11" time="32.02" tests="3" failures="0" errors="0">
+   <testsuite name="11" tests="3" failures="0" errors="0" time="32.02" timestamp="2020-07-16 22:26:28" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Calendar Usecase/11">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200716_222626\\Calendar Usecase\\11\\20200716_222626"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Best-Project\\Reports\\20200716_222626\\Calendar Usecase\\11\\20200716_222626\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="e193d5bade40c11a873edb14389eaef8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Test Case/1" time="17.347" classname="Test Cases/Calendar Test Case/1" status="PASSED">
+         <system-out><![CDATA[2020-07-16 22:26:29 - [TEST_CASE][PASSED] - Test Cases/Calendar Test Case/1: Test Cases/Calendar Test Case/1
+
+2020-07-16 22:26:29 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-16 22:26:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-16 22:26:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-16 22:26:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-07-16 22:26:34 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_User name_username"), findTestData("Calendar Test Data/D1").getValue(1, 1)): Text 'admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-16 22:26:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Account repository/Login/input_User name_username'
+
+2020-07-16 22:26:35 - [TEST_STEP][PASSED] - setText(findTestObject("Account repository/Login/input_Password_password"), findTestData("Calendar Test Data/D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-16 22:26:36 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Account repository/Login/input_Password_password'
+
+2020-07-16 22:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Account repository/Login/button_Sign in")): Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-16 22:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Account repository/Login/button_Sign in' is clicked on
+
+2020-07-16 22:26:38 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Home/a_Calendar")): Object: 'Object Repository/Calendar repository/Page_Home/a_Calendar' is clicked on
+
+2020-07-16 22:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Home/a_Calendar' is clicked on
+
+2020-07-16 22:26:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 22:26:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calendar Test Case/12" time="4.102" classname="Test Cases/Calendar Test Case/12" status="PASSED">
+         <system-out><![CDATA[2020-07-16 22:26:46 - [TEST_CASE][PASSED] - Test Cases/Calendar Test Case/12: Test Cases/Calendar Test Case/12
+
+2020-07-16 22:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/p_Calendar List")): Object: 'Object Repository/Calendar repository/Page_Calendar/p_Calendar List' is clicked on
+
+2020-07-16 22:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/p_Calendar List' is clicked on
+
+2020-07-16 22:26:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 22:26:50 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calendar Test Case/19" time="9.551" classname="Test Cases/Calendar Test Case/19" status="PASSED">
+         <system-out><![CDATA[2020-07-16 22:26:50 - [TEST_CASE][PASSED] - Test Cases/Calendar Test Case/19: Test Cases/Calendar Test Case/19
+
+2020-07-16 22:26:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-16 22:26:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-16 22:26:52 - [TEST_STEP][PASSED] - setText(findTestObject("Calendar repository/Page_Calendar/Seach select Calendar"), findTestData("Calendar Test Data/D4").getValue(1, 1)): Text 'Other' is set on object 'Object Repository/Calendar repository/Page_Calendar/Seach select Calendar'
+
+2020-07-16 22:26:53 - [MESSAGE][PASSED] - Text 'Other' is set on object 'Object Repository/Calendar repository/Page_Calendar/Seach select Calendar'
+
+2020-07-16 22:26:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Calendar repository/Page_Calendar/Seach select Calendar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Calendar repository/Page_Calendar/Seach select Calendar'
+
+2020-07-16 22:26:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Calendar repository/Page_Calendar/Seach select Calendar'
+
+2020-07-16 22:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/button_Search select Calendar")): Object: 'Object Repository/Calendar repository/Page_Calendar/button_Search select Calendar' is clicked on
+
+2020-07-16 22:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/button_Search select Calendar' is clicked on
+
+2020-07-16 22:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Calendar repository/Page_Calendar/td_Natcha Thanakornjiropast")): Object: 'Object Repository/Calendar repository/Page_Calendar/td_Natcha Thanakornjiropast' is clicked on
+
+2020-07-16 22:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar repository/Page_Calendar/td_Natcha Thanakornjiropast' is clicked on
+
+2020-07-16 22:26:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-16 22:27:00 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-16 22:26:28 - [TEST_SUITE][PASSED] - 11: Test Cases/Calendar Test Case/19]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
